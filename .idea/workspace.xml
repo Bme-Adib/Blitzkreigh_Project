@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0693ce2d-4679-4a53-89ad-5eab35ff0390" name="Changes" comment="25/08/2023 END" />
+    <list default="true" id="0693ce2d-4679-4a53-89ad-5eab35ff0390" name="Changes" comment="29/08/2023 Start of V2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -277,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692870440319</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="29/08/2023 Start of V2">
+      <created>1693284763833</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1693284763834</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -318,6 +325,7 @@
     <MESSAGE value="25/08/2023 END, Training History in Done&#10;need to change the charts in the post dashboard" />
     <MESSAGE value="25/08/2023 END, Training History in Done&#10;need to change the charts in the post dashboardl" />
     <MESSAGE value="25/08/2023 END" />
-    <option name="LAST_COMMIT_MESSAGE" value="25/08/2023 END" />
+    <MESSAGE value="29/08/2023 Start of V2" />
+    <option name="LAST_COMMIT_MESSAGE" value="29/08/2023 Start of V2" />
   </component>
 </project>
