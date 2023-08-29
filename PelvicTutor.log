@@ -5024,3 +5024,594 @@
 2023-08-29 , 12:48:32 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
 2023-08-29 , 12:48:32 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
 2023-08-29 , 12:48:35 , LOG , com/herculife/herculifepelvictutor/Controllers/UserListController , User: herculife Signed Out
+2023-08-29 , 14:22:20 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 14:22:20 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 14:22:20 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 14:22:20 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 14:22:21 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 14:22:21 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 14:22:36 , LOG , com/herculife/herculifepelvictutor/Controllers/TrainingControllers/BasicTrainingSetUp , User: herculife Closed the App Correctly
+2023-08-29 , 15:01:50 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:01:50 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:01:50 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:01:50 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:01:52 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 15:01:52 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 15:02:01 , LOG , com/herculife/herculifepelvictutor/Controllers/TrainingControllers/BasicTrainingSetUp , User: herculife Closed the App Correctly
+2023-08-29 , 15:10:07 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:10:07 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:10:07 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:10:07 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:10:08 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 15:10:08 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 15:12:00 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:12:00 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:12:00 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:12:00 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:12:01 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 15:12:01 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 15:13:29 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:13:29 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:13:29 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:13:29 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:13:30 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 15:13:30 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 15:13:41 , LOG , com/herculife/herculifepelvictutor/Controllers/TrainingControllers/BasicTrainingSetUp , User: herculife Closed the App Correctly
+2023-08-29 , 15:13:51 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:13:51 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:13:51 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:13:51 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:13:53 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 15:13:53 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 15:14:04 , LOG , com/herculife/herculifepelvictutor/Controllers/TrainingControllers/BasicTrainingSetUp , User: herculife Closed the App Correctly
+2023-08-29 , 15:14:54 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:14:54 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:14:54 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:14:54 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:14:55 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 15:14:55 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 15:22:43 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:22:43 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:22:43 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:22:43 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:22:45 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 15:22:45 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 15:22:51 , LOG , com/herculife/herculifepelvictutor/Controllers/TrainingHistory , User: herculife Closed the App Correctly
+2023-08-29 , 15:25:20 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:25:20 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:25:20 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:25:20 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:25:22 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 15:25:22 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 15:30:02 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:30:02 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:30:02 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:30:03 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:30:04 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 15:30:04 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 15:30:44 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:30:44 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:30:44 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:30:44 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:30:46 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 15:30:46 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 15:31:06 , LOG , com/herculife/herculifepelvictutor/Controllers/TrainingHistory , User: herculife Signed Out
+2023-08-29 , 15:31:07 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:31:07 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:31:07 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:31:07 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:31:11 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:31:12 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:31:12 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:31:12 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:31:13 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 15:31:13 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 15:31:18 , LOG , com/herculife/herculifepelvictutor/Controllers/SelectTraining , User: herculife Closed the App Correctly
+2023-08-29 , 15:32:35 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:32:35 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:32:35 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:32:35 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:32:37 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 15:32:37 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 15:32:53 , LOG , com/herculife/herculifepelvictutor/Controllers/PostTrainingDashboard , User: herculife Signed Out
+2023-08-29 , 15:32:54 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:32:54 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:32:54 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:32:54 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:32:55 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 15:32:55 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 15:33:07 , LOG , com/herculife/herculifepelvictutor/Controllers/TrainingControllers/BasicTrainingSetUp , User: herculife Closed the App Correctly
+2023-08-29 , 15:33:57 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:33:57 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:33:57 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:33:57 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:33:58 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 15:33:58 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 15:34:11 , LOG , com/herculife/herculifepelvictutor/Controllers/TrainingControllers/BasicTrainingSetUp , User: herculife Closed the App Correctly
+2023-08-29 , 15:35:30 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:35:30 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:35:30 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:35:30 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:35:34 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 15:35:34 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 15:36:39 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:36:39 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:36:39 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:36:39 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:36:40 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 15:36:40 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 15:38:08 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:38:08 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:38:08 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:38:08 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:38:09 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 15:38:09 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 15:38:59 , LOG , com/herculife/herculifepelvictutor/Controllers/SelectTraining , User: herculife Closed the App Correctly
+2023-08-29 , 15:44:07 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:44:07 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:44:07 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:44:07 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:45:06 , LOG , com/herculife/herculifepelvictutor/Controllers/UserListController , User: herculife Closed the App Correctly
+2023-08-29 , 15:45:13 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:45:13 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:45:13 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:45:13 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:45:17 , LOG , com/herculife/herculifepelvictutor/Controllers/UserListController , User: herculife Closed the App Correctly
+2023-08-29 , 15:45:34 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:45:34 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:45:34 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:45:34 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:45:43 , LOG , com/herculife/herculifepelvictutor/Controllers/UserListController , User: herculife Closed the App Correctly
+2023-08-29 , 15:46:03 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:46:03 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:46:03 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:46:03 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:46:09 , LOG , com/herculife/herculifepelvictutor/Controllers/UserListController , User: herculife Closed the App Correctly
+2023-08-29 , 15:46:28 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:46:28 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:46:28 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:46:28 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:46:56 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 15:46:56 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 15:48:23 , LOG , com/herculife/herculifepelvictutor/Controllers/TrainingControllers/BladderTrainingSetUp , User: herculife Closed the App Correctly
+2023-08-29 , 15:49:54 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:49:54 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:49:54 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:49:54 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:49:56 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 15:49:56 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 15:50:57 , LOG , com/herculife/herculifepelvictutor/Controllers/TrainingControllers/BladderTrainingSetUp , User: herculife Closed the App Correctly
+2023-08-29 , 15:51:31 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:51:32 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:51:32 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 15:51:32 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 15:51:33 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 15:51:33 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 16:14:20 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:14:21 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:14:21 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:14:21 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:14:22 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 16:14:22 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 16:15:04 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:15:04 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:15:04 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:15:04 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:15:06 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 16:15:06 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 16:15:55 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:15:55 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:15:55 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:15:55 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:15:56 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 16:15:56 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 16:16:27 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:16:27 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:16:28 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:16:28 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:16:29 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 16:16:29 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 16:16:54 , LOG , com/herculife/herculifepelvictutor/Controllers/TrainingHistory , User: herculife Signed Out
+2023-08-29 , 16:17:29 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:17:29 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:17:29 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:17:29 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:19:05 , LOG , com/herculife/herculifepelvictutor/Controllers/UserListController , User: herculife Closed the App Correctly
+2023-08-29 , 16:19:12 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:19:12 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:19:12 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:19:12 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:19:31 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 16:19:31 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 16:19:31 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MYSQL , new Patient added (cbce869025b2cecfc87d0cdd14f8d734f6601138db670186c558abf9cef23271)
+2023-08-29 , 16:19:31 , LOG , com/herculife/herculifepelvictutor/Controllers/CreateNewPatient , New Patient added to the database (cbce869025b2cecfc87d0cdd14f8d734f6601138db670186c558abf9cef23271)
+2023-08-29 , 16:19:32 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:19:32 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:19:32 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:19:32 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:19:32 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:19:32 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:19:32 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:19:32 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:21:05 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:21:05 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:21:05 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:21:05 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:21:05 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:21:05 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:21:05 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:21:05 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:21:52 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:21:52 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:21:52 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:21:52 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:21:52 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:21:52 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:21:52 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:21:52 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:22:07 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:22:08 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:22:08 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:22:08 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:22:08 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:22:08 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:22:08 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:22:08 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:22:42 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:22:42 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:22:42 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:22:42 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:22:42 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:22:42 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:22:42 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:22:42 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:22:58 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:22:58 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:22:58 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:22:58 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:22:58 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:22:58 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:22:58 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:22:58 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:23:16 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:23:16 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:23:17 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:23:17 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:23:17 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:23:17 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:23:17 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:23:17 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:23:54 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:23:54 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:23:54 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:23:54 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:23:54 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:23:54 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:23:54 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:23:54 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:24:35 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:24:35 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:24:35 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:24:35 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:24:35 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:24:35 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:24:35 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:24:35 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:26:31 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:26:31 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:26:31 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:26:31 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:26:31 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:26:31 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:26:31 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:26:31 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:26:53 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:26:53 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:26:53 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:26:53 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:26:53 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:26:53 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:26:53 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:26:53 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:27:07 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:27:07 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:27:07 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:27:07 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:27:07 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:27:07 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:27:07 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:27:07 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:28:22 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:28:22 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:28:23 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:28:23 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:28:23 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:28:23 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:28:23 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:28:23 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:28:54 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:28:54 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:28:55 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:28:55 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:28:55 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:28:55 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:28:55 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:28:55 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:29:53 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:29:53 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:29:53 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:29:53 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:29:53 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:29:53 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:29:53 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:29:53 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:30:49 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:30:49 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:30:50 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:30:50 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:30:50 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:30:50 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:30:50 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:30:50 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:31:22 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:31:23 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:31:23 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:31:23 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:31:23 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:31:23 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:31:23 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:31:23 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:31:47 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:31:47 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:31:47 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:31:47 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:31:47 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:31:47 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:31:47 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:31:47 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:32:08 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:32:08 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:32:08 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:32:09 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:32:09 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:32:09 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:32:09 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:32:09 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:32:39 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:32:39 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:32:39 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:32:39 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:32:39 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:32:39 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:32:39 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:32:39 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:33:15 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:33:15 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:33:15 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:33:15 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:33:15 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:33:15 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:33:15 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:33:15 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:33:42 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:33:42 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:33:42 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:33:42 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:33:42 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:33:42 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:33:42 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:33:42 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:33:56 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:33:56 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:33:56 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:33:56 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:33:56 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:33:56 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:33:56 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:33:56 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:34:39 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:34:39 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:34:39 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:34:39 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:34:39 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:34:39 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:34:39 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:34:39 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:34:56 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:34:56 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:34:56 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:34:56 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:34:56 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:34:56 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:34:56 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:34:56 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:35:37 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:35:37 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:35:37 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:35:37 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:35:37 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:35:37 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:35:37 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:35:37 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:35:46 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 16:35:46 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 16:35:49 , LOG , com/herculife/herculifepelvictutor/Controllers/MainPatientDashboard , User: herculife Signed Out
+2023-08-29 , 16:35:50 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:35:50 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:35:50 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:35:50 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:35:50 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:35:50 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:35:50 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:35:50 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:36:44 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:36:45 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:36:45 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:36:45 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:36:45 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:36:45 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:36:45 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:36:45 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:37:24 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:37:24 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:37:24 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:37:24 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:37:24 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:37:24 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:37:24 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:37:24 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:40:21 , LOG , com/herculife/herculifepelvictutor/Controllers/UserListController , User: herculife Closed the App Correctly
+2023-08-29 , 16:41:14 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:41:14 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:41:14 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:41:14 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:41:14 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:41:14 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:41:14 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:41:14 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:41:17 , LOG , com/herculife/herculifepelvictutor/Controllers/UserListController , User: herculife Closed the App Correctly
+2023-08-29 , 16:41:45 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:41:45 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:41:45 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:41:45 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:41:45 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:41:45 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:41:45 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:41:45 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:42:09 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:42:10 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:42:10 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:42:10 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:42:10 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:42:10 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:42:10 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:42:10 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:43:14 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:43:14 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:43:14 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:43:14 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:43:14 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:43:14 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:43:15 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:43:15 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:43:46 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:43:46 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:43:46 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:43:46 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:43:46 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:43:46 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:43:46 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:43:47 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:44:27 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:44:28 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:44:28 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:44:28 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:44:28 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:44:28 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:44:28 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:44:28 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:44:57 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 16:44:57 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 16:44:57 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MYSQL , new Patient added (50b30b9feb4bfcb18372d374c76382c93190c396b392133ccbc31b2461d26e85)
+2023-08-29 , 16:44:57 , LOG , com/herculife/herculifepelvictutor/Controllers/CreateNewPatient , New Patient added to the database (50b30b9feb4bfcb18372d374c76382c93190c396b392133ccbc31b2461d26e85)
+2023-08-29 , 16:44:57 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:44:57 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:44:57 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:44:57 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:44:57 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:44:57 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:44:57 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:44:57 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:44:57 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:44:57 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:44:57 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:44:57 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:45:15 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:45:15 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:45:15 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:45:15 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:45:15 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:45:15 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:45:15 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:45:15 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:45:15 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:45:15 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:45:15 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:45:15 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:45:42 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:45:42 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:45:42 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:45:42 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:45:42 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:45:42 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:45:42 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:45:42 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:45:42 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:45:42 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:45:42 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:45:42 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:45:57 , LOG , com/herculife/herculifepelvictutor/Controllers/UserListController , User: herculife Signed Out
+2023-08-29 , 16:46:13 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:46:13 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:46:13 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:46:13 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:46:13 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:46:13 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:46:13 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:46:13 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:46:13 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:46:13 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:46:13 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:46:13 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:47:33 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:47:33 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:47:33 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:47:33 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:47:33 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:47:33 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:47:33 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:47:34 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:47:34 , LOG , com/herculife/herculifepelvictutor/Controllers/UserListController , User: herculife Deleted the patient (John Doe)
+2023-08-29 , 16:47:50 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 16:47:50 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 16:48:02 , LOG , com/herculife/herculifepelvictutor/Controllers/TrainingHistory , User: herculife Signed Out
+2023-08-29 , 16:48:04 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:48:04 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:48:04 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:48:04 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:48:04 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:48:04 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:48:04 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:48:04 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:48:16 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 16:48:16 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 16:48:26 , LOG , com/herculife/herculifepelvictutor/Controllers/TrainingHistory , User: herculife Closed the App Correctly
+2023-08-29 , 16:48:55 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:48:55 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:48:55 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:48:55 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:48:55 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:48:55 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:48:55 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:48:55 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:48:57 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 16:48:57 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 16:53:12 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:53:12 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:53:12 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:53:12 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:53:12 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:53:12 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:53:12 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:53:12 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:53:19 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:53:19 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:53:19 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:53:19 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:53:19 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:53:19 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:53:19 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-08-29 , 16:53:19 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Json file converted to Object
+2023-08-29 , 16:53:22 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Object converted to Json file
+2023-08-29 , 16:53:22 , LOG , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-08-29 , 17:00:47 , LOG , com/herculife/herculifepelvictutor/Controllers/TrainingControllers/BasicTrainingSetUp , User: herculife Closed the App Correctly

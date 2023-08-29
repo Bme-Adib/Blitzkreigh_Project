@@ -22,15 +22,15 @@ import static com.herculife.herculifepelvictutor.ProjectSettings.Strings.*;
 public class PostTrainingDashboard implements Initializable {
 
     public static final String RESOURCE_NAME = FxmlPre + "PostTrainingDashboard.fxml";
-    private final int chartsOffset = 326;
-    private final int chartTextOffset = 12;
-    private final double chartMultiplier = 2.5;
     @FXML
     AnchorPane survey;
     @FXML
     AnchorPane mainViewTop;
     @FXML
     AnchorPane mainViewBot;
+    @FXML
+    AnchorPane mainViewLeft;
+
     @FXML
     private Label TradeMarkText;
     @FXML
@@ -89,6 +89,10 @@ public class PostTrainingDashboard implements Initializable {
     private ImageView relaxationIndicator;
     @FXML
     private Label relaxationIndicatorText;
+    @FXML
+    private ImageView strengthIndicator;
+    @FXML
+    private Label strengthIndicatorText;
     @FXML
     private Label contractionTValue;
     @FXML
@@ -161,37 +165,42 @@ public class PostTrainingDashboard implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
         TradeMarkText.setText(Strings.TradeMarkText);
         fillPatient();
-        setCoordinationLevels();
+        setIndicatorPositioningLevels();
         setUpParameters();
         survey.setVisible(true);
         mainViewTop.setVisible(false);
         mainViewBot.setVisible(false);
+        mainViewLeft.setVisible(false);
         goToPatientDashboard.setVisible(false);
     }
 
-    private void setCoordinationLevels() {
+    private void setIndicatorPositioningLevels() {
         int relaxationCoValue = currentTrainingObject.getRelaxationCoordination();
         int contractionCoValue = currentTrainingObject.getContractionCoordination();
         int holdingCoValue = currentTrainingObject.getHoldingCoordination();
         int decontractionCoValue = currentTrainingObject.getDeContractionCoordination();
 
+        int chartsOffset = 326;
+        double chartMultiplier = 2.5;
+        int chartTextOffset = -20;
+
         relaxationIndicator.relocate(0, chartsOffset - relaxationCoValue * chartMultiplier);
         relaxationIndicatorText.relocate(0, chartsOffset + chartTextOffset - relaxationCoValue * chartMultiplier);
-        relaxationIndicatorText.setText("My Value is " + relaxationCoValue + "%");
+        relaxationIndicatorText.setText("My Value\nis " + relaxationCoValue + "%");
 
         contractionIndicator.relocate(0, chartsOffset - contractionCoValue * chartMultiplier);
         contractionIndicatorText.relocate(0, chartsOffset + chartTextOffset - contractionCoValue * chartMultiplier);
-        contractionIndicatorText.setText("My Value is " + contractionCoValue + "%");
+        contractionIndicatorText.setText("My Value\nis " + contractionCoValue + "%");
 
         holdingIndicator.relocate(0, chartsOffset - holdingCoValue * chartMultiplier);
         holdingIndicatorText.relocate(0, chartsOffset + chartTextOffset - holdingCoValue * chartMultiplier);
-        holdingIndicatorText.setText("My Value is " + holdingCoValue + "%");
+        holdingIndicatorText.setText("My Value\nis " + holdingCoValue + "%");
 
         decontractionIndicator.relocate(0, chartsOffset - decontractionCoValue * chartMultiplier);
         decontractionIndicatorText.relocate(0, chartsOffset + chartTextOffset - decontractionCoValue * chartMultiplier);
-        decontractionIndicatorText.setText("My Value is " + decontractionCoValue + "%");
+        decontractionIndicatorText.setText("My Value\nis " + decontractionCoValue + "%");
 
-
+        strengthIndicatorText.setText("My Strength\nis " + currentTrainingObject.getMuscleStrength());
     }
 
     private void setUpParameters() {
@@ -206,7 +215,7 @@ public class PostTrainingDashboard implements Initializable {
         initialMuscleValue.setText(String.valueOf(currentTrainingObject.getInitialMuscleTone()));
         finalMuscleValue.setText(String.valueOf(currentTrainingObject.getFinalMuscleTone()));
         maxStrengthValue.setText(String.valueOf(currentTrainingObject.getMaxMuscleStrength()));
-        strengthValue.setText(String.valueOf(currentTrainingObject.getMuscleStrength()));
+//        strengthValue.setText(String.valueOf(currentTrainingObject.getMuscleStrength()));
         targetValue.setText(currentTrainingObject.getTrainingTarget() + "%");
         relaxationTValue.setText(currentTrainingObject.getRelaxationTime() + " sec");
         contractionTValue.setText(currentTrainingObject.getContractionTime() + " sec");
@@ -275,6 +284,7 @@ public class PostTrainingDashboard implements Initializable {
         survey.setVisible(false);
         mainViewTop.setVisible(true);
         mainViewBot.setVisible(true);
+        mainViewLeft.setVisible(true);
         goToPatientDashboard.setVisible(true);
     }
 
@@ -282,5 +292,6 @@ public class PostTrainingDashboard implements Initializable {
     void goToPatientDashboardFunction() {
         new MyGoTo().changeSceneTo(MainPatientDashboard.RESOURCE_NAME);
     }
+
 
 }

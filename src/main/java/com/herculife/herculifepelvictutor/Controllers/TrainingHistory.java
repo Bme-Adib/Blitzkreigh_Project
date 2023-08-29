@@ -2,6 +2,7 @@ package com.herculife.herculifepelvictutor.Controllers;
 
 import com.herculife.herculifepelvictutor.ProjectClasses.TrainingClass;
 import com.herculife.herculifepelvictutor.ProjectSettings.MyGoTo;
+import com.herculife.herculifepelvictutor.ProjectSettings.Time_Stamp;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -164,6 +165,7 @@ public class TrainingHistory implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+        fillPatient();
         previousTrainings = selectedPatient.getTrainings();
         for (int i = previousTrainings.size() - 1; i >= 0; i--) {
             CheckBox checkBox = new CheckBox((i+1) + ". " + returnTrainingType(previousTrainings.get(i).getType()) + "\n      " + previousTrainings.get(i).getTimeStamp() + "");
@@ -186,6 +188,8 @@ public class TrainingHistory implements Initializable {
             checkBox.getStyleClass().add("previousTrainingCheckBox");
             checkBox.getStyleClass().add("inputText");
             trainingsPanel.getChildren().add(checkBox);
+
+
 
 //            try {
 //                FXMLLoader fxmlLoader = new FXMLLoader();
@@ -271,6 +275,25 @@ public class TrainingHistory implements Initializable {
     @FXML
     void fileMenu_CloseAction(ActionEvent event) {
         MyGoTo.exitApp(TrainingHistory.class);
+    }
+
+    private void fillPatient() {
+        mrn.setText(selectedPatient.getMrn());
+        firstName.setText(selectedPatient.getFirstName());
+        lastName.setText(selectedPatient.getLastName());
+        dob.setText(selectedPatient.getDob());
+        nationality.setText(selectedPatient.getNationality());
+        id.setText(selectedPatient.getPatientID());
+        gender.setText(selectedPatient.getGender());
+        email.setText(selectedPatient.getEmail());
+        phoneNumber.setText(selectedPatient.getFullPhoneNumber());
+        calcAge();
+    }
+
+    private void calcAge() {
+        int currentYear = Integer.parseInt(new Time_Stamp().getYear());
+        int patientYear = Integer.parseInt(selectedPatient.getDobYear());
+        age.setText(currentYear - patientYear + " Years");
     }
 
 }

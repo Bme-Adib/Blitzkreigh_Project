@@ -289,11 +289,17 @@ public class BladderTrainingSetUp implements Initializable {
         int xPointHB1 = 0;
         int yPointHB1 = -handeCap;
 
-        double xPointHB2 = xPoint2 + handeCapDiff;
+        double xPointHB2 = xPoint2 + handeCapDiff / 8 * 3;
         int yPointHB2 = -handeCap;
+
+
 
         double xPointHB3 = xPoint3 - handeCapDiff / 8 * 3;
         int yPointHB3 = targetTrainingValue - handeCap * 2;
+
+        if (contractionTime==1){
+            xPointHB3 = xPoint3 - handeCapDiff / 8 * 1;
+        }
 
         double xPointHB4 = xPoint4 - handeCapDiff / 8 * 5;
         int yPointHB4 = -handeCap;
@@ -309,6 +315,12 @@ public class BladderTrainingSetUp implements Initializable {
                 new XYChart.Data<>(xPointHB4, yPointHB4),
                 new XYChart.Data<>(xPointHB5, yPointHB5)
         );
+
+        System.out.println(xPointHB1 + "," + yPointHB1);
+        System.out.println(xPointHB2 + "," + yPointHB2);
+        System.out.println(xPointHB3 + "," + yPointHB3);
+        System.out.println(xPointHB4 + "," + yPointHB4);
+        System.out.println(xPointHB5 + "," + yPointHB5);
 
         trainingChart.getData().add(botMarginSeries);
     }

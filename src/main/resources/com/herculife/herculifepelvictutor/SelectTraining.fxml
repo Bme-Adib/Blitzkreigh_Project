@@ -21,7 +21,6 @@
             <Image url="@appbg.jpg" />
          </image>
       </ImageView>
-      <Button fx:id="exitButton" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#exitButtonAction" text="X" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
       <Label fx:id="TradeMarkText" layoutX="10.0" layoutY="10.0" stylesheets="@CSS/project-styling.css" text="Created By Adib Ghannam @ 2023" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
          <font>
             <Font name="System Bold" size="10.0" />
@@ -147,5 +146,6 @@
             </MenuBar>
          </top>
       </BorderPane>
+      <Button fx:id="exitButton" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#exitButtonAction" text="X" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
    </children>
 </AnchorPane>

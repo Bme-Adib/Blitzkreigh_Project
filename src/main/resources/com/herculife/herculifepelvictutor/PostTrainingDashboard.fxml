@@ -19,7 +19,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="root" prefHeight="800.0" prefWidth="1280.0" stylesheets="@CSS/project-styling.css" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.herculife.herculifepelvictutor.Controllers.PostTrainingDashboard">
+<AnchorPane fx:id="root" prefHeight="800.0" prefWidth="1280.0" stylesheets="@CSS/project-styling.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/20.0.1" fx:controller="com.herculife.herculifepelvictutor.Controllers.PostTrainingDashboard">
    <children>
       <ImageView fx:id="bgImage" fitHeight="1080.0" fitWidth="1920.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <image>
@@ -244,29 +244,29 @@
                         </AnchorPane>
                      </children>
                   </AnchorPane>
-                  <AnchorPane fx:id="mainViewTop" layoutX="285.0" layoutY="170.0" prefHeight="370.0" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="150.0">
+                  <AnchorPane fx:id="mainViewTop" layoutX="285.0" layoutY="170.0" prefHeight="350.0" AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="170.0">
                      <children>
-                        <AnchorPane fx:id="mainBackground1" styleClass="dashboardLayoutBackground" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
-                        <AnchorPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                        <AnchorPane fx:id="mainBackground1" prefWidth="1050.0" styleClass="dashboardLayoutBackground" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                        <AnchorPane prefWidth="1050.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
                            <children>
-                              <HBox alignment="CENTER" spacing="30.0" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+                              <HBox alignment="CENTER" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
                                  <children>
-                                    <AnchorPane fx:id="relaxationChart" prefWidth="325.0">
+                                    <AnchorPane fx:id="relaxationChart">
                                        <children>
-                                          <VBox alignment="TOP_CENTER" layoutX="30.0" layoutY="15.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="0.0">
+                                          <VBox alignment="TOP_CENTER" layoutX="30.0" layoutY="15.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="0.0">
                                              <children>
-                                                <Label alignment="CENTER" contentDisplay="CENTER" styleClass="bigLabel" text="Realaxation Coordination">
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefWidth="200.0" styleClass="bigLabel" text="Relaxation">
                                                    <VBox.margin>
-                                                      <Insets bottom="30.0" top="20.0" />
+                                                      <Insets bottom="10.0" top="40.0" />
                                                    </VBox.margin>
                                                 </Label>
                                                 <AnchorPane>
                                                    <children>
-                                                      <VBox alignment="TOP_CENTER" style="-fx-border-width: 2; -fx-border-color: #000000;">
+                                                      <VBox alignment="TOP_CENTER" prefWidth="0.0" style="-fx-border-width: 2; -fx-border-color: #000000;">
                                                          <children>
-                                                            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#56ff1f" height="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="greenZone" width="40.0" />
-                                                            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f52" height="100.0" layoutX="10.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="yellowZone" width="40.0" />
-                                                            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="100.0" layoutX="10.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="redZone" width="40.0" />
+                                                            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#56ff1f" height="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="greenZone" width="20.0" />
+                                                            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f52" height="100.0" layoutX="10.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="yellowZone" width="20.0" />
+                                                            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="100.0" layoutX="10.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="redZone" width="20.0" />
                                                          </children>
                                                       </VBox>
                                                       <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="20.0" text="100%" AnchorPane.leftAnchor="-50.0" AnchorPane.topAnchor="0.0">
@@ -290,35 +290,35 @@
                                                       <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" styleClass="inputText" text="0%" AnchorPane.leftAnchor="-40.0" AnchorPane.topAnchor="235.0" />
                                                    </children>
                                                    <VBox.margin>
-                                                      <Insets left="60.0" top="20.0" />
+                                                      <Insets left="60.0" top="10.0" />
                                                    </VBox.margin>
                                                 </AnchorPane>
                                              </children>
                                           </VBox>
-                                          <ImageView fx:id="relaxationIndicator" fitHeight="150.0" fitWidth="90.0" opacity="0.8" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="90.0">
+                                          <ImageView fx:id="relaxationIndicator" fitHeight="150.0" fitWidth="50.0" opacity="0.8" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="90.0">
                                              <image>
                                                 <Image url="@../../../icons/ball-with-arrow.png" />
                                              </image>
                                           </ImageView>
-                                          <Label fx:id="relaxationIndicatorText" styleClass="inputText" text="My Value is 80%" AnchorPane.leftAnchor="190.0" />
+                                          <Label fx:id="relaxationIndicatorText" styleClass="inputText" text="My Value is 80%" AnchorPane.leftAnchor="150.0" />
                                        </children>
                                     </AnchorPane>
-                                    <AnchorPane fx:id="contractionChart" layoutX="10.0" layoutY="10.0" prefWidth="325.0">
+                                    <AnchorPane fx:id="contractionChart" layoutX="10.0" layoutY="10.0">
                                        <children>
-                                          <VBox alignment="TOP_CENTER" layoutX="30.0" layoutY="15.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="0.0">
+                                          <VBox alignment="TOP_CENTER" layoutX="30.0" layoutY="15.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="0.0">
                                              <children>
-                                                <Label alignment="CENTER" contentDisplay="CENTER" styleClass="bigLabel" text="Contraction Coordination">
+                                                <Label contentDisplay="CENTER" prefWidth="200.0" styleClass="bigLabel" text="Contraction">
                                                    <VBox.margin>
-                                                      <Insets bottom="30.0" top="20.0" />
+                                                      <Insets bottom="10.0" top="40.0" />
                                                    </VBox.margin>
                                                 </Label>
                                                 <AnchorPane>
                                                    <children>
                                                       <VBox alignment="TOP_CENTER" style="-fx-border-width: 2; -fx-border-color: #000000;">
                                                          <children>
-                                                            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#56ff1f" height="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="greenZone" width="40.0" />
-                                                            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f52" height="100.0" layoutX="10.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="yellowZone" width="40.0" />
-                                                            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="100.0" layoutX="10.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="redZone" width="40.0" />
+                                                            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#56ff1f" height="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="greenZone" width="20.0" />
+                                                            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f52" height="100.0" layoutX="10.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="yellowZone" width="20.0" />
+                                                            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="100.0" layoutX="10.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="redZone" width="20.0" />
                                                          </children>
                                                       </VBox>
                                                       <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="20.0" text="100%" AnchorPane.leftAnchor="-50.0" AnchorPane.topAnchor="0.0">
@@ -342,35 +342,35 @@
                                                       <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" styleClass="inputText" text="0%" AnchorPane.leftAnchor="-40.0" AnchorPane.topAnchor="235.0" />
                                                    </children>
                                                    <VBox.margin>
-                                                      <Insets left="60.0" top="20.0" />
+                                                      <Insets left="60.0" top="10.0" />
                                                    </VBox.margin>
                                                 </AnchorPane>
                                              </children>
                                           </VBox>
-                                          <ImageView fx:id="contractionIndicator" fitHeight="150.0" fitWidth="90.0" opacity="0.8" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="90.0">
+                                          <ImageView fx:id="contractionIndicator" fitHeight="150.0" fitWidth="50.0" opacity="0.8" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="90.0">
                                              <image>
                                                 <Image url="@../../../icons/ball-with-arrow.png" />
                                              </image>
                                           </ImageView>
-                                          <Label fx:id="contractionIndicatorText" styleClass="inputText" text="My Value is 80%" AnchorPane.leftAnchor="190.0" />
+                                          <Label fx:id="contractionIndicatorText" styleClass="inputText" text="My Value is 80%" AnchorPane.leftAnchor="150.0" />
                                        </children>
                                     </AnchorPane>
-                                    <AnchorPane fx:id="holdingChart" layoutX="262.0" layoutY="10.0" prefWidth="325.0">
+                                    <AnchorPane fx:id="holdingChart" layoutX="262.0" layoutY="10.0">
                                        <children>
-                                          <VBox alignment="TOP_CENTER" layoutX="30.0" layoutY="15.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="0.0">
+                                          <VBox alignment="TOP_CENTER" layoutX="30.0" layoutY="15.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="0.0">
                                              <children>
-                                                <Label alignment="CENTER" contentDisplay="CENTER" styleClass="bigLabel" text="Holding Coordination">
+                                                <Label contentDisplay="CENTER" prefWidth="200.0" styleClass="bigLabel" text="Holding">
                                                    <VBox.margin>
-                                                      <Insets bottom="30.0" top="20.0" />
+                                                      <Insets bottom="10.0" top="40.0" />
                                                    </VBox.margin>
                                                 </Label>
                                                 <AnchorPane>
                                                    <children>
                                                       <VBox alignment="TOP_CENTER" style="-fx-border-width: 2; -fx-border-color: #000000;">
                                                          <children>
-                                                            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#56ff1f" height="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="greenZone" width="40.0" />
-                                                            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f52" height="100.0" layoutX="10.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="yellowZone" width="40.0" />
-                                                            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="100.0" layoutX="10.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="redZone" width="40.0" />
+                                                            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#56ff1f" height="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="greenZone" width="20.0" />
+                                                            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f52" height="100.0" layoutX="10.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="yellowZone" width="20.0" />
+                                                            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="100.0" layoutX="10.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="redZone" width="20.0" />
                                                          </children>
                                                       </VBox>
                                                       <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="20.0" text="100%" AnchorPane.leftAnchor="-50.0" AnchorPane.topAnchor="0.0">
@@ -394,35 +394,35 @@
                                                       <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" styleClass="inputText" text="0%" AnchorPane.leftAnchor="-40.0" AnchorPane.topAnchor="235.0" />
                                                    </children>
                                                    <VBox.margin>
-                                                      <Insets left="60.0" top="20.0" />
+                                                      <Insets left="60.0" top="10.0" />
                                                    </VBox.margin>
                                                 </AnchorPane>
                                              </children>
                                           </VBox>
-                                          <ImageView fx:id="holdingIndicator" fitHeight="150.0" fitWidth="90.0" opacity="0.8" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="90.0">
+                                          <ImageView fx:id="holdingIndicator" fitHeight="150.0" fitWidth="50.0" opacity="0.8" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="90.0">
                                              <image>
                                                 <Image url="@../../../icons/ball-with-arrow.png" />
                                              </image>
                                           </ImageView>
-                                          <Label fx:id="holdingIndicatorText" styleClass="inputText" text="My Value is 80%" AnchorPane.leftAnchor="190.0" />
+                                          <Label fx:id="holdingIndicatorText" styleClass="inputText" text="My Value is 80%" AnchorPane.leftAnchor="150.0" />
                                        </children>
                                     </AnchorPane>
-                                    <AnchorPane fx:id="decontractionChart" layoutX="514.0" layoutY="10.0" prefWidth="325.0">
+                                    <AnchorPane fx:id="decontractionChart" layoutX="514.0" layoutY="10.0">
                                        <children>
-                                          <VBox alignment="TOP_CENTER" layoutX="30.0" layoutY="15.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="0.0">
+                                          <VBox alignment="TOP_CENTER" layoutX="30.0" layoutY="15.0" maxHeight="-Infinity" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="0.0">
                                              <children>
-                                                <Label alignment="CENTER" contentDisplay="CENTER" styleClass="bigLabel" text="Decontraction Coordination">
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefWidth="200.0" styleClass="bigLabel" text="Decontraction">
                                                    <VBox.margin>
-                                                      <Insets bottom="30.0" top="20.0" />
+                                                      <Insets bottom="10.0" top="40.0" />
                                                    </VBox.margin>
                                                 </Label>
                                                 <AnchorPane>
                                                    <children>
                                                       <VBox alignment="TOP_CENTER" style="-fx-border-width: 2; -fx-border-color: #000000;">
                                                          <children>
-                                                            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#56ff1f" height="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="greenZone" width="40.0" />
-                                                            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f52" height="100.0" layoutX="10.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="yellowZone" width="40.0" />
-                                                            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="100.0" layoutX="10.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="redZone" width="40.0" />
+                                                            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#56ff1f" height="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="greenZone" width="20.0" />
+                                                            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f52" height="100.0" layoutX="10.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="yellowZone" width="20.0" />
+                                                            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="100.0" layoutX="10.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="redZone" width="20.0" />
                                                          </children>
                                                       </VBox>
                                                       <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="20.0" text="100%" AnchorPane.leftAnchor="-50.0" AnchorPane.topAnchor="0.0">
@@ -446,152 +446,177 @@
                                                       <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" styleClass="inputText" text="0%" AnchorPane.leftAnchor="-40.0" AnchorPane.topAnchor="235.0" />
                                                    </children>
                                                    <VBox.margin>
-                                                      <Insets left="60.0" top="20.0" />
+                                                      <Insets left="60.0" top="10.0" />
                                                    </VBox.margin>
                                                 </AnchorPane>
                                              </children>
                                           </VBox>
-                                          <ImageView fx:id="decontractionIndicator" fitHeight="150.0" fitWidth="90.0" opacity="0.8" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="90.0">
+                                          <ImageView fx:id="decontractionIndicator" fitHeight="150.0" fitWidth="50.0" opacity="0.8" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="90.0">
                                              <image>
                                                 <Image url="@../../../icons/ball-with-arrow.png" />
                                              </image>
                                           </ImageView>
-                                          <Label fx:id="decontractionIndicatorText" styleClass="inputText" text="My Value is 80%" AnchorPane.leftAnchor="190.0" />
+                                          <Label fx:id="decontractionIndicatorText" styleClass="inputText" text="My Value is 80%" AnchorPane.leftAnchor="150.0" />
                                        </children>
                                     </AnchorPane>
                                  </children>
                               </HBox>
                            </children>
                         </AnchorPane>
+                        <Label styleClass="bigLabel" text="Coordination" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="10.0" />
                      </children>
                   </AnchorPane>
-                  <AnchorPane fx:id="mainViewBot" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="550.0">
+                  <AnchorPane fx:id="mainViewBot" prefHeight="200.0" prefWidth="1050.0" AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="550.0">
                      <children>
-                        <AnchorPane fx:id="mainBackground11" styleClass="dashboardLayoutBackground" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
-                        <HBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                        <AnchorPane prefHeight="200.0" prefWidth="1050.0" styleClass="dashboardLayoutBackground" />
+                        <AnchorPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                            <children>
-                              <VBox prefWidth="350.0" spacing="10.0">
+                              <HBox>
                                  <children>
-                                    <Label styleClass="ultraLabel" text="Training Analysis" />
-                                    <HBox prefWidth="200.0">
+                                    <VBox layoutX="10.0" layoutY="10.0" prefWidth="1000.0" spacing="10.0">
                                        <children>
-                                          <Label prefWidth="200.0" styleClass="inputTextNoBolding" text="Initial Muscle Tone" />
-                                          <Label fx:id="initialMuscleValue" layoutX="10.0" layoutY="10.0" styleClass="inputText" text="677" />
+                                          <Label styleClass="ultraLabel" text="Training Settings" />
+                                          <HBox>
+                                             <children>
+                                                <VBox prefWidth="300.0" spacing="10.0">
+                                                   <children>
+                                                      <HBox prefWidth="200.0">
+                                                         <children>
+                                                            <Label prefWidth="150.0" styleClass="inputTextNoBolding" text="Training Type" />
+                                                            <Label fx:id="nameOfTheTest" layoutX="10.0" layoutY="10.0" styleClass="inputText" text="Strength Test" />
+                                                         </children>
+                                                      </HBox>
+                                                      <HBox layoutX="10.0" layoutY="10.0" prefWidth="200.0">
+                                                         <children>
+                                                            <Label prefWidth="150.0" styleClass="inputTextNoBolding" text="Training Target" />
+                                                            <Label fx:id="targetValue" layoutX="10.0" layoutY="10.0" styleClass="inputText" text="60%" />
+                                                         </children>
+                                                      </HBox>
+                                                      <HBox prefWidth="200.0">
+                                                         <children>
+                                                            <Label prefWidth="150.0" styleClass="inputTextNoBolding" text="Dificulty Level" />
+                                                            <Label fx:id="difValue" layoutX="10.0" layoutY="10.0" styleClass="inputText" text="15%" />
+                                                         </children>
+                                                      </HBox>
+                                                   </children>
+                                                </VBox>
+                                                <VBox layoutX="10.0" layoutY="10.0" prefWidth="300.0" spacing="10.0">
+                                                   <children>
+                                                      <HBox prefWidth="200.0">
+                                                         <children>
+                                                            <Label prefWidth="150.0" styleClass="inputTextNoBolding" text="Number of Reps" />
+                                                            <Label fx:id="repsValue" layoutX="10.0" layoutY="10.0" styleClass="inputText" text="10" />
+                                                         </children>
+                                                      </HBox>
+                                                      <HBox prefWidth="200.0">
+                                                         <children>
+                                                            <Label prefWidth="150.0" styleClass="inputTextNoBolding" text="Number of Sets" />
+                                                            <Label fx:id="setsValue" layoutX="10.0" layoutY="10.0" styleClass="inputText" text="3" />
+                                                         </children>
+                                                      </HBox>
+                                                      <HBox prefWidth="200.0">
+                                                         <children>
+                                                            <Label prefWidth="150.0" styleClass="inputTextNoBolding" text="Pauses Between Sets" />
+                                                            <Label fx:id="pausesValue" layoutX="10.0" layoutY="10.0" styleClass="inputText" text="30 sec" />
+                                                         </children>
+                                                      </HBox>
+                                                      <HBox prefWidth="200.0">
+                                                         <children>
+                                                            <Label prefWidth="150.0" styleClass="inputTextNoBolding" text="Training Time" />
+                                                            <Label fx:id="trainingTValue" layoutX="10.0" layoutY="10.0" styleClass="inputText" text="3 min 15 sec" />
+                                                         </children>
+                                                      </HBox>
+                                                   </children>
+                                                </VBox>
+                                                <VBox layoutX="310.0" layoutY="10.0" prefWidth="300.0" spacing="10.0">
+                                                   <children>
+                                                      <HBox prefWidth="200.0">
+                                                         <children>
+                                                            <Label prefWidth="150.0" styleClass="inputTextNoBolding" text="Relaxation Time" />
+                                                            <Label fx:id="relaxationTValue" layoutX="10.0" layoutY="10.0" styleClass="inputText" text="8 sec" />
+                                                         </children>
+                                                      </HBox>
+                                                      <HBox prefWidth="200.0">
+                                                         <children>
+                                                            <Label prefWidth="150.0" styleClass="inputTextNoBolding" text="Contraction Time" />
+                                                            <Label fx:id="contractionTValue" layoutX="10.0" layoutY="10.0" styleClass="inputText" text="3 sec" />
+                                                         </children>
+                                                      </HBox>
+                                                      <HBox prefWidth="200.0">
+                                                         <children>
+                                                            <Label prefWidth="150.0" styleClass="inputTextNoBolding" text="Holding Time" />
+                                                            <Label fx:id="holdingTValue" layoutX="10.0" layoutY="10.0" styleClass="inputText" text="3 sec" />
+                                                         </children>
+                                                      </HBox>
+                                                      <HBox prefWidth="200.0">
+                                                         <children>
+                                                            <Label prefWidth="150.0" styleClass="inputTextNoBolding" text="Decontraction Time" />
+                                                            <Label fx:id="decontractionTValue" layoutX="10.0" layoutY="10.0" styleClass="inputText" text="3 sec" />
+                                                         </children>
+                                                      </HBox>
+                                                   </children>
+                                                </VBox>
+                                             </children>
+                                          </HBox>
                                        </children>
-                                    </HBox>
-                                    <HBox layoutX="20.0" layoutY="60.0" prefWidth="200.0">
-                                       <children>
-                                          <Label prefWidth="200.0" styleClass="inputTextNoBolding" text="Final Muscle Tone" />
-                                          <Label fx:id="finalMuscleValue" layoutX="10.0" layoutY="10.0" styleClass="inputText" text="682" />
-                                       </children>
-                                    </HBox>
-                                    <HBox layoutX="20.0" layoutY="90.0" prefWidth="200.0">
-                                       <children>
-                                          <Label prefWidth="200.0" styleClass="inputTextNoBolding" text="Max Muscle Strength" />
-                                          <Label fx:id="maxStrengthValue" layoutX="10.0" layoutY="10.0" styleClass="inputText" text="150" />
-                                       </children>
-                                    </HBox>
-                                    <HBox layoutX="20.0" layoutY="120.0" prefWidth="200.0">
-                                       <children>
-                                          <Label prefWidth="200.0" styleClass="inputTextNoBolding" text="Muscle Strength" />
-                                          <Label fx:id="strengthValue" layoutX="10.0" layoutY="10.0" styleClass="inputText" text="140" />
-                                       </children>
-                                    </HBox>
+                                       <padding>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </padding>
+                                    </VBox>
                                  </children>
-                                 <padding>
-                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
-                                 </padding>
-                              </VBox>
-                              <VBox layoutX="10.0" layoutY="10.0" prefWidth="1000.0" spacing="10.0">
-                                 <children>
-                                    <Label styleClass="ultraLabel" text="Training Settings" />
-                                    <HBox>
-                                       <children>
-                                          <VBox prefWidth="300.0" spacing="10.0">
-                                             <children>
-                                                <HBox prefWidth="200.0">
-                                                   <children>
-                                                      <Label prefWidth="150.0" styleClass="inputTextNoBolding" text="Training Target" />
-                                                      <Label fx:id="targetValue" layoutX="10.0" layoutY="10.0" styleClass="inputText" text="60%" />
-                                                   </children>
-                                                </HBox>
-                                                <HBox prefWidth="200.0">
-                                                   <children>
-                                                      <Label prefWidth="150.0" styleClass="inputTextNoBolding" text="Relaxation Time" />
-                                                      <Label fx:id="relaxationTValue" layoutX="10.0" layoutY="10.0" styleClass="inputText" text="8 sec" />
-                                                   </children>
-                                                </HBox>
-                                                <HBox prefWidth="200.0">
-                                                   <children>
-                                                      <Label prefWidth="150.0" styleClass="inputTextNoBolding" text="Contraction Time" />
-                                                      <Label fx:id="contractionTValue" layoutX="10.0" layoutY="10.0" styleClass="inputText" text="3 sec" />
-                                                   </children>
-                                                </HBox>
-                                                <HBox prefWidth="200.0">
-                                                   <children>
-                                                      <Label prefWidth="150.0" styleClass="inputTextNoBolding" text="Holding Time" />
-                                                      <Label fx:id="holdingTValue" layoutX="10.0" layoutY="10.0" styleClass="inputText" text="3 sec" />
-                                                   </children>
-                                                </HBox>
-                                             </children>
-                                          </VBox>
-                                          <VBox layoutX="10.0" layoutY="10.0" prefWidth="300.0" spacing="10.0">
-                                             <children>
-                                                <HBox prefWidth="200.0">
-                                                   <children>
-                                                      <Label prefWidth="150.0" styleClass="inputTextNoBolding" text="Decontraction Time" />
-                                                      <Label fx:id="decontractionTValue" layoutX="10.0" layoutY="10.0" styleClass="inputText" text="3 sec" />
-                                                   </children>
-                                                </HBox>
-                                                <HBox prefWidth="200.0">
-                                                   <children>
-                                                      <Label prefWidth="150.0" styleClass="inputTextNoBolding" text="Number of Reps" />
-                                                      <Label fx:id="repsValue" layoutX="10.0" layoutY="10.0" styleClass="inputText" text="10" />
-                                                   </children>
-                                                </HBox>
-                                                <HBox prefWidth="200.0">
-                                                   <children>
-                                                      <Label prefWidth="150.0" styleClass="inputTextNoBolding" text="Number of Sets" />
-                                                      <Label fx:id="setsValue" layoutX="10.0" layoutY="10.0" styleClass="inputText" text="3" />
-                                                   </children>
-                                                </HBox>
-                                                <HBox prefWidth="200.0">
-                                                   <children>
-                                                      <Label prefWidth="150.0" styleClass="inputTextNoBolding" text="Pauses Between Sets" />
-                                                      <Label fx:id="pausesValue" layoutX="10.0" layoutY="10.0" styleClass="inputText" text="30 sec" />
-                                                   </children>
-                                                </HBox>
-                                             </children>
-                                          </VBox>
-                                          <VBox layoutX="310.0" layoutY="10.0" prefWidth="300.0" spacing="10.0">
-                                             <children>
-                                                <HBox prefWidth="200.0">
-                                                   <children>
-                                                      <Label prefWidth="150.0" styleClass="inputTextNoBolding" text="Dificulty Level" />
-                                                      <Label fx:id="difValue" layoutX="10.0" layoutY="10.0" styleClass="inputText" text="15%" />
-                                                   </children>
-                                                </HBox>
-                                                <HBox prefWidth="200.0">
-                                                   <children>
-                                                      <Label prefWidth="150.0" styleClass="inputTextNoBolding" text="Training Time" />
-                                                      <Label fx:id="trainingTValue" layoutX="10.0" layoutY="10.0" styleClass="inputText" text="3 min 15 sec" />
-                                                   </children>
-                                                </HBox>
-                                             </children>
-                                          </VBox>
-                                       </children>
-                                    </HBox>
-                                 </children>
-                                 <padding>
-                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
-                                 </padding>
-                              </VBox>
+                              </HBox>
                            </children>
-                        </HBox>
+                        </AnchorPane>
                      </children>
                   </AnchorPane>
-                  <Label fx:id="nameOfTheTest" alignment="CENTER" styleClass="ultraLabel" text="Name of the test" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="115.0" />
                   <Button fx:id="goToPatientDashboard" mnemonicParsing="false" onMouseClicked="#goToPatientDashboardFunction" prefHeight="50.0" prefWidth="200.0" styleClass="mainButtonBlue" text="Patient Dashboard" AnchorPane.rightAnchor="85.0" AnchorPane.topAnchor="765.0" />
+                  <AnchorPane fx:id="mainViewLeft" layoutX="80.0" layoutY="150.0" prefHeight="580.0" prefWidth="300.0" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="170.0">
+                     <children>
+                        <AnchorPane prefHeight="600.0" prefWidth="300.0" styleClass="dashboardLayoutBackground" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                        <AnchorPane prefHeight="600.0" prefWidth="300.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <AnchorPane fx:id="relaxationChart1" prefWidth="100.0">
+                                 <children>
+                                    <VBox alignment="TOP_CENTER" layoutX="30.0" layoutY="15.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="0.0">
+                                       <children>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefWidth="200.0" styleClass="bigLabel" text="Strength">
+                                             <VBox.margin>
+                                                <Insets bottom="10.0" top="40.0" />
+                                             </VBox.margin>
+                                          </Label>
+                                          <AnchorPane>
+                                             <children>
+                                                <VBox alignment="TOP_CENTER" prefHeight="250.0" prefWidth="0.0" style="-fx-border-width: 2; -fx-border-color: #000000;">
+                                                   <children>
+                                                      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="250.0" layoutX="10.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="greenZone" width="20.0" />
+                                                   </children>
+                                                </VBox>
+                                                <Label fx:id="maxStrengthValue" alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="20.0" text="160" AnchorPane.leftAnchor="-50.0" AnchorPane.topAnchor="0.0">
+                                                   <styleClass>
+                                                      <String fx:value="inputText" />
+                                                      <String fx:value="greenZone" />
+                                                   </styleClass>
+                                                </Label>
+                                                <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" styleClass="inputText" text="0" AnchorPane.leftAnchor="-40.0" AnchorPane.topAnchor="235.0" />
+                                             </children>
+                                             <VBox.margin>
+                                                <Insets left="60.0" top="20.0" />
+                                             </VBox.margin>
+                                          </AnchorPane>
+                                       </children>
+                                    </VBox>
+                                    <ImageView fx:id="strengthIndicator" fitHeight="150.0" fitWidth="50.0" opacity="0.8" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="90.0" AnchorPane.topAnchor="200.0">
+                                       <image>
+                                          <Image url="@../../../icons/ball-with-arrow.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label fx:id="strengthIndicatorText" styleClass="inputText" text="My Value is 80%" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="200.0" />
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
                </children>
             </AnchorPane>
          </center>
@@ -609,6 +634,42 @@
                   <Image url="@../../../herculife.png" />
                </image>
             </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" visible="false">
+         <children>
+            <VBox prefWidth="350.0" spacing="10.0">
+               <children>
+                  <Label styleClass="ultraLabel" text="Training Analysis" />
+                  <HBox prefWidth="200.0">
+                     <children>
+                        <Label prefWidth="200.0" styleClass="inputTextNoBolding" text="Initial Muscle Tone" />
+                        <Label fx:id="initialMuscleValue" layoutX="10.0" layoutY="10.0" styleClass="inputText" text="677" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="20.0" layoutY="60.0" prefWidth="200.0">
+                     <children>
+                        <Label prefWidth="200.0" styleClass="inputTextNoBolding" text="Final Muscle Tone" />
+                        <Label fx:id="finalMuscleValue" layoutX="10.0" layoutY="10.0" styleClass="inputText" text="682" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="20.0" layoutY="90.0" prefWidth="200.0">
+                     <children>
+                        <Label prefWidth="200.0" styleClass="inputTextNoBolding" text="Max Muscle Strength" />
+                        <Label fx:id="maxStrengthValue22" layoutX="10.0" layoutY="10.0" styleClass="inputText" text="150" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="20.0" layoutY="120.0" prefWidth="200.0">
+                     <children>
+                        <Label prefWidth="200.0" styleClass="inputTextNoBolding" text="Muscle Strength" />
+                        <Label fx:id="strengthValue" layoutX="10.0" layoutY="10.0" styleClass="inputText" text="140" />
+                     </children>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </VBox>
          </children>
       </AnchorPane>
    </children>

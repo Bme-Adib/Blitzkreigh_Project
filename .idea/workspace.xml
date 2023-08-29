@@ -9,7 +9,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0693ce2d-4679-4a53-89ad-5eab35ff0390" name="Changes" comment="29/08/2023 Start of V2" />
+    <list default="true" id="0693ce2d-4679-4a53-89ad-5eab35ff0390" name="Changes" comment="29/08/2023 Start of V2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PelvicTutor.log" beforeDir="false" afterPath="$PROJECT_DIR$/PelvicTutor.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Herculife_Pelvic_Tutor_jar/Herculife Pelvic Tutor.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Herculife_Pelvic_Tutor_jar/Herculife Pelvic Tutor.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/herculife/herculifepelvictutor/Controllers/PostTrainingDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/herculife/herculifepelvictutor/Controllers/PostTrainingDashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/herculife/herculifepelvictutor/Controllers/TrainingControllers/BladderTrainingSetUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/herculife/herculifepelvictutor/Controllers/TrainingControllers/BladderTrainingSetUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/herculife/herculifepelvictutor/Controllers/TrainingHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/herculife/herculifepelvictutor/Controllers/TrainingHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/CSS/project-styling.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/CSS/project-styling.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/PostTrainingDashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/PostTrainingDashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/SelectTraining.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/SelectTraining.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/TrainingHistory.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/TrainingHistory.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/TrainingViews/AdvancedTrainingSetUp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/TrainingViews/AdvancedTrainingSetUp.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/TrainingViews/BasicTrainingSetUp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/TrainingViews/BasicTrainingSetUp.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/TrainingViews/BladderTrainingSetUp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/TrainingViews/BladderTrainingSetUp.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/TrainingViews/StabilityTrainingSetUp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/TrainingViews/StabilityTrainingSetUp.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/UserList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/UserList.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -284,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693284763834</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="29/08/2023 Start of V2">
+      <created>1693285291424</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1693285291424</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

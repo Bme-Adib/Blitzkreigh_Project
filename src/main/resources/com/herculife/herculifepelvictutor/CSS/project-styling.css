@@ -105,8 +105,12 @@ Darker 2 =  #a7bfc1
 
 .patientTable{
 	-fx-cursor : hand;
-	-fx-background-color: #000000;
 	-fx-font-family: mainFontFamily;
+        -fx-font-size:15px;           //the font size you asked in the comments below
+}
+
+.patientTable .table-cell{
+        -fx-font-size:15px;           //the font size you asked in the comments below
 }
 
 #exitButton {
@@ -264,37 +268,71 @@ Darker 2 =  #a7bfc1
     -fx-font-weight: 500;
 }
 
-.table-view .column-header-background .label{
-    -fx-background-color: darkerBlue;
-    -fx-border-color: darkerBlue;
+.patientTable .table-cell{
     -fx-text-fill: black;
-    -fx-font-family: mainFontFamily;
+    -fx-font-size: 15px;
+    -fx-font-weight: 500;
 }
 
-.table-row-cell:filled:hover {
-	-fx-background-color: mainBlue;
-	-fx-text-fill: black;
-	-fx-font-family: mainFontFamily;
-}
 
-.table-row:filled:selected, .table-row-cell:filled:selected{
-	-fx-background-color: mainBlue;
-	-fx-text-fill: black;
-	-fx-font-family: mainFontFamily;
-}
-
-.table-cell:filled{
-    -fx-text-fill: black;
-    -fx-font-family: mainFontFamily;
-}
-
-.table-view .column-header, .table-view .column-header-background .filler {
+.patientTable .column-header, .patientTable .column-header-background .filler {
 	-fx-background-color: darkerBlue;
 	-fx-border-color: darkerBlue;
 	-fx-text-fill: black;
 	-fx-font-family: mainFontFamily;
 }
 
+.patientTable .table-row-cell:filled:hover{
+-fx-background-color: mainBlue;
+    -fx-text-fill: black;
+    -fx-font-size: 15px;
+    -fx-font-weight: 900;
+}
+
+.patientTable .table-row-cell:filled:selected{
+-fx-background-color: mainBlue;
+    -fx-text-fill: black;
+    -fx-font-size: 15px;
+    -fx-font-weight: 900;
+}
+
+.patientTable .table-row-cell:filled:selected .table-cell{
+    -fx-text-fill: black;
+    -fx-font-size: 15px;
+    -fx-font-weight: 900;
+}
+
+.patientTable .table-row-cell:hover .table-cell{
+    -fx-text-fill: black;
+    -fx-font-size: 15px;
+    -fx-font-weight: 900;
+}
+
+
+
+/*
+
+
+
+
+.patientTable .table-row-cell:filled:hover {
+	-fx-background-color: mainPink;
+	-fx-text-fill: black;
+	-fx-font-family: mainFontFamily;
+	-fx-font-size:17px;
+        -fx-font-weight: 500;
+}
+
+.table-row-cell:filled:selected{
+	-fx-background-color: mainBlue;
+	-fx-text-fill: black;
+	-fx-font-family: mainFontFamily;
+}
+
+
+
+
+*/
 .dashboardLayoutBackground{
     -fx-background-color: lighterBlue;
     -fx-opacity: 0.5;
@@ -391,6 +429,7 @@ Darker 2 =  #a7bfc1
 }
 
 .parameterSlider .thumb{
+/*
     -fx-background-color: Red;
     -fx-background-radius: 50%;
     -fx-border-radius: 50%;
@@ -398,6 +437,18 @@ Darker 2 =  #a7bfc1
     -fx-border-color: black;
     -fx-pref-height: 15;
     -fx-pref-width: 15;
+*/
+
+
+    -fx-background-color: Red;
+    -fx-background-radius: 50%;
+    -fx-border-width: 20;
+    -fx-border-radius: 50%;
+    -fx-border-width: 2;
+    -fx-border-color: black;
+    -fx-pref-height: 20;
+    -fx-pref-width: 20;
+
 }
 
 .parameterSlider .thumb:hover{

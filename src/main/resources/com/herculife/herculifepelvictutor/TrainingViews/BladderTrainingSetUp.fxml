@@ -17,7 +17,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="root" prefHeight="800.0" prefWidth="1280.0" stylesheets="@../CSS/project-styling.css" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.herculife.herculifepelvictutor.Controllers.TrainingControllers.BladderTrainingSetUp">
+<AnchorPane fx:id="root" prefHeight="800.0" prefWidth="1280.0" stylesheets="@../CSS/project-styling.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/20.0.1" fx:controller="com.herculife.herculifepelvictutor.Controllers.TrainingControllers.BladderTrainingSetUp">
    <children>
       <ImageView fx:id="bgImage" fitHeight="1080.0" fitWidth="1920.0" pickOnBounds="true" preserveRatio="true" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <image>
@@ -179,7 +179,7 @@
                                     </Label>
                                     <HBox alignment="CENTER_LEFT">
                                        <children>
-                                          <Slider fx:id="slider1" blockIncrement="5.0" majorTickUnit="5.0" min="30.0" minorTickCount="0" onMouseReleased="#sliderFunction1" prefHeight="55.0" prefWidth="300.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" styleClass="parameterSlider" value="60.0" />
+                                          <Slider fx:id="slider1" blockIncrement="5.0" majorTickUnit="5.0" min="30.0" minorTickCount="0" onMouseClicked="#sliderFunction1" onMouseDragged="#sliderFunction1" prefHeight="55.0" prefWidth="300.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" styleClass="parameterSlider" value="60.0" />
                                           <Label fx:id="sliderValue1" alignment="CENTER" prefHeight="40.0" prefWidth="80.0" styleClass="bigLabel" text="60%">
                                              <HBox.margin>
                                                 <Insets left="10.0" />
@@ -197,7 +197,7 @@
                                     <Label fx:id="sliderText2" prefHeight="20.0" styleClass="inputText" text="Realaxation Time" />
                                     <HBox alignment="CENTER_LEFT">
                                        <children>
-                                          <Slider fx:id="slider2" blockIncrement="2.0" majorTickUnit="2.0" max="16.0" min="8.0" minorTickCount="0" onMouseReleased="#sliderFunction2" prefHeight="55.0" prefWidth="300.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" styleClass="parameterSlider" value="8.0" />
+                                          <Slider fx:id="slider2" blockIncrement="2.0" majorTickUnit="2.0" max="16.0" min="8.0" minorTickCount="0" onMouseClicked="#sliderFunction2" onMouseDragged="#sliderFunction2" prefHeight="55.0" prefWidth="300.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" styleClass="parameterSlider" value="8.0" />
                                           <Label fx:id="sliderValue2" alignment="CENTER" prefHeight="40.0" prefWidth="80.0" styleClass="bigLabel" text="8 Sec">
                                              <HBox.margin>
                                                 <Insets left="10.0" />
@@ -215,7 +215,7 @@
                                     <Label fx:id="sliderText3" prefHeight="20.0" styleClass="inputText" text="Contraction Time" />
                                     <HBox alignment="CENTER_LEFT">
                                        <children>
-                                          <Slider fx:id="slider3" blockIncrement="1.0" majorTickUnit="1.0" max="5.0" min="1.0" minorTickCount="0" onMouseReleased="#sliderFunction3" prefHeight="55.0" prefWidth="300.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" styleClass="parameterSlider" value="3.0" />
+                                          <Slider fx:id="slider3" blockIncrement="1.0" majorTickUnit="1.0" max="5.0" min="1.0" minorTickCount="0" onMouseClicked="#sliderFunction3" onMouseDragged="#sliderFunction3" prefHeight="55.0" prefWidth="300.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" styleClass="parameterSlider" value="3.0" />
                                           <Label fx:id="sliderValue3" alignment="CENTER" prefHeight="40.0" prefWidth="80.0" styleClass="bigLabel" text="3 Sec">
                                              <HBox.margin>
                                                 <Insets left="10.0" />
@@ -251,7 +251,7 @@
                                     <Label fx:id="sliderText5" prefHeight="20.0" styleClass="inputText" text="Decontraction Time" />
                                     <HBox alignment="CENTER_LEFT">
                                        <children>
-                                          <Slider fx:id="slider5" blockIncrement="0.5" majorTickUnit="0.5" max="5.0" min="0.5" minorTickCount="0" onMouseReleased="#sliderFunction5" prefHeight="55.0" prefWidth="300.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" styleClass="parameterSlider" value="3.0" />
+                                          <Slider fx:id="slider5" blockIncrement="0.5" majorTickUnit="0.5" max="5.0" min="0.5" minorTickCount="0" onMouseDragged="#sliderFunction5" onMouseEntered="#sliderFunction5" prefHeight="55.0" prefWidth="300.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" styleClass="parameterSlider" value="3.0" />
                                           <Label fx:id="sliderValue5" alignment="CENTER" prefHeight="40.0" prefWidth="80.0" styleClass="bigLabel" text="3 Sec">
                                              <HBox.margin>
                                                 <Insets left="10.0" />
@@ -269,7 +269,7 @@
                                     <Label fx:id="sliderText7" prefHeight="20.0" styleClass="inputText" text="Repetetion" />
                                     <HBox alignment="CENTER_LEFT">
                                        <children>
-                                          <Slider fx:id="slider7" blockIncrement="1.0" majorTickUnit="5.0" max="20.0" minorTickCount="4" onMouseReleased="#sliderFunction7" prefHeight="55.0" prefWidth="300.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" styleClass="parameterSlider" value="10.0" />
+                                          <Slider fx:id="slider7" blockIncrement="1.0" majorTickUnit="5.0" max="20.0" minorTickCount="4" onMouseClicked="#sliderFunction7" onMouseDragged="#sliderFunction7" prefHeight="55.0" prefWidth="300.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" styleClass="parameterSlider" value="10.0" />
                                           <Label fx:id="sliderValue7" alignment="CENTER" prefHeight="40.0" prefWidth="80.0" styleClass="bigLabel" text="10 Reps">
                                              <HBox.margin>
                                                 <Insets left="10.0" />
@@ -287,7 +287,7 @@
                                     <Label fx:id="sliderText6" prefHeight="20.0" styleClass="inputText" text="Trianing Sets" />
                                     <HBox alignment="CENTER_LEFT">
                                        <children>
-                                          <Slider fx:id="slider6" blockIncrement="1.0" majorTickUnit="1.0" max="5.0" min="1.0" minorTickCount="0" onMouseReleased="#sliderFunction6" prefHeight="55.0" prefWidth="300.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" styleClass="parameterSlider" value="3.0" />
+                                          <Slider fx:id="slider6" blockIncrement="1.0" majorTickUnit="1.0" max="5.0" min="1.0" minorTickCount="0" onMouseClicked="#sliderFunction6" onMouseDragged="#sliderFunction6" prefHeight="55.0" prefWidth="300.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" styleClass="parameterSlider" value="3.0" />
                                           <Label fx:id="sliderValue6" alignment="CENTER" prefHeight="40.0" prefWidth="80.0" styleClass="bigLabel" text="3 Sets">
                                              <HBox.margin>
                                                 <Insets left="10.0" />
@@ -305,7 +305,7 @@
                                     <Label fx:id="sliderText8" prefHeight="20.0" styleClass="inputText" text="Pause between Sets" />
                                     <HBox alignment="CENTER_LEFT">
                                        <children>
-                                          <Slider fx:id="slider8" majorTickUnit="10.0" max="60.0" minorTickCount="0" onMouseReleased="#sliderFunction8" prefHeight="55.0" prefWidth="300.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" styleClass="parameterSlider" value="30.0" />
+                                          <Slider fx:id="slider8" majorTickUnit="10.0" max="60.0" minorTickCount="0" onMouseClicked="#sliderFunction8" onMouseDragged="#sliderFunction8" prefHeight="55.0" prefWidth="300.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" styleClass="parameterSlider" value="30.0" />
                                           <Label fx:id="sliderValue8" alignment="CENTER" prefHeight="40.0" prefWidth="80.0" styleClass="bigLabel" text="30 Sec">
                                              <HBox.margin>
                                                 <Insets left="10.0" />
@@ -323,7 +323,7 @@
                                     <Label fx:id="sliderText9" prefHeight="20.0" styleClass="inputText" text="Difficulty Level" />
                                     <HBox alignment="CENTER_LEFT">
                                        <children>
-                                          <Slider fx:id="slider9" blockIncrement="5.0" majorTickUnit="5.0" max="30.0" min="5.0" minorTickCount="0" onMousePressed="#sliderFunction9" prefHeight="55.0" prefWidth="300.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" styleClass="parameterSlider" value="15.0" />
+                                          <Slider fx:id="slider9" blockIncrement="5.0" majorTickUnit="5.0" max="30.0" min="5.0" minorTickCount="0" onMouseClicked="#sliderFunction9" onMouseDragged="#sliderFunction9" prefHeight="55.0" prefWidth="300.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" styleClass="parameterSlider" value="15.0" />
                                           <Label fx:id="sliderValue9" alignment="CENTER" prefHeight="40.0" prefWidth="80.0" styleClass="bigLabel" text="15 %">
                                              <HBox.margin>
                                                 <Insets left="10.0" />
