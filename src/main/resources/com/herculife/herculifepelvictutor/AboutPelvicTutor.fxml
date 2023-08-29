@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="300.0" prefWidth="400.0" stylesheets="@CSS/project-styling.css" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.herculife.herculifepelvictutor.Controllers.AboutPelvicTutor">
+   <children>
+      <ImageView fitHeight="30.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <image>
+            <Image url="@../../../herculife.png" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="aboutTextField" editable="false" prefHeight="200.0" prefWidth="200.0" styleClass="inputText" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0" />
+      <Label fx:id="TradeMarkText" layoutX="10.0" layoutY="10.0" stylesheets="@CSS/project-styling.css" text="Created By Adib Ghannam @ 2023" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

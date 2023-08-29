@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Herculife Pelvic Tutor:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0693ce2d-4679-4a53-89ad-5eab35ff0390" name="Changes" comment="25/08/2023 END" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2TKY9xUUAA7Qd5L0Gmvttdzdx1r" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "F:/IntellijProjects/Project Pelvic Floor/Herculife Pelvic Tutor",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.37241378",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Intellij\Project Pelvic Floor\Herculife Pelvic Tutor\src\main\resources\com\herculife\herculifepelvictutor" />
+      <recent name="D:\Intellij\Project Pelvic Floor\Herculife Pelvic Tutor\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Intellij\Project Pelvic Floor\Herculife Pelvic Tutor\src\main\resources\com\herculife\herculifepelvictutor\TrainingViews" />
+      <recent name="D:\Intellij\Project Pelvic Floor\Herculife Pelvic Tutor\src\main\java\com\herculife\herculifepelvictutor\Controllers" />
+      <recent name="D:\Intellij\Project Pelvic Floor\Herculife Pelvic Tutor\src\main\resources\com\herculife\herculifepelvictutor" />
+      <recent name="D:\Intellij\Project Pelvic Floor\Herculife Pelvic Tutor\src\main\resources\com\herculife\herculifepelvictutor\TrainingSetUp" />
+      <recent name="D:\Intellij\Project Pelvic Floor\Herculife Pelvic Tutor\src\main\resources\com\herculife\herculifepelvictutor\CSS" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.herculife.herculifepelvictutor.Controllers.TrainingControllers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Launcher">
+    <configuration name="HerculifePelvicTutorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.herculife.herculifepelvictutor.HerculifePelvicTutorApplication" />
+      <module name="Herculife Pelvic Tutor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.herculife.herculifepelvictutor.Controllers.TrainingControllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.herculife.herculifepelvictutor.Launcher" />
+      <module name="Herculife Pelvic Tutor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.herculife.herculifepelvictutor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.herculife.herculifepelvictutor.TestingMain" />
+      <module name="Herculife Pelvic Tutor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.herculife.herculifepelvictutor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Launcher" />
+        <item itemvalue="Application.HerculifePelvicTutorApplication" />
+        <item itemvalue="Application.TestingMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0693ce2d-4679-4a53-89ad-5eab35ff0390" name="Changes" comment="" />
+      <created>1690793100666</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690793100666</updated>
+    </task>
+    <task id="LOCAL-00001" summary="2 Activities App Working">
+      <created>1691398362660</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691398362661</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Sign up done">
+      <created>1691545394758</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691545394758</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Sign up done with CSS">
+      <created>1691576137780</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691576137780</updated>
+    </task>
+    <task id="LOCAL-00004" summary="new">
+      <created>1691656897079</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691656897079</updated>
+    </task>
+    <task id="LOCAL-00005" summary="new">
+      <created>1691656913449</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691656913449</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Phase 1 Complete">
+      <created>1691658810242</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691658810242</updated>
+    </task>
+    <task id="LOCAL-00007" summary="SQL is Ready to be Implemented">
+      <created>1692004909690</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692004909690</updated>
+    </task>
+    <task id="LOCAL-00008" summary="SQL is Ready to be Implemented">
+      <created>1692004927623</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1692004927623</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Sorting">
+      <created>1692004977329</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1692004977329</updated>
+    </task>
+    <task id="LOCAL-00010" summary="connected to the database fully">
+      <created>1692071974315</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1692071974315</updated>
+    </task>
+    <task id="LOCAL-00011" summary="16/8/2023">
+      <created>1692179920434</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1692179920434</updated>
+    </task>
+    <task id="LOCAL-00012" summary="16/8/2023">
+      <created>1692237504189</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1692237504189</updated>
+    </task>
+    <task id="LOCAL-00013" summary="18/06/2023">
+      <created>1692330290641</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1692330290641</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Trainings All done">
+      <created>1692341409750</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1692341409750</updated>
+    </task>
+    <task id="LOCAL-00015" summary="need to merge all into one">
+      <created>1692350019774</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1692350019774</updated>
+    </task>
+    <task id="LOCAL-00016" summary="End of 18/08/2023">
+      <created>1692352254162</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1692352254162</updated>
+    </task>
+    <task id="LOCAL-00017" summary="21/08/2023">
+      <created>1692586049172</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1692586049172</updated>
+    </task>
+    <task id="LOCAL-00018" summary="22/08/2023 Morning">
+      <created>1692672842353</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1692672842353</updated>
+    </task>
+    <task id="LOCAL-00019" summary="22/08/2023 end, Added Post Training Charts">
+      <created>1692698231483</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1692698231483</updated>
+    </task>
+    <task id="LOCAL-00020" summary="23/08/2023 Mid, finished the Post Training Dashbaord">
+      <created>1692769032617</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1692769032617</updated>
+    </task>
+    <task id="LOCAL-00021" summary="24/08/2023 Start, finished the Post Training Dashboard">
+      <created>1692857525468</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1692857525468</updated>
+    </task>
+    <task id="LOCAL-00022" summary="24/08/2023 END, Training History in progress">
+      <created>1692870440319</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1692870440319</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="2 Activities App Working" />
+    <MESSAGE value="Sign up done" />
+    <MESSAGE value="Sign up done with CSS" />
+    <MESSAGE value="new" />
+    <MESSAGE value="Phase 1 Complete" />
+    <MESSAGE value="SQL is Ready to be Implemented" />
+    <MESSAGE value="Sorting" />
+    <MESSAGE value="connected to the database fully" />
+    <MESSAGE value="16/8/2023" />
+    <MESSAGE value="18/06/2023" />
+    <MESSAGE value="Trainings All done" />
+    <MESSAGE value="need to merge all into one" />
+    <MESSAGE value="End of 18/08/2023" />
+    <MESSAGE value="21/08/2023" />
+    <MESSAGE value="22/08/2023 Morning" />
+    <MESSAGE value="22/08/2023 end, Added Post Training Charts" />
+    <MESSAGE value="23/08/2023 Mid, finished the Post Training Dashbaord" />
+    <MESSAGE value="24/08/2023 Start, finished the Post Training Dashboard" />
+    <MESSAGE value="24/08/2023 END, Training History in progress" />
+    <MESSAGE value="25/08/2023 END, Training History in Done&#10;need to change the charts in the post dashboard" />
+    <MESSAGE value="25/08/2023 END, Training History in Done&#10;need to change the charts in the post dashboardl" />
+    <MESSAGE value="25/08/2023 END" />
+    <option name="LAST_COMMIT_MESSAGE" value="25/08/2023 END" />
+  </component>
+</project>

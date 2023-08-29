@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="800.0" prefWidth="1280.0" stylesheets="@../CSS/project-styling.css" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.herculife.herculifepelvictutor.Controllers.TrainingControllers.AdvancedTrainingSetUp">
+   <children>
+      <ImageView fx:id="bgImage" fitHeight="1080.0" fitWidth="1920.0" pickOnBounds="true" preserveRatio="true" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../appbg.jpg" />
+         </image>
+      </ImageView>
+      <BorderPane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <MenuBar fx:id="topMenuBar" BorderPane.alignment="CENTER">
+               <menus>
+                  <Menu mnemonicParsing="false" text="File">
+                     <items>
+                        <MenuItem mnemonicParsing="false" onAction="#fileMenu_logOut" text="Log out" />
+                        <MenuItem fx:id="fileMenu_Close" mnemonicParsing="false" onAction="#fileMenu_CloseAction" text="Exit" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Help">
+                     <items>
+                        <Menu mnemonicParsing="false" text="Quick Tutorials">
+                           <items>
+                              <MenuItem mnemonicParsing="false" onAction="#tutorialCreateNewPatient" text="Create New Patient" />
+                              <MenuItem mnemonicParsing="false" onAction="#tutorialSetUpParameters" text="Setting Up Training Parameters" />
+                           </items>
+                        </Menu>
+                        <MenuItem mnemonicParsing="false" onAction="#helpDesk" text="Help Desk" />
+                        <MenuItem mnemonicParsing="false" onAction="#aboutPelvicTutorPopUp" text="About Herculife Pelvic Tutor" />
+                     </items>
+                  </Menu>
+               </menus>
+            </MenuBar>
+         </top>
+         <center>
+            <AnchorPane prefHeight="500.0">
+               <children>
+                  <AnchorPane fx:id="backgroundForTop" prefHeight="110.0" prefWidth="250.0" styleClass="dashboardLayoutBackground" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                  <AnchorPane prefHeight="100.0" prefWidth="200.0" AnchorPane.leftAnchor="226.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="10.0">
+                     <children>
+                        <HBox layoutY="20.0" prefHeight="30.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <HBox prefHeight="30.0" prefWidth="300.0">
+                                 <children>
+                                    <Label prefHeight="30.0" prefWidth="130.0" styleClass="inputTextNoBolding" text="MRN:">
+                                       <HBox.margin>
+                                          <Insets right="20.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                    <Label fx:id="mrn" layoutX="10.0" layoutY="10.0" prefHeight="30.0" prefWidth="150.0" styleClass="inputTextNoBolding" text="N/A" />
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="30.0" prefWidth="300.0">
+                                 <children>
+                                    <Label prefHeight="30.0" prefWidth="130.0" styleClass="inputTextNoBolding" text="First Name:">
+                                       <HBox.margin>
+                                          <Insets right="20.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                    <Label fx:id="firstName" layoutX="10.0" layoutY="10.0" prefHeight="30.0" prefWidth="150.0" styleClass="inputTextNoBolding" text="N/A" />
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="30.0" prefWidth="300.0">
+                                 <children>
+                                    <Label prefHeight="30.0" prefWidth="130.0" styleClass="inputTextNoBolding" text="Family Name:">
+                                       <HBox.margin>
+                                          <Insets right="20.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                    <Label fx:id="lastName" layoutX="10.0" layoutY="10.0" prefHeight="30.0" prefWidth="150.0" styleClass="inputTextNoBolding" text="N/A" />
+                                 </children>
+                              </HBox>
+                           </children>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox layoutY="80.0" prefHeight="20.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="40.0">
+                           <children>
+                              <HBox prefHeight="30.0" prefWidth="300.0">
+                                 <children>
+                                    <Label prefHeight="30.0" prefWidth="130.0" styleClass="inputTextNoBolding" text="Patient ID:">
+                                       <HBox.margin>
+                                          <Insets right="20.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                    <Label fx:id="id" layoutX="10.0" layoutY="10.0" prefHeight="30.0" prefWidth="150.0" styleClass="inputTextNoBolding" text="N/A" />
+                                 </children>
+                              </HBox>
+                              <HBox layoutX="10.0" layoutY="10.0" prefHeight="30.0" prefWidth="300.0">
+                                 <children>
+                                    <Label prefHeight="30.0" prefWidth="130.0" styleClass="inputTextNoBolding" text="Date of Birth:">
+                                       <HBox.margin>
+                                          <Insets right="20.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                    <Label fx:id="dob" layoutX="10.0" layoutY="10.0" prefHeight="30.0" prefWidth="150.0" styleClass="inputTextNoBolding" text="N/A" />
+                                 </children>
+                              </HBox>
+                              <HBox layoutX="310.0" layoutY="10.0" prefHeight="30.0" prefWidth="300.0">
+                                 <children>
+                                    <Label prefHeight="30.0" prefWidth="130.0" styleClass="inputTextNoBolding" text="Gender:">
+                                       <HBox.margin>
+                                          <Insets right="20.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                    <Label fx:id="gender" layoutX="10.0" layoutY="10.0" prefHeight="30.0" prefWidth="150.0" styleClass="inputTextNoBolding" text="N/A" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="mainStuff" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="150.0">
+                     <children>
+                        <LineChart fx:id="trainingChart" animated="false" legendVisible="false" title="Set Up the Training" AnchorPane.bottomAnchor="70.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="30.0">
+                           <xAxis>
+                              <NumberAxis fx:id="trainingChartXAxis" animated="false" side="BOTTOM" />
+                           </xAxis>
+                           <yAxis>
+                              <NumberAxis fx:id="trainingChartYAxis" animated="false" side="LEFT" />
+                           </yAxis>
+                        </LineChart>
+                     </children>
+                  </AnchorPane>
+                  <Button mnemonicParsing="false" onMouseClicked="#goBackButton" styleClass="imageButton" text=" Back " AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="120.0">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../icons/back-arrow.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="startTrainingButton" alignment="CENTER" mnemonicParsing="false" onMouseClicked="#startTrainingFunction" prefHeight="50.0" prefWidth="200.0" styleClass="mainButtonBlueBold" text="  Start Training" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="125.0">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../icons/play-solid.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </center>
+         <right>
+            <AnchorPane prefHeight="200.0" prefWidth="410.0" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="dashboardLayoutBackground" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                  <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="dashboardLayoutBackground" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                  <AnchorPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <VBox fx:id="trainingTargetBlock">
+                                 <children>
+                                    <Label fx:id="sliderText1" prefHeight="20.0" styleClass="inputText" text="Training Target ">
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                    </Label>
+                                    <HBox alignment="CENTER_LEFT">
+                                       <children>
+                                          <Slider fx:id="slider1" blockIncrement="5.0" majorTickUnit="5.0" min="30.0" minorTickCount="0" onMouseReleased="#sliderFunction1" prefHeight="55.0" prefWidth="300.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" styleClass="parameterSlider" value="60.0" />
+                                          <Label fx:id="sliderValue1" alignment="CENTER" prefHeight="40.0" prefWidth="80.0" styleClass="bigLabel" text="60%">
+                                             <HBox.margin>
+                                                <Insets left="10.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="25.0" />
+                                 </VBox.margin>
+                              </VBox>
+                              <VBox fx:id="RelaxationBlock" layoutX="10.0" layoutY="30.0">
+                                 <children>
+                                    <Label fx:id="sliderText2" prefHeight="20.0" styleClass="inputText" text="Realaxation Time" />
+                                    <HBox alignment="CENTER_LEFT">
+                                       <children>
+                                          <Slider fx:id="slider2" blockIncrement="2.0" majorTickUnit="2.0" max="16.0" min="8.0" minorTickCount="0" onMouseReleased="#sliderFunction2" prefHeight="55.0" prefWidth="300.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" styleClass="parameterSlider" value="8.0" />
+                                          <Label fx:id="sliderValue2" alignment="CENTER" prefHeight="40.0" prefWidth="80.0" styleClass="bigLabel" text="8 Sec">
+                                             <HBox.margin>
+                                                <Insets left="10.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </VBox>
+                              <VBox fx:id="contractionBlock" layoutX="10.0" layoutY="130.0">
+                                 <children>
+                                    <Label fx:id="sliderText3" prefHeight="20.0" styleClass="inputText" text="Contraction Time" />
+                                    <HBox alignment="CENTER_LEFT">
+                                       <children>
+                                          <Slider fx:id="slider3" blockIncrement="1.0" majorTickUnit="1.0" max="5.0" min="1.0" minorTickCount="0" onMouseReleased="#sliderFunction3" prefHeight="55.0" prefWidth="300.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" styleClass="parameterSlider" value="3.0" />
+                                          <Label fx:id="sliderValue3" alignment="CENTER" prefHeight="40.0" prefWidth="80.0" styleClass="bigLabel" text="3 Sec">
+                                             <HBox.margin>
+                                                <Insets left="10.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </VBox>
+                              <VBox fx:id="HoldingTime" layoutX="10.0" layoutY="230.0">
+                                 <children>
+                                    <Label fx:id="sliderText4" prefHeight="20.0" styleClass="inputText" text="Holding Time" />
+                                    <HBox alignment="CENTER_LEFT">
+                                       <children>
+                                          <Slider fx:id="slider4" blockIncrement="1.0" majorTickUnit="1.0" max="5.0" min="1.0" minorTickCount="0" onMouseReleased="#sliderFunction4" prefHeight="55.0" prefWidth="300.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" styleClass="parameterSlider" value="3.0" />
+                                          <Label fx:id="sliderValue4" alignment="CENTER" prefHeight="40.0" prefWidth="80.0" styleClass="bigLabel" text="3 Sec">
+                                             <HBox.margin>
+                                                <Insets left="10.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </VBox>
+                              <VBox fx:id="decontractionBlock" layoutX="10.0" layoutY="310.0">
+                                 <children>
+                                    <Label fx:id="sliderText5" prefHeight="20.0" styleClass="inputText" text="Decontraction Time" />
+                                    <HBox alignment="CENTER_LEFT">
+                                       <children>
+                                          <Slider fx:id="slider5" blockIncrement="1.0" majorTickUnit="1.0" max="5.0" min="1.0" minorTickCount="0" onMouseReleased="#sliderFunction5" prefHeight="55.0" prefWidth="300.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" styleClass="parameterSlider" value="3.0" />
+                                          <Label fx:id="sliderValue5" alignment="CENTER" prefHeight="40.0" prefWidth="80.0" styleClass="bigLabel" text="3 Sec">
+                                             <HBox.margin>
+                                                <Insets left="10.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </VBox>
+                              <VBox fx:id="reps" alignment="CENTER_LEFT" layoutX="10.0" layoutY="610.0">
+                                 <children>
+                                    <Label fx:id="sliderText7" prefHeight="20.0" styleClass="inputText" text="Repetetion" />
+                                    <HBox alignment="CENTER_LEFT">
+                                       <children>
+                                          <Slider fx:id="slider7" blockIncrement="1.0" majorTickUnit="5.0" max="20.0" minorTickCount="4" onMouseReleased="#sliderFunction7" prefHeight="55.0" prefWidth="300.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" styleClass="parameterSlider" value="10.0" />
+                                          <Label fx:id="sliderValue7" alignment="CENTER" prefHeight="40.0" prefWidth="80.0" styleClass="bigLabel" text="10 Reps">
+                                             <HBox.margin>
+                                                <Insets left="10.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </VBox>
+                              <VBox fx:id="sets" layoutX="10.0" layoutY="530.0" prefHeight="55.0">
+                                 <children>
+                                    <Label fx:id="sliderText6" prefHeight="20.0" styleClass="inputText" text="Trianing Sets" />
+                                    <HBox alignment="CENTER_LEFT">
+                                       <children>
+                                          <Slider fx:id="slider6" blockIncrement="1.0" majorTickUnit="1.0" max="5.0" min="1.0" minorTickCount="0" onMouseReleased="#sliderFunction6" prefHeight="50.0" prefWidth="300.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" styleClass="parameterSlider" value="3.0" />
+                                          <Label fx:id="sliderValue6" alignment="CENTER" prefHeight="40.0" prefWidth="80.0" styleClass="bigLabel" text="3 Sets">
+                                             <HBox.margin>
+                                                <Insets left="10.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </VBox>
+                              <VBox fx:id="setsPause" layoutX="10.0" layoutY="510.0">
+                                 <children>
+                                    <Label fx:id="sliderText8" prefHeight="20.0" styleClass="inputText" text="Pause between Sets" />
+                                    <HBox alignment="CENTER_LEFT">
+                                       <children>
+                                          <Slider fx:id="slider8" majorTickUnit="10.0" max="60.0" minorTickCount="0" onMouseReleased="#sliderFunction8" prefHeight="55.0" prefWidth="300.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" styleClass="parameterSlider" value="30.0" />
+                                          <Label fx:id="sliderValue8" alignment="CENTER" prefHeight="40.0" prefWidth="80.0" styleClass="bigLabel" text="30 Sec">
+                                             <HBox.margin>
+                                                <Insets left="10.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </VBox>
+                              <VBox>
+                                 <children>
+                                    <Label fx:id="sliderText9" prefHeight="20.0" styleClass="inputText" text="Difficulty Level" />
+                                    <HBox alignment="CENTER_LEFT">
+                                       <children>
+                                          <Slider fx:id="slider9" blockIncrement="5.0" majorTickUnit="5.0" max="30.0" min="5.0" minorTickCount="0" onMousePressed="#sliderFunction9" prefHeight="55.0" prefWidth="300.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" styleClass="parameterSlider" value="15.0" />
+                                          <Label fx:id="sliderValue9" alignment="CENTER" prefHeight="40.0" prefWidth="80.0" styleClass="bigLabel" text="15 %">
+                                             <HBox.margin>
+                                                <Insets left="10.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                              <VBox alignment="CENTER">
+                                 <children>
+                                    <HBox alignment="CENTER" layoutX="10.0" layoutY="60.0">
+                                       <children>
+                                          <Label prefWidth="150.0" styleClass="inputTextNoBolding" text="Total Training Time: " />
+                                          <Label fx:id="totalTrainingTime" layoutX="10.0" layoutY="10.0" styleClass="bigLabel" text="2 Min 33 Sec" />
+                                       </children>
+                                    </HBox>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </VBox>
+                           </children>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </right>
+      </BorderPane>
+      <Button fx:id="exitButton" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#exitButtonAction" text="X" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Label fx:id="TradeMarkText" layoutX="10.0" layoutY="10.0" stylesheets="@../CSS/project-styling.css" text="Created By Adib Ghannam @ 2023" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="HiddenStuff" visible="false">
+         <children>
+            <HBox>
+               <children>
+                  <Label prefWidth="150.0" styleClass="inputTextNoBolding" text="Time Per Rep" />
+                  <Label fx:id="totalRepTime" layoutX="10.0" layoutY="10.0" styleClass="bigLabel" text="25 Sec" />
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Label prefWidth="150.0" styleClass="inputTextNoBolding" text="Time Per Set" />
+                  <Label fx:id="totalSetTime" layoutX="10.0" layoutY="10.0" styleClass="bigLabel" text="51 Sec" />
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="100.0" stylesheets="@../CSS/project-styling.css" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="25.0">
+         <children>
+            <ImageView fitHeight="75.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="10.0">
+               <image>
+                  <Image url="@../../../../herculife.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

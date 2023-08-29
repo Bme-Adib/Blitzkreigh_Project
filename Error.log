@@ -1,0 +1,198 @@
+2023-08-15 , 11:37:11 , Error , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Unrecognized field "trainingsList" (class com.herculife.herculifepelvictutor.ProjectClasses.PatientClass), not marked as ignorable (18 known properties: "patientID", "lastName", "dobDay", "fullPhoneNumber", "mrn", "createdTimeAndDate", "patientUniqueID", "dobYear", "dob", "trainings", "fullName", "firstName", "nationality", "gender", "dobMonth", "prePhoneNumber", "phoneNumber", "email"])
+ at [Source: (String)"{"patientUniqueID":"e9de4007a1ec8c14d8eab07d213c099fe67cecdea916478c3ce513318f570f10","mrn":"","patientID":"N89484894844","firstName":"Abduallah","lastName":"Hamade","fullName":"Abduallah Hamade","gender":"Male","dob":"10/08/2023","dobDay":"10","dobMonth":"08","dobYear":"2023","nationality":"Syria","email":"abduallah@chyromed.com","phoneNumber":"","prePhoneNumber":"","fullPhoneNumber":"","trainings":[],"trainingsList":[]}"; line: 1, column: 424] (through reference chain: com.herculife.herculifepelvictutor.ProjectClasses.PatientClass["trainingsList"])
+2023-08-15 , 11:37:11 , Error , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Unrecognized field "trainingsList" (class com.herculife.herculifepelvictutor.ProjectClasses.PatientClass), not marked as ignorable (18 known properties: "patientID", "lastName", "dobDay", "fullPhoneNumber", "mrn", "createdTimeAndDate", "patientUniqueID", "dobYear", "dob", "trainings", "fullName", "firstName", "nationality", "gender", "dobMonth", "prePhoneNumber", "phoneNumber", "email"])
+ at [Source: (String)"{"patientUniqueID":"1a89c9c30de6c291464f34528d910521b8fe76e2a87edf9ca87c28eb8691709d","mrn":"","patientID":"N018754995","firstName":"Adib","lastName":"Ghannam","fullName":"Adib Ghannam","gender":"Male","dob":"08/08/2023","dobDay":"08","dobMonth":"08","dobYear":"2023","nationality":"Syria","email":"","phoneNumber":"","prePhoneNumber":"","fullPhoneNumber":"","createdTimeAndDate":"15/08/2023 11:14:37","trainings":[],"trainingsList":[]}"; line: 1, column: 435] (through reference chain: com.herculife.herculifepelvictutor.ProjectClasses.PatientClass["trainingsList"])
+2023-08-15 , 11:40:36 , Error , /com/herculife/herculifepelvictutor/MainPatientDashboard.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/MainPatientDashboard.fxml
+
+2023-08-15 , 11:40:36 , Error , com/herculife/herculifepelvictutor/Controllers/CreateNewPatient , javafx.fxml.LoadException: 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/MainPatientDashboard.fxml
+
+2023-08-16 , 17:33:39 , Error , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Unrecognized token 'U2FsdGVkX19Vx4xrQwGiR9bexv': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"U2FsdGVkX19Vx4xrQwGiR9bexv+FCplTsO7gBDR8NCC/U4oa90M66hSFal6HPhqX807pfzbD77VV6FsNO0t4BULnGKcd+hLbwDyq4K59yjMFIRjWLaRJG2sfpuOfbNu3MYjj2Tzcw4HVrvaJpMN9qtesxqLGztKMR/fSYRBuTb+UPkZAaJvslHz5JE6ncN1WYGIgssjeG9jOIcK1Se4aTtQZ5nHv+m7X4zuXLh0yNANRgo9NZoxnq3TNWjvjQkAvdrnwTQBDLfggcJ7ZFDhn3mkwvwORZWmD6aQrsfceM4rOJuWaxP+grc/itjSI73gHXP3Q444Y4aIgORGZ/mWpUuaNOOXocQ4wKmuzzU55QqFv+NOIP9ZGN94nzSgCKgQO1TOhTFleADXdVie1MYeM8puSSAsHugl7HjM18TIAaVuFk2GeaPrcTktia2ilQx6qbEvRQZC+BDdkzBJHZlwhwqd8pbfpdrnvnB1GYMpfktPU9t5b2FDS"[truncated 100 chars]; line: 1, column: 27]
+2023-08-16 , 17:33:41 , Error , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Unrecognized token 'U2FsdGVkX19Vx4xrQwGiR9bexv': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"U2FsdGVkX19Vx4xrQwGiR9bexv+FCplTsO7gBDR8NCC/U4oa90M66hSFal6HPhqX807pfzbD77VV6FsNO0t4BULnGKcd+hLbwDyq4K59yjMFIRjWLaRJG2sfpuOfbNu3MYjj2Tzcw4HVrvaJpMN9qtesxqLGztKMR/fSYRBuTb+UPkZAaJvslHz5JE6ncN1WYGIgssjeG9jOIcK1Se4aTtQZ5nHv+m7X4zuXLh0yNANRgo9NZoxnq3TNWjvjQkAvdrnwTQBDLfggcJ7ZFDhn3mkwvwORZWmD6aQrsfceM4rOJuWaxP+grc/itjSI73gHXP3Q444Y4aIgORGZ/mWpUuaNOOXocQ4wKmuzzU55QqFv+NOIP9ZGN94nzSgCKgQO1TOhTFleADXdVie1MYeM8puSSAsHugl7HjM18TIAaVuFk2GeaPrcTktia2ilQx6qbEvRQZC+BDdkzBJHZlwhwqd8pbfpdrnvnB1GYMpfktPU9t5b2FDS"[truncated 100 chars]; line: 1, column: 27]
+2023-08-16 , 17:37:14 , Error , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Unrecognized token 'U2FsdGVkX19Vx4xrQwGiR9bexv': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"U2FsdGVkX19Vx4xrQwGiR9bexv+FCplTsO7gBDR8NCC/U4oa90M66hSFal6HPhqX807pfzbD77VV6FsNO0t4BULnGKcd+hLbwDyq4K59yjMFIRjWLaRJG2sfpuOfbNu3MYjj2Tzcw4HVrvaJpMN9qtesxqLGztKMR/fSYRBuTb+UPkZAaJvslHz5JE6ncN1WYGIgssjeG9jOIcK1Se4aTtQZ5nHv+m7X4zuXLh0yNANRgo9NZoxnq3TNWjvjQkAvdrnwTQBDLfggcJ7ZFDhn3mkwvwORZWmD6aQrsfceM4rOJuWaxP+grc/itjSI73gHXP3Q444Y4aIgORGZ/mWpUuaNOOXocQ4wKmuzzU55QqFv+NOIP9ZGN94nzSgCKgQO1TOhTFleADXdVie1MYeM8puSSAsHugl7HjM18TIAaVuFk2GeaPrcTktia2ilQx6qbEvRQZC+BDdkzBJHZlwhwqd8pbfpdrnvnB1GYMpfktPU9t5b2FDS"[truncated 100 chars]; line: 1, column: 27]
+2023-08-16 , 17:40:50 , Error , com/herculife/herculifepelvictutor/ProjectSettings/MyGoTo , Unrecognized token 'U2FsdGVkX19Vx4xrQwGiR9bexv': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"U2FsdGVkX19Vx4xrQwGiR9bexv+FCplTsO7gBDR8NCC/U4oa90M66hSFal6HPhqX807pfzbD77VV6FsNO0t4BULnGKcd+hLbwDyq4K59yjMFIRjWLaRJG2sfpuOfbNu3MYjj2Tzcw4HVrvaJpMN9qtesxqLGztKMR/fSYRBuTb+UPkZAaJvslHz5JE6ncN1WYGIgssjeG9jOIcK1Se4aTtQZ5nHv+m7X4zuXLh0yNANRgo9NZoxnq3TNWjvjQkAvdrnwTQBDLfggcJ7ZFDhn3mkwvwORZWmD6aQrsfceM4rOJuWaxP+grc/itjSI73gHXP3Q444Y4aIgORGZ/mWpUuaNOOXocQ4wKmuzzU55QqFv+NOIP9ZGN94nzSgCKgQO1TOhTFleADXdVie1MYeM8puSSAsHugl7HjM18TIAaVuFk2GeaPrcTktia2ilQx6qbEvRQZC+BDdkzBJHZlwhwqd8pbfpdrnvnB1GYMpfktPU9t5b2FDS"[truncated 100 chars]; line: 1, column: 27]
+2023-08-17 , 11:56:10 , Error , /com/herculife/herculifepelvictutor/TrianingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrianingSetUp.fxml
+
+2023-08-17 , 11:58:41 , Error , /com/herculife/herculifepelvictutor/TrianingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrianingSetUp.fxml
+
+2023-08-17 , 11:59:52 , Error , /com/herculife/herculifepelvictutor/TrianingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrianingSetUp.fxml
+
+2023-08-17 , 12:02:16 , Error , /com/herculife/herculifepelvictutor/TrianingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrianingSetUp.fxml
+
+2023-08-17 , 12:03:51 , Error , /com/herculife/herculifepelvictutor/TrianingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrianingSetUp.fxml
+
+2023-08-17 , 12:05:48 , Error , /com/herculife/herculifepelvictutor/TrianingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrianingSetUp.fxml
+
+2023-08-17 , 12:09:44 , Error , /com/herculife/herculifepelvictutor/TrianingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrianingSetUp.fxml
+
+2023-08-17 , 12:10:57 , Error , /com/herculife/herculifepelvictutor/TrianingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrianingSetUp.fxml
+
+2023-08-17 , 12:13:13 , Error , /com/herculife/herculifepelvictutor/TrianingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrianingSetUp.fxml
+
+2023-08-17 , 12:15:17 , Error , /com/herculife/herculifepelvictutor/TrianingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrianingSetUp.fxml
+
+2023-08-17 , 12:15:19 , Error , /com/herculife/herculifepelvictutor/TrianingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrianingSetUp.fxml
+
+2023-08-17 , 12:15:19 , Error , /com/herculife/herculifepelvictutor/TrianingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrianingSetUp.fxml
+
+2023-08-17 , 12:15:19 , Error , /com/herculife/herculifepelvictutor/TrianingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrianingSetUp.fxml
+
+2023-08-17 , 12:15:19 , Error , /com/herculife/herculifepelvictutor/TrianingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrianingSetUp.fxml
+
+2023-08-17 , 12:15:20 , Error , /com/herculife/herculifepelvictutor/TrianingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrianingSetUp.fxml
+
+2023-08-17 , 12:15:20 , Error , /com/herculife/herculifepelvictutor/TrianingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrianingSetUp.fxml
+
+2023-08-17 , 13:22:40 , Error , /com/herculife/herculifepelvictutor/TrianingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrianingSetUp.fxml
+
+2023-08-17 , 13:22:41 , Error , /com/herculife/herculifepelvictutor/TrianingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrianingSetUp.fxml
+
+2023-08-17 , 13:23:49 , Error , /com/herculife/herculifepelvictutor/TrianingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrianingSetUp.fxml
+
+2023-08-17 , 15:30:13 , Error , /com/herculife/herculifepelvictutor/TrianingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrianingSetUp.fxml:21
+
+2023-08-17 , 16:54:31 , Error , /com/herculife/herculifepelvictutor/BasicTrainingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/BasicTrainingSetUp.fxml
+
+2023-08-17 , 16:54:32 , Error , /com/herculife/herculifepelvictutor/BasicTrainingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/BasicTrainingSetUp.fxml
+
+2023-08-18 , 12:44:46 , Error , /com/herculife/herculifepelvictutor/AdvancedTrainingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/AdvancedTrainingSetUp.fxml
+
+2023-08-18 , 12:44:47 , Error , /com/herculife/herculifepelvictutor/AdvancedTrainingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/AdvancedTrainingSetUp.fxml
+
+2023-08-18 , 12:44:48 , Error , /com/herculife/herculifepelvictutor/AdvancedTrainingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/AdvancedTrainingSetUp.fxml
+
+2023-08-18 , 12:44:48 , Error , /com/herculife/herculifepelvictutor/AdvancedTrainingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/AdvancedTrainingSetUp.fxml
+
+2023-08-18 , 12:44:48 , Error , /com/herculife/herculifepelvictutor/AdvancedTrainingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/AdvancedTrainingSetUp.fxml
+
+2023-08-18 , 14:12:19 , Error , /com/herculife/herculifepelvictutor/BladerTrainingSetUp.fxml , Error resolving onMouseReleased='#sliderFunction4', either the event handler is not in the Namespace or there is an error in the script.
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/BladerTrainingSetUp.fxml:218
+
+2023-08-18 , 14:27:28 , Error , /com/herculife/herculifepelvictutor/AdvancedTrainingSetUp.fxml , Error resolving onMouseClicked='#goBackButton', either the event handler is not in the Namespace or there is an error in the script.
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/AdvancedTrainingSetUp.fxml:151
+
+2023-08-18 , 14:27:30 , Error , /com/herculife/herculifepelvictutor/AdvancedTrainingSetUp.fxml , Error resolving onMouseClicked='#goBackButton', either the event handler is not in the Namespace or there is an error in the script.
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/AdvancedTrainingSetUp.fxml:151
+
+2023-08-18 , 14:27:31 , Error , /com/herculife/herculifepelvictutor/AdvancedTrainingSetUp.fxml , Error resolving onMouseClicked='#goBackButton', either the event handler is not in the Namespace or there is an error in the script.
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/AdvancedTrainingSetUp.fxml:151
+
+2023-08-18 , 14:27:31 , Error , /com/herculife/herculifepelvictutor/AdvancedTrainingSetUp.fxml , Error resolving onMouseClicked='#goBackButton', either the event handler is not in the Namespace or there is an error in the script.
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/AdvancedTrainingSetUp.fxml:151
+
+2023-08-18 , 17:09:48 , Error , /com/herculife/herculifepelvictutor/BladderTrainingSetUp.fxml , Error resolving onMouseReleased='#sliderFunction4', either the event handler is not in the Namespace or there is an error in the script.
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/BladderTrainingSetUp.fxml:227
+
+2023-08-18 , 17:09:50 , Error , /com/herculife/herculifepelvictutor/BladderTrainingSetUp.fxml , Error resolving onMouseReleased='#sliderFunction4', either the event handler is not in the Namespace or there is an error in the script.
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/BladderTrainingSetUp.fxml:227
+
+2023-08-18 , 17:43:48 , Error , /com/herculife/herculifepelvictutor/AdvancedTrainingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/AdvancedTrainingSetUp.fxml
+
+2023-08-18 , 17:43:49 , Error , /com/herculife/herculifepelvictutor/AdvancedTrainingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/AdvancedTrainingSetUp.fxml
+
+2023-08-18 , 17:44:22 , Error , /com/herculife/herculifepelvictutor/AdvancedTrainingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/AdvancedTrainingSetUp.fxml
+
+2023-08-21 , 17:09:38 , Error , /com/herculife/herculifepelvictutor/PostTrainingDashboard.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/PostTrainingDashboard.fxml
+
+2023-08-21 , 17:09:40 , Error , /com/herculife/herculifepelvictutor/PostTrainingDashboard.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/PostTrainingDashboard.fxml
+
+2023-08-22 , 11:58:58 , Error , /com/herculife/herculifepelvictutor/PostTrainingDashboard.fxml , Error resolving onAction='#q2', either the event handler is not in the Namespace or there is an error in the script.
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/PostTrainingDashboard.fxml:277
+
+2023-08-22 , 11:58:59 , Error , /com/herculife/herculifepelvictutor/PostTrainingDashboard.fxml , Error resolving onAction='#q2', either the event handler is not in the Namespace or there is an error in the script.
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/PostTrainingDashboard.fxml:277
+
+2023-08-22 , 17:36:20 , Error , /com/herculife/herculifepelvictutor/PostTrainingDashboard.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/PostTrainingDashboard.fxml
+
+2023-08-24 , 14:54:38 , Error , /com/herculife/herculifepelvictutor/TrainingHistory.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrainingHistory.fxml
+
+2023-08-24 , 14:56:08 , Error , /com/herculife/herculifepelvictutor/TrainingHistory.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrainingHistory.fxml
+
+2023-08-24 , 15:33:35 , Error , /com/herculife/herculifepelvictutor/TrainingHistory.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrainingHistory.fxml
+
+2023-08-24 , 15:37:47 , Error , /com/herculife/herculifepelvictutor/TrainingHistory.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrainingHistory.fxml
+
+2023-08-24 , 16:11:12 , Error , /com/herculife/herculifepelvictutor/TrainingHistory.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrainingHistory.fxml
+
+2023-08-24 , 16:11:43 , Error , /com/herculife/herculifepelvictutor/TrainingHistory.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrainingHistory.fxml
+
+2023-08-24 , 16:13:28 , Error , /com/herculife/herculifepelvictutor/TrainingHistory.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrainingHistory.fxml
+
+2023-08-24 , 16:13:53 , Error , /com/herculife/herculifepelvictutor/TrainingHistory.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrainingHistory.fxml
+
+2023-08-24 , 16:21:53 , Error , /com/herculife/herculifepelvictutor/TrainingHistory.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrainingHistory.fxml
+
+2023-08-25 , 12:54:21 , Error , /com/herculife/herculifepelvictutor/TrainingHistory.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrainingHistory.fxml
+
+2023-08-25 , 12:54:22 , Error , /com/herculife/herculifepelvictutor/TrainingHistory.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrainingHistory.fxml
+
+2023-08-25 , 13:11:20 , Error , /com/herculife/herculifepelvictutor/TrainingHistory.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrainingHistory.fxml
+
+2023-08-25 , 13:12:03 , Error , /com/herculife/herculifepelvictutor/TrainingHistory.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrainingHistory.fxml
+
+2023-08-25 , 13:15:52 , Error , /com/herculife/herculifepelvictutor/TrainingHistory.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrainingHistory.fxml
+
+2023-08-25 , 17:27:36 , Error , /com/herculife/herculifepelvictutor/SelectTraining.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/SelectTraining.fxml
+
+2023-08-25 , 17:28:19 , Error , /com/herculife/herculifepelvictutor/SelectTraining.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/SelectTraining.fxml
+
+2023-08-29 , 12:37:49 , Error , /com/herculife/herculifepelvictutor/TrainingViews/StabilityTrainingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrainingViews/StabilityTrainingSetUp.fxml
+
+2023-08-29 , 12:39:16 , Error , /com/herculife/herculifepelvictutor/TrainingViews/StabilityTrainingSetUp.fxml , 
+/D:/Intellij/Project%20Pelvic%20Floor/Herculife%20Pelvic%20Tutor/target/classes/com/herculife/herculifepelvictutor/TrainingViews/StabilityTrainingSetUp.fxml
+
