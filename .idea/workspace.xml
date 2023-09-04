@@ -9,22 +9,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0693ce2d-4679-4a53-89ad-5eab35ff0390" name="Changes" comment="29/08/2023 Start of V2">
+    <list default="true" id="0693ce2d-4679-4a53-89ad-5eab35ff0390" name="Changes" comment="29/08/2023 End of the day">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/Poppins-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/fonts/Poppins-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/fonts/Poppins-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/fonts/Poppins-Regular.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PelvicTutor.log" beforeDir="false" afterPath="$PROJECT_DIR$/PelvicTutor.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Herculife_Pelvic_Tutor_jar/Herculife Pelvic Tutor.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Herculife_Pelvic_Tutor_jar/Herculife Pelvic Tutor.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/herculife/herculifepelvictutor/Controllers/PostTrainingDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/herculife/herculifepelvictutor/Controllers/PostTrainingDashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/herculife/herculifepelvictutor/Controllers/TrainingControllers/AdvancedTrainingSetUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/herculife/herculifepelvictutor/Controllers/TrainingControllers/AdvancedTrainingSetUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/herculife/herculifepelvictutor/Controllers/TrainingControllers/BasicTrainingSetUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/herculife/herculifepelvictutor/Controllers/TrainingControllers/BasicTrainingSetUp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/herculife/herculifepelvictutor/Controllers/TrainingControllers/BladderTrainingSetUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/herculife/herculifepelvictutor/Controllers/TrainingControllers/BladderTrainingSetUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/herculife/herculifepelvictutor/Controllers/TrainingHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/herculife/herculifepelvictutor/Controllers/TrainingHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/herculife/herculifepelvictutor/Controllers/TrainingControllers/StabilityTrainingSetUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/herculife/herculifepelvictutor/Controllers/TrainingControllers/StabilityTrainingSetUp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/CSS/project-styling.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/CSS/project-styling.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/PostTrainingDashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/PostTrainingDashboard.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/SelectTraining.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/SelectTraining.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/TrainingHistory.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/TrainingHistory.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/TrainingViews/AdvancedTrainingSetUp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/TrainingViews/AdvancedTrainingSetUp.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/TrainingViews/BasicTrainingSetUp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/TrainingViews/BasicTrainingSetUp.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/TrainingViews/BladderTrainingSetUp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/TrainingViews/BladderTrainingSetUp.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/TrainingViews/StabilityTrainingSetUp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/TrainingViews/StabilityTrainingSetUp.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/UserList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/herculife/herculifepelvictutor/UserList.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,19 +49,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "F:/IntellijProjects/Project Pelvic Floor/Herculife Pelvic Tutor",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.37241378",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/IntellijProjects/Project Pelvic Floor/Herculife Pelvic Tutor&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.37241378&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Intellij\Project Pelvic Floor\Herculife Pelvic Tutor\src\main\resources\com\herculife\herculifepelvictutor" />
@@ -307,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693285291424</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="29/08/2023 End of the day">
+      <created>1693302318011</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1693302318011</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -349,6 +352,7 @@
     <MESSAGE value="25/08/2023 END, Training History in Done&#10;need to change the charts in the post dashboardl" />
     <MESSAGE value="25/08/2023 END" />
     <MESSAGE value="29/08/2023 Start of V2" />
-    <option name="LAST_COMMIT_MESSAGE" value="29/08/2023 Start of V2" />
+    <MESSAGE value="29/08/2023 End of the day" />
+    <option name="LAST_COMMIT_MESSAGE" value="29/08/2023 End of the day" />
   </component>
 </project>

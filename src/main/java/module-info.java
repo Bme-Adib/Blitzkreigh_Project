@@ -12,17 +12,17 @@ module com.herculife.herculifepelvictutor {
     requires com.fasterxml.jackson.databind;
     requires aes.everywhere.java;
 
-    opens com.herculife.herculifepelvictutor to javafx.fxml;
-    exports com.herculife.herculifepelvictutor;
+    opens com.herculife.herculifeLunaEMG to javafx.fxml;
+    exports com.herculife.herculifeLunaEMG;
 
-    opens com.herculife.herculifepelvictutor.Controllers to javafx.fxml;
-    exports com.herculife.herculifepelvictutor.Controllers;
+    opens com.herculife.herculifeLunaEMG.Controllers to javafx.fxml;
+    exports com.herculife.herculifeLunaEMG.Controllers;
 
-    opens com.herculife.herculifepelvictutor.ProjectSettings to javafx.fxml;
-    exports com.herculife.herculifepelvictutor.ProjectSettings;
+    opens com.herculife.herculifeLunaEMG.ProjectSettings to javafx.fxml;
+    exports com.herculife.herculifeLunaEMG.ProjectSettings;
 
-    opens com.herculife.herculifepelvictutor.ProjectClasses to javafx.fxml;
-    exports com.herculife.herculifepelvictutor.ProjectClasses;
-    exports com.herculife.herculifepelvictutor.Controllers.TrainingControllers;
-    opens com.herculife.herculifepelvictutor.Controllers.TrainingControllers to javafx.fxml;
+    opens com.herculife.herculifeLunaEMG.ProjectClasses to javafx.fxml;
+    exports com.herculife.herculifeLunaEMG.ProjectClasses;
+    exports com.herculife.herculifeLunaEMG.Controllers.TrainingControllers;
+    opens com.herculife.herculifeLunaEMG.Controllers.TrainingControllers to javafx.fxml;
 }

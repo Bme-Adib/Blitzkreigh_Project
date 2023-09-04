@@ -103,7 +103,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.herculife.herculifepelvictutor/com.herculife.herculifepelvictutor.HerculifePelvicTutorApplication
+                                com.herculife.herculifepelvictutor/com.herculife.herculifeLunaEMG.HerculifeLunaEMGApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

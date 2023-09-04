@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" styleClass="previousTrainingsCell"
+            stylesheets="@CSS/project-styling.css"
+            fx:controller="com.herculife.herculifeLunaEMG.Controllers.TrainingHistoryCell">
+    <children>
+        <AnchorPane fx:id="CellBackground" prefHeight="50.0" prefWidth="225.0" styleClass="previousTrainingsCell"
+                    AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                    AnchorPane.topAnchor="0.0"/>
+        <AnchorPane fx:id="MainCell" prefHeight="50.0" prefWidth="225.0" styleClass="previousTrainingsCell"
+                    AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                    AnchorPane.topAnchor="0.0">
+            <children>
+                <Label fx:id="trainingDate" styleClass="inputText" text="24.08.2023, 14:45" AnchorPane.leftAnchor="5.0"
+                       AnchorPane.topAnchor="5.0"/>
+                <Label fx:id="trainingType" text="Basic Training" AnchorPane.leftAnchor="5.0"
+                       AnchorPane.topAnchor="18.0"/>
+                <CheckBox fx:id="printPDF" mnemonicParsing="false" prefHeight="17.0" AnchorPane.bottomAnchor="0.0"
+                          AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="0.0"/>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

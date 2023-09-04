@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:id="root" prefHeight="800.0" prefWidth="1280.0"
+            stylesheets="@CSS/project-styling.css" xmlns="http://javafx.com/javafx/20.0.1"
+            fx:controller="com.herculife.herculifeLunaEMG.Controllers.TrainingHistory">
+    <children>
+        <ImageView fx:id="bgImage" fitHeight="1080.0" fitWidth="1920.0" pickOnBounds="true" preserveRatio="true"
+                   AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                   AnchorPane.topAnchor="0.0">
+            <image>
+                <Image url="@appbg.jpg"/>
+            </image>
+        </ImageView>
+        <BorderPane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+                    minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0"
+                    AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <top>
+                <MenuBar fx:id="topMenuBar" BorderPane.alignment="CENTER">
+                    <menus>
+                        <Menu mnemonicParsing="false" text="File">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#fileMenu_logOut" text="Log out"/>
+                                <MenuItem fx:id="fileMenu_Close" mnemonicParsing="false"
+                                          onAction="#fileMenu_CloseAction" text="Exit"/>
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Help">
+                            <items>
+                                <Menu mnemonicParsing="false" text="Quick Tutorials">
+                                    <items>
+                                        <MenuItem mnemonicParsing="false" onAction="#tutorialCreateNewPatient"
+                                                  text="Create New Patient"/>
+                                        <MenuItem mnemonicParsing="false" onAction="#tutorialSetUpParameters"
+                                                  text="Setting Up Training Parameters"/>
+                                    </items>
+                                </Menu>
+                                <MenuItem mnemonicParsing="false" onAction="#helpDesk" text="Help Desk"/>
+                                <MenuItem mnemonicParsing="false" onAction="#aboutPelvicTutorPopUp"
+                                          text="About Herculife Pelvic Tutor"/>
+                            </items>
+                        </Menu>
+                    </menus>
+                </MenuBar>
+            </top>
+            <center>
+                <AnchorPane>
+                    <children>
+                        <AnchorPane fx:id="LeftBox" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                                    AnchorPane.topAnchor="0.0">
+                            <children>
+                                <AnchorPane prefHeight="200.0" prefWidth="225.0" styleClass="dashboardLayoutBackground"
+                                            AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="0.0"
+                                            AnchorPane.topAnchor="0.0"/>
+                                <VBox layoutY="110.0" prefHeight="200.0" prefWidth="225.0"
+                                      AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="0.0"
+                                      AnchorPane.topAnchor="110.0">
+                                    <children>
+                                        <Button fx:id="startNewTraining" mnemonicParsing="false"
+                                                onMouseClicked="#startNewTraining" prefHeight="60.0" prefWidth="200.0"
+                                                styleClass="dashboardButtons" text="Start New Training">
+                                            <VBox.margin>
+                                                <Insets top="25.0"/>
+                                            </VBox.margin>
+                                        </Button>
+                                        <Button fx:id="trainingHistory" layoutX="35.0" layoutY="35.0"
+                                                mnemonicParsing="false" onMouseClicked="#trainingHistory"
+                                                prefHeight="60.0" prefWidth="200.0" styleClass="dashboardButtons"
+                                                text="Trainings History">
+                                            <VBox.margin>
+                                                <Insets top="25.0"/>
+                                            </VBox.margin>
+                                        </Button>
+                                        <Button layoutX="35.0" layoutY="260.0" mnemonicParsing="false"
+                                                onMouseClicked="#logOut" prefHeight="60.0" prefWidth="200.0"
+                                                styleClass="dashboardButtons" text="Full Patients List">
+                                            <VBox.margin>
+                                                <Insets top="25.0"/>
+                                            </VBox.margin>
+                                        </Button>
+                                    </children>
+                                </VBox>
+                                <ImageView fitHeight="75.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true"
+                                           AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="30.0">
+                                    <image>
+                                        <Image url="@../../../herculife.png"/>
+                                    </image>
+                                </ImageView>
+                            </children>
+                        </AnchorPane>
+                        <AnchorPane fx:id="TopBox" layoutX="225.0" AnchorPane.leftAnchor="225.0"
+                                    AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                            <children>
+                                <AnchorPane prefHeight="110.0" prefWidth="250.0" styleClass="dashboardLayoutBackground"
+                                            AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                                            AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0"/>
+                                <AnchorPane layoutX="1.0" layoutY="10.0" prefHeight="110.0" prefWidth="200.0"
+                                            AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                                            AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                    <children>
+                                        <HBox layoutY="20.0" prefHeight="30.0" prefWidth="200.0"
+                                              AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                                              AnchorPane.topAnchor="0.0">
+                                            <children>
+                                                <HBox prefHeight="30.0" prefWidth="300.0">
+                                                    <children>
+                                                        <Label prefHeight="30.0" prefWidth="100.0"
+                                                               styleClass="inputTextNoBolding" text="MRN:">
+                                                            <HBox.margin>
+                                                                <Insets right="20.0"/>
+                                                            </HBox.margin>
+                                                        </Label>
+                                                        <Label fx:id="mrn" layoutX="10.0" layoutY="10.0"
+                                                               prefHeight="30.0" prefWidth="150.0"
+                                                               styleClass="inputText" text="N/A"/>
+                                                    </children>
+                                                </HBox>
+                                                <HBox layoutX="10.0" layoutY="10.0" prefHeight="30.0" prefWidth="300.0">
+                                                    <children>
+                                                        <Label prefHeight="30.0" prefWidth="100.0"
+                                                               styleClass="inputTextNoBolding" text="Date of Birth:">
+                                                            <HBox.margin>
+                                                                <Insets right="20.0"/>
+                                                            </HBox.margin>
+                                                        </Label>
+                                                        <Label fx:id="dob" layoutX="10.0" layoutY="10.0"
+                                                               prefHeight="30.0" prefWidth="150.0"
+                                                               styleClass="inputText" text="N/A"/>
+                                                    </children>
+                                                </HBox>
+                                                <HBox layoutX="310.0" layoutY="10.0" prefHeight="30.0"
+                                                      prefWidth="300.0">
+                                                    <children>
+                                                        <Label prefHeight="30.0" prefWidth="100.0"
+                                                               styleClass="inputTextNoBolding" text="Patient ID:">
+                                                            <HBox.margin>
+                                                                <Insets right="20.0"/>
+                                                            </HBox.margin>
+                                                        </Label>
+                                                        <Label fx:id="id" layoutX="10.0" layoutY="10.0"
+                                                               prefHeight="30.0" prefWidth="150.0"
+                                                               styleClass="inputText" text="N/A"/>
+                                                    </children>
+                                                </HBox>
+                                            </children>
+                                            <padding>
+                                                <Insets top="10.0"/>
+                                            </padding>
+                                        </HBox>
+                                        <HBox layoutY="80.0" prefHeight="20.0" prefWidth="200.0"
+                                              AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                                              AnchorPane.topAnchor="40.0">
+                                            <children>
+                                                <HBox prefHeight="30.0" prefWidth="300.0">
+                                                    <children>
+                                                        <Label prefHeight="30.0" prefWidth="100.0"
+                                                               styleClass="inputTextNoBolding" text="First Name:">
+                                                            <HBox.margin>
+                                                                <Insets right="20.0"/>
+                                                            </HBox.margin>
+                                                        </Label>
+                                                        <Label fx:id="firstName" layoutX="10.0" layoutY="10.0"
+                                                               prefHeight="30.0" prefWidth="150.0"
+                                                               styleClass="inputText" text="N/A"/>
+                                                    </children>
+                                                </HBox>
+                                                <HBox layoutX="10.0" layoutY="10.0" prefHeight="30.0" prefWidth="300.0">
+                                                    <children>
+                                                        <Label prefHeight="30.0" prefWidth="100.0"
+                                                               styleClass="inputTextNoBolding" text="Age:">
+                                                            <HBox.margin>
+                                                                <Insets right="20.0"/>
+                                                            </HBox.margin>
+                                                        </Label>
+                                                        <Label fx:id="age" layoutX="10.0" layoutY="10.0"
+                                                               prefHeight="30.0" prefWidth="150.0"
+                                                               styleClass="inputText" text="N/A"/>
+                                                    </children>
+                                                </HBox>
+                                                <HBox layoutX="310.0" layoutY="10.0" prefHeight="30.0"
+                                                      prefWidth="300.0">
+                                                    <children>
+                                                        <Label prefHeight="30.0" prefWidth="100.0"
+                                                               styleClass="inputTextNoBolding" text="Gender">
+                                                            <HBox.margin>
+                                                                <Insets right="20.0"/>
+                                                            </HBox.margin>
+                                                        </Label>
+                                                        <Label fx:id="gender" layoutX="10.0" layoutY="10.0"
+                                                               prefHeight="30.0" prefWidth="150.0"
+                                                               styleClass="inputText" text="N/A"/>
+                                                    </children>
+                                                </HBox>
+                                            </children>
+                                        </HBox>
+                                        <HBox layoutY="160.0" prefHeight="20.0" prefWidth="200.0"
+                                              AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                                              AnchorPane.topAnchor="70.0">
+                                            <children>
+                                                <HBox prefHeight="30.0" prefWidth="300.0">
+                                                    <children>
+                                                        <Label prefHeight="30.0" prefWidth="100.0"
+                                                               styleClass="inputTextNoBolding" text="Family Name:">
+                                                            <HBox.margin>
+                                                                <Insets right="20.0"/>
+                                                            </HBox.margin>
+                                                        </Label>
+                                                        <Label fx:id="lastName" layoutX="10.0" layoutY="10.0"
+                                                               prefHeight="30.0" prefWidth="150.0"
+                                                               styleClass="inputText" text="N/A"/>
+                                                    </children>
+                                                </HBox>
+                                                <HBox layoutX="10.0" layoutY="10.0" prefHeight="30.0" prefWidth="300.0">
+                                                    <children>
+                                                        <Label prefHeight="30.0" prefWidth="100.0"
+                                                               styleClass="inputTextNoBolding" text="Nationality">
+                                                            <HBox.margin>
+                                                                <Insets right="20.0"/>
+                                                            </HBox.margin>
+                                                        </Label>
+                                                        <Label fx:id="nationality" layoutX="10.0" layoutY="10.0"
+                                                               prefHeight="30.0" prefWidth="150.0"
+                                                               styleClass="inputText" text="N/A"/>
+                                                    </children>
+                                                </HBox>
+                                                <HBox layoutX="310.0" layoutY="10.0" prefHeight="30.0"
+                                                      prefWidth="350.0">
+                                                    <children>
+                                                        <Label prefHeight="30.0" prefWidth="100.0"
+                                                               styleClass="inputTextNoBolding" text="Email:">
+                                                            <HBox.margin>
+                                                                <Insets right="20.0"/>
+                                                            </HBox.margin>
+                                                        </Label>
+                                                        <Label fx:id="email" layoutX="10.0" layoutY="10.0"
+                                                               prefHeight="30.0" prefWidth="200.0"
+                                                               styleClass="inputText" text="N/A"/>
+                                                    </children>
+                                                </HBox>
+                                                <HBox layoutX="610.0" layoutY="10.0" prefHeight="30.0"
+                                                      prefWidth="300.0">
+                                                    <children>
+                                                        <Label prefHeight="30.0" prefWidth="120.0"
+                                                               styleClass="inputTextNoBolding" text="Phone Number:">
+                                                            <HBox.margin>
+                                                                <Insets right="20.0"/>
+                                                            </HBox.margin>
+                                                        </Label>
+                                                        <Label fx:id="phoneNumber" layoutX="10.0" layoutY="10.0"
+                                                               prefHeight="30.0" prefWidth="150.0"
+                                                               styleClass="inputText" text="N/A"/>
+                                                    </children>
+                                                </HBox>
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </AnchorPane>
+                            </children>
+                        </AnchorPane>
+                        <AnchorPane fx:id="RightBox" layoutX="1395.0" layoutY="110.0" AnchorPane.bottomAnchor="15.0"
+                                    AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="130.0">
+                            <children>
+                                <AnchorPane fx:id="trainingHistoryBoxBackground" prefHeight="200.0" prefWidth="250.0"
+                                            AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                                            AnchorPane.topAnchor="0.0"/>
+                                <AnchorPane fx:id="trainingHistoryBox" prefHeight="200.0" prefWidth="250.0"
+                                            styleClass="previousTrainingsCell" AnchorPane.bottomAnchor="0.0"
+                                            AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                    <children>
+                                        <ScrollPane fx:id="trainingPanelScroll" hbarPolicy="NEVER" layoutX="3.0"
+                                                    layoutY="3.0" AnchorPane.bottomAnchor="0.0"
+                                                    AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                                                    AnchorPane.topAnchor="0.0">
+                                            <content>
+                                                <VBox fx:id="trainingsPanel" prefHeight="50.0" prefWidth="225.0"
+                                                      spacing="10.0" style="-fx-border-radius: 15;">
+                                                    <padding>
+                                                        <Insets bottom="10.0" left="5.0" right="5.0" top="10.0"/>
+                                                    </padding>
+                                                </VBox>
+                                            </content>
+                                        </ScrollPane>
+                                    </children>
+                                </AnchorPane>
+                            </children>
+                        </AnchorPane>
+                        <AnchorPane fx:id="MainInfo" layoutX="245.0" layoutY="130.0" AnchorPane.bottomAnchor="15.0"
+                                    AnchorPane.leftAnchor="235.0" AnchorPane.rightAnchor="280.0"
+                                    AnchorPane.topAnchor="130.0">
+                            <children>
+                                <AnchorPane fx:id="Background" prefHeight="200.0" prefWidth="200.0"
+                                            styleClass="dashboardLayoutBackground" AnchorPane.bottomAnchor="0.0"
+                                            AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                                            AnchorPane.topAnchor="0.0"/>
+                                <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0"
+                                            AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0"
+                                            AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                                    <children>
+                                        <VBox>
+                                            <children>
+                                                <VBox spacing="10.0">
+                                                    <children>
+                                                        <HBox spacing="10.0">
+                                                            <children>
+                                                                <HBox>
+                                                                    <children>
+                                                                        <Label styleClass="inputTextNoBolding"
+                                                                               text="Training Time Stamp:">
+                                                                            <HBox.margin>
+                                                                                <Insets right="10.0"/>
+                                                                            </HBox.margin>
+                                                                        </Label>
+                                                                        <Label fx:id="viewTimeStamp" prefWidth="150.0"
+                                                                               styleClass="inputText"
+                                                                               text="25/06/2023 17:35:01"/>
+                                                                    </children>
+                                                                </HBox>
+                                                                <HBox layoutX="10.0" layoutY="10.0">
+                                                                    <children>
+                                                                        <Label styleClass="inputTextNoBolding"
+                                                                               text="Training Type:">
+                                                                            <HBox.margin>
+                                                                                <Insets right="10.0"/>
+                                                                            </HBox.margin>
+                                                                        </Label>
+                                                                        <Label fx:id="viewTrainingType"
+                                                                               prefWidth="150.0" styleClass="inputText"
+                                                                               text="Stability Training"/>
+                                                                    </children>
+                                                                </HBox>
+                                                                <HBox layoutX="300.0" layoutY="10.0">
+                                                                    <children>
+                                                                        <Label styleClass="inputTextNoBolding"
+                                                                               text="Training Time:">
+                                                                            <HBox.margin>
+                                                                                <Insets right="10.0"/>
+                                                                            </HBox.margin>
+                                                                        </Label>
+                                                                        <Label fx:id="viewTrainingTime"
+                                                                               prefWidth="150.0" styleClass="inputText"
+                                                                               text="25 Min 10 Sec"/>
+                                                                    </children>
+                                                                </HBox>
+                                                            </children>
+                                                        </HBox>
+                                                        <Label prefWidth="140.0" styleClass="bigLabel"
+                                                               text="Coordinations:"/>
+                                                        <HBox layoutX="10.0" layoutY="10.0" spacing="30.0">
+                                                            <children>
+                                                                <HBox>
+                                                                    <children>
+                                                                        <Label prefWidth="130.0"
+                                                                               styleClass="inputTextNoBolding"
+                                                                               text="Relaxation:">
+                                                                            <HBox.margin>
+                                                                                <Insets right="10.0"/>
+                                                                            </HBox.margin>
+                                                                        </Label>
+                                                                        <Label fx:id="viewRelaxationCo" prefWidth="50.0"
+                                                                               styleClass="inputText" text="100%"/>
+                                                                    </children>
+                                                                </HBox>
+                                                                <HBox layoutX="10.0" layoutY="10.0">
+                                                                    <children>
+                                                                        <Label prefWidth="120.0"
+                                                                               styleClass="inputTextNoBolding"
+                                                                               text="Decontraction:">
+                                                                            <HBox.margin>
+                                                                                <Insets right="10.0"/>
+                                                                            </HBox.margin>
+                                                                        </Label>
+                                                                        <Label fx:id="viewDecontractionCo"
+                                                                               prefWidth="50.0" styleClass="inputText"
+                                                                               text="100%"/>
+                                                                    </children>
+                                                                </HBox>
+                                                                <HBox layoutX="300.0" layoutY="10.0">
+                                                                    <children>
+                                                                        <Label prefWidth="140.0"
+                                                                               styleClass="inputTextNoBolding"
+                                                                               text="Holding:">
+                                                                            <HBox.margin>
+                                                                                <Insets right="10.0"/>
+                                                                            </HBox.margin>
+                                                                        </Label>
+                                                                        <Label fx:id="viewHoldingCo" prefWidth="50.0"
+                                                                               styleClass="inputText" text="100%"/>
+                                                                    </children>
+                                                                </HBox>
+                                                                <HBox layoutX="330.0" layoutY="10.0">
+                                                                    <children>
+                                                                        <Label prefWidth="110.0"
+                                                                               styleClass="inputTextNoBolding"
+                                                                               text="Decontraction:">
+                                                                            <HBox.margin>
+                                                                                <Insets right="10.0"/>
+                                                                            </HBox.margin>
+                                                                        </Label>
+                                                                        <Label fx:id="viewDecontractionCoq"
+                                                                               prefWidth="50.0" styleClass="inputText"
+                                                                               text="100%"/>
+                                                                    </children>
+                                                                </HBox>
+                                                                <HBox layoutX="490.0" layoutY="10.0">
+                                                                    <children>
+                                                                        <Label styleClass="inputText" text="Overall:">
+                                                                            <HBox.margin>
+                                                                                <Insets right="10.0"/>
+                                                                            </HBox.margin>
+                                                                        </Label>
+                                                                        <Label fx:id="viewCO" prefWidth="50.0"
+                                                                               styleClass="inputText" text="100%"/>
+                                                                    </children>
+                                                                </HBox>
+                                                            </children>
+                                                        </HBox>
+                                                        <HBox layoutX="10.0" layoutY="75.0" spacing="30.0">
+                                                            <children>
+                                                                <HBox>
+                                                                    <children>
+                                                                        <Label prefWidth="130.0"
+                                                                               styleClass="inputTextNoBolding"
+                                                                               text="Initial Muscle Tone">
+                                                                            <HBox.margin>
+                                                                                <Insets right="10.0"/>
+                                                                            </HBox.margin>
+                                                                        </Label>
+                                                                        <Label fx:id="viewInitialM" prefWidth="50.0"
+                                                                               styleClass="inputText" text="100%"/>
+                                                                    </children>
+                                                                </HBox>
+                                                                <HBox layoutX="10.0" layoutY="10.0">
+                                                                    <children>
+                                                                        <Label prefWidth="120.0"
+                                                                               styleClass="inputTextNoBolding"
+                                                                               text="Final Muscle Tone">
+                                                                            <HBox.margin>
+                                                                                <Insets right="10.0"/>
+                                                                            </HBox.margin>
+                                                                        </Label>
+                                                                        <Label fx:id="viewFinalM" prefWidth="50.0"
+                                                                               styleClass="inputText" text="100%"/>
+                                                                    </children>
+                                                                </HBox>
+                                                                <HBox layoutX="300.0" layoutY="10.0">
+                                                                    <children>
+                                                                        <Label prefWidth="140.0"
+                                                                               styleClass="inputTextNoBolding"
+                                                                               text="Max Muscle Strength">
+                                                                            <HBox.margin>
+                                                                                <Insets right="10.0"/>
+                                                                            </HBox.margin>
+                                                                        </Label>
+                                                                        <Label fx:id="viewMaxStrength" prefWidth="50.0"
+                                                                               styleClass="inputText" text="100%"/>
+                                                                    </children>
+                                                                </HBox>
+                                                                <HBox layoutX="330.0" layoutY="10.0">
+                                                                    <children>
+                                                                        <Label prefWidth="110.0"
+                                                                               styleClass="inputTextNoBolding"
+                                                                               text="Muscle Strength">
+                                                                            <HBox.margin>
+                                                                                <Insets right="10.0"/>
+                                                                            </HBox.margin>
+                                                                        </Label>
+                                                                        <Label fx:id="viewMuscleStrength"
+                                                                               prefWidth="50.0" styleClass="inputText"
+                                                                               text="100%"/>
+                                                                    </children>
+                                                                </HBox>
+                                                            </children>
+                                                        </HBox>
+                                                        <Label layoutX="10.0" layoutY="40.0" prefWidth="140.0"
+                                                               styleClass="bigLabel" text="Training Settings:"/>
+                                                        <HBox layoutX="10.0" layoutY="75.0" spacing="30.0">
+                                                            <children>
+                                                                <HBox>
+                                                                    <children>
+                                                                        <Label prefWidth="130.0"
+                                                                               styleClass="inputTextNoBolding"
+                                                                               text="Training Target:">
+                                                                            <HBox.margin>
+                                                                                <Insets right="10.0"/>
+                                                                            </HBox.margin>
+                                                                        </Label>
+                                                                        <Label fx:id="viewTrainingTarget"
+                                                                               prefWidth="50.0" styleClass="inputText"
+                                                                               text="60%"/>
+                                                                    </children>
+                                                                </HBox>
+                                                                <HBox layoutX="10.0" layoutY="10.0">
+                                                                    <children>
+                                                                        <Label prefWidth="120.0"
+                                                                               styleClass="inputTextNoBolding"
+                                                                               text="Relaxation Time:">
+                                                                            <HBox.margin>
+                                                                                <Insets right="10.0"/>
+                                                                            </HBox.margin>
+                                                                        </Label>
+                                                                        <Label fx:id="viewRelaxationTime"
+                                                                               prefWidth="50.0" styleClass="inputText"
+                                                                               text="20 Sec"/>
+                                                                    </children>
+                                                                </HBox>
+                                                                <HBox layoutX="300.0" layoutY="10.0">
+                                                                    <children>
+                                                                        <Label prefWidth="140.0"
+                                                                               styleClass="inputTextNoBolding"
+                                                                               text="Contraction Time:">
+                                                                            <HBox.margin>
+                                                                                <Insets right="10.0"/>
+                                                                            </HBox.margin>
+                                                                        </Label>
+                                                                        <Label fx:id="viewContractionTime"
+                                                                               prefWidth="50.0" styleClass="inputText"
+                                                                               text="5 Sec"/>
+                                                                    </children>
+                                                                </HBox>
+                                                                <HBox layoutX="330.0" layoutY="10.0">
+                                                                    <children>
+                                                                        <Label prefWidth="110.0"
+                                                                               styleClass="inputTextNoBolding"
+                                                                               text="Holding Time:">
+                                                                            <HBox.margin>
+                                                                                <Insets right="10.0"/>
+                                                                            </HBox.margin>
+                                                                        </Label>
+                                                                        <Label fx:id="viewHoldingTime" prefWidth="50.0"
+                                                                               styleClass="inputText" text="3 Sec"/>
+                                                                    </children>
+                                                                </HBox>
+                                                                <HBox layoutX="490.0" layoutY="10.0">
+                                                                    <children>
+                                                                        <Label prefWidth="130.0"
+                                                                               styleClass="inputTextNoBolding"
+                                                                               text="Decontraction Time:">
+                                                                            <HBox.margin>
+                                                                                <Insets right="10.0"/>
+                                                                            </HBox.margin>
+                                                                        </Label>
+                                                                        <Label fx:id="viewDecontractionTime"
+                                                                               styleClass="inputText" text="5 Sec"/>
+                                                                    </children>
+                                                                </HBox>
+                                                            </children>
+                                                        </HBox>
+                                                        <HBox layoutX="10.0" layoutY="170.0" spacing="30.0">
+                                                            <children>
+                                                                <HBox>
+                                                                    <children>
+                                                                        <Label prefWidth="130.0"
+                                                                               styleClass="inputTextNoBolding"
+                                                                               text="Reps:">
+                                                                            <HBox.margin>
+                                                                                <Insets right="10.0"/>
+                                                                            </HBox.margin>
+                                                                        </Label>
+                                                                        <Label fx:id="viewReps" prefWidth="50.0"
+                                                                               styleClass="inputText" text="5"/>
+                                                                    </children>
+                                                                </HBox>
+                                                                <HBox layoutX="10.0" layoutY="10.0">
+                                                                    <children>
+                                                                        <Label prefWidth="120.0"
+                                                                               styleClass="inputTextNoBolding"
+                                                                               text="Sets:">
+                                                                            <HBox.margin>
+                                                                                <Insets right="10.0"/>
+                                                                            </HBox.margin>
+                                                                        </Label>
+                                                                        <Label fx:id="viewSets" prefWidth="50.0"
+                                                                               styleClass="inputText" text="3"/>
+                                                                    </children>
+                                                                </HBox>
+                                                                <HBox layoutX="300.0" layoutY="10.0">
+                                                                    <children>
+                                                                        <Label prefWidth="140.0"
+                                                                               styleClass="inputTextNoBolding"
+                                                                               text="Difficulty Level">
+                                                                            <HBox.margin>
+                                                                                <Insets right="10.0"/>
+                                                                            </HBox.margin>
+                                                                        </Label>
+                                                                        <Label fx:id="viewDifficultyLevel"
+                                                                               prefWidth="50.0" styleClass="inputText"
+                                                                               text="15%"/>
+                                                                    </children>
+                                                                </HBox>
+                                                                <HBox layoutX="330.0" layoutY="10.0">
+                                                                    <children>
+                                                                        <Label prefWidth="140.0"
+                                                                               styleClass="inputTextNoBolding"
+                                                                               text="Pauses Between Sets:">
+                                                                            <HBox.margin>
+                                                                                <Insets right="10.0"/>
+                                                                            </HBox.margin>
+                                                                        </Label>
+                                                                        <Label fx:id="viewPauses" prefWidth="50.0"
+                                                                               styleClass="inputText" text="3 Sec"/>
+                                                                    </children>
+                                                                </HBox>
+                                                                <HBox layoutX="490.0" layoutY="10.0"/>
+                                                            </children>
+                                                        </HBox>
+                                                        <Label layoutX="10.0" layoutY="135.0" prefWidth="140.0"
+                                                               styleClass="bigLabel" text="Survey Answers:"/>
+                                                        <HBox layoutX="10.0" layoutY="170.0" spacing="30.0">
+                                                            <children>
+                                                                <HBox>
+                                                                    <children>
+                                                                        <Label prefWidth="130.0"
+                                                                               styleClass="inputTextNoBolding"
+                                                                               text="Condition:">
+                                                                            <HBox.margin>
+                                                                                <Insets right="10.0"/>
+                                                                            </HBox.margin>
+                                                                        </Label>
+                                                                        <Label fx:id="viewSurveyAnswer1"
+                                                                               prefWidth="492.0" styleClass="inputText"
+                                                                               text="Elderly"/>
+                                                                    </children>
+                                                                </HBox>
+                                                                <HBox layoutX="10.0" layoutY="10.0">
+                                                                    <children>
+                                                                        <Label prefWidth="120.0"
+                                                                               styleClass="inputTextNoBolding"
+                                                                               text="Difficulty ">
+                                                                            <HBox.margin>
+                                                                                <Insets right="10.0"/>
+                                                                            </HBox.margin>
+                                                                        </Label>
+                                                                        <Label fx:id="viewSurveyAnswer2"
+                                                                               prefWidth="50.0" styleClass="inputText"
+                                                                               text="5"/>
+                                                                    </children>
+                                                                </HBox>
+                                                            </children>
+                                                        </HBox>
+                                                    </children>
+                                                </VBox>
+                                            </children>
+                                        </VBox>
+                                    </children>
+                                </AnchorPane>
+                            </children>
+                        </AnchorPane>
+                    </children>
+                </AnchorPane>
+            </center>
+        </BorderPane>
+        <Button fx:id="exitButton" layoutX="1595.1904296875" mnemonicParsing="false" onMouseClicked="#exitButtonAction"
+                text="X" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0"/>
+        <Label fx:id="TradeMarkText" layoutY="1065.0" stylesheets="@CSS/project-styling.css"
+               text="Created By Adib Ghannam @ 2023" textFill="WHITE" AnchorPane.bottomAnchor="0.0"
+               AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+            <font>
+                <Font name="System Bold" size="10.0"/>
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

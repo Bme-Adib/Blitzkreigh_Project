@@ -1,0 +1,555 @@
+
+/*
+Main Stylings:
+mainPink Color = #EE435B
+mainPink Darker = #d20770
+Light Blue =#d1eff2
+Darker 1 =  #bcd7d9
+Darker 2 =  #a7bfc1
+
+     -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+
+#root{
+    -fx-background-image: url("appbg.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+     -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+*/
+
+
+
+/*
+@font-face {
+    font-family: 'Droid Sans';
+    src: url('DroidSans.ttf');
+}
+
+*/
+
+
+@font-face {
+    font-family: poppins;
+    src: url('Poppins-Regular.ttf');
+}
+
+
+* {
+	white: #ffffff;
+	black: #000000;
+
+	lighterPink: #f9ebea;
+	mainPink: #F2D4D1;
+	darkerPink: #ecbfba;
+
+	lighterBlue: #f1fafb;
+	mainBlue: #d1eff2;
+	darkerBlue: #b9e7eb;
+
+	nudeColor: #E5A776;
+	darkBlueColor: #3264B5;
+	lightBlueColor: #8FB3C2;
+
+	mainAppColor: darkBlueColor;
+	secondaryAppColor: lightBlueColor;
+	thirdAppColor: nudeColor;
+
+	chartBaseLineColor: Black;
+	chartHandeCapLineColor: #3CB371;
+	chartSensorLineColor: #0000CD;
+	chartLineWidth: 3px;
+    mainFontFamily: "Times New Roman";
+    titleFontFamily: "";
+    tradMarkFontFamily: "Lucida Sans Unicode";
+
+}
+
+
+#bgImage{
+-fx-opacity: 0.5;
+}
+
+.opacity50{
+    -fx-opacity: 0.5;
+}
+
+.opacity75{
+    -fx-opacity: 0.75;
+}
+
+.opacity90{
+    -fx-opacity: 0.9;
+}
+
+#root, .rootBackground{
+    -fx-background-color: secondaryAppColor;
+}
+
+#topMenuBar{
+	-fx-background-color: secondaryAppColor;
+	-fx-opacity: 0.9;
+}
+
+#topMenuBar .label{
+	-fx-font-size: 12;
+    -fx-font-weight: 700;
+    -fx-font-family: mainFontFamily;
+}
+
+#topMenuBar:focused, .menu:hover, #topMenuBar .menu-item, .context-menu{
+    -fx-background-color: secondaryAppColor;
+    -fx-font-size: 12;
+    -fx-font-family: mainFontFamily;
+}
+
+#topBanner {
+	-fx-background-color: secondaryAppColor;
+	-fx-opacity: 0.7;
+	-fx-font-family: mainFontFamily;
+}
+
+#TradeMarkText {
+    -fx-background-color: black;
+    -fx-text-fill: mainBlue;
+    -fx-font-size: 10;
+    -fx-font-weight: 700;
+    -fx-font-family: mainFontFamily;
+}
+
+.patientTable{
+	-fx-cursor : hand;
+	-fx-font-family: mainFontFamily;
+        -fx-font-size:15px;
+}
+
+.patientTable .table-cell{
+        -fx-font-size:15px;
+}
+
+#exitButton {
+    -fx-background-color: lightBlueColor;
+    -fx-text-fill: black;
+    -fx-font-weight: 900;
+}
+
+.errorText {
+   -fx-font-size: 14;
+      -fx-font-weight: 700;
+      -fx-font-family: mainFontFamily;
+            -fx-text-fill: thirdAppColor;
+}
+
+.inputText {
+   -fx-font-size: 14;
+      -fx-font-weight: 700;
+      -fx-font-family: mainFontFamily;
+}
+
+.inputTextNoBolding {
+   -fx-font-size: 14;
+   -fx-font-family: mainFontFamily;
+}
+
+.bigLabel {
+   -fx-font-size: 16;
+   -fx-font-weight: 700;
+   -fx-font-family: mainFontFamily;
+}
+
+.ultraLabel {
+   -fx-font-size: 20;
+   -fx-font-weight: 700;
+   -fx-font-family: mainFontFamily;
+}
+
+.bigLabelNoBolding {
+   -fx-font-size: 16;
+   -fx-font-family: mainFontFamily;
+}
+
+.toggle-button {
+    -fx-text-fill: black;
+    -fx-base: transparent;
+   -fx-font-size: 14;
+   -fx-font-weight: 300;
+    -fx-focus-traversable: traversable;
+    -fx-font-family: mainFontFamily;
+}
+
+.toggle-button:selected {
+    -fx-text-fill: thirdAppColor;
+    -fx-base: transparent;
+    -fx-font-size: 16;
+    -fx-font-weight: 700;
+    -fx-background-color: mainAppColor;
+    -fx-font-family: mainFontFamily;
+}
+
+.combo-box {
+    -fx-background-color: secondaryAppColor;
+    -fx-background-radius: 4px;
+    -fx-font-family: mainFontFamily;
+}
+
+.combo-box .list-cell{
+    -fx-background-color:secondaryAppColor;
+    -fx-text-fill: black;
+    -fx-font-family: mainFontFamily;
+}
+
+.combo-box .list-cell:selected{
+    -fx-background-color: secondaryAppColor;
+    -fx-text-fill: black;
+    -fx-font-family: mainFontFamily;
+}
+
+.combo-box .list-cell:hover{
+    -fx-background-color: secondaryAppColor;
+    -fx-text-fill: black;
+    -fx-font-family: mainFontFamily;
+}
+
+.mainButtonBlue {
+    -fx-background-color:secondaryAppColor;
+	-fx-background-radius: 30;
+	-fx-cursor:hand;
+	-fx-text-fill: black;
+	-fx-font-family: mainFontFamily;
+	-fx-font-size:15px;
+	-fx-font-weight: 500;
+	-fx-padding:6px 24px;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+    -fx-border-radius: 30;
+}
+.mainButtonBlue:hover {
+	-fx-background-color:mainAppColor;
+	-fx-text-fill: white;
+	-fx-border-width: 2;
+    -fx-border-color: black;
+    -fx-border-radius: 30;
+    -fx-font-family: mainFontFamily;
+    -fx-font-size:17px;
+    -fx-font-weight: 500;
+}
+
+.mainButtonBlueBold {
+    -fx-background-color:secondaryAppColor;
+	-fx-background-radius: 30;
+	-fx-cursor:hand;
+	-fx-text-fill: black;
+	-fx-font-family: mainFontFamily;
+	-fx-font-size:15px;
+	-fx-font-weight: 700;
+	-fx-padding:6px 24px;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+    -fx-border-radius: 30;
+}
+.mainButtonBlueBold:hover {
+	-fx-background-color:mainAppColor;
+	-fx-text-fill: white;
+	-fx-border-width: 2;
+    -fx-border-color: black;
+    -fx-border-radius: 30;
+    -fx-font-family: mainFontFamily;
+    -fx-font-size:17px;
+    -fx-font-weight: 700;
+}
+
+
+
+.patientTable .table-cell{
+    -fx-text-fill: black;
+    -fx-font-size: 15px;
+    -fx-font-weight: 500;
+}
+
+
+.patientTable .column-header, .patientTable .column-header-background .filler {
+	-fx-background-color: secondaryAppColor;
+	-fx-border-color: secondaryAppColor;
+	-fx-text-fill: black;
+	-fx-font-family: mainFontFamily;
+}
+
+.patientTable .table-row-cell:filled:hover{
+-fx-background-color: mainAppColor;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-font-weight: 900;
+}
+
+.patientTable .table-row-cell:filled:selected{
+-fx-background-color: mainAppColor;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-font-weight: 900;
+}
+
+.patientTable .table-row-cell:filled:selected .table-cell{
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-font-weight: 900;
+}
+
+.patientTable .table-row-cell:hover .table-cell{
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-font-weight: 900;
+}
+
+.dashboardLayoutBackground{
+    -fx-background-color: secondaryAppColor;
+    -fx-opacity: 0.5;
+    -fx-font-family: mainFontFamily;
+}
+
+#trainingHistoryBoxBackground{
+    -fx-background-color: secondaryAppColor;
+    -fx-opacity: 0.5;
+    -fx-font-family: mainFontFamily;
+    -fx-border-radius: 15;
+    -fx-border-width: 3;
+    -fx-border-color: white;
+    -fx-background-radius: 15;
+}
+
+#trainingHistoryBox{
+    -fx-border-radius: 15;
+    -fx-border-width: 3;
+    -fx-border-color: white;
+    -fx-background-radius: 15;
+}
+
+.dashboardButtons {
+    -fx-background-color:secondaryAppColor;
+	-fx-background-radius: 0 45 45 0;
+	-fx-cursor:hand;
+	-fx-text-fill: black;
+	-fx-font-family: mainFontFamily;
+	-fx-font-size:15px;
+	-fx-font-weight: 500;
+	-fx-padding:6px 24px;
+	-fx-border-width: 1;
+    -fx-border-color: black;
+    -fx-border-radius: 0 45 45 0;
+}
+.dashboardButtons:hover {
+	-fx-background-color:mainAppColor;
+	-fx-font-family: mainFontFamily;
+	-fx-text-fill: white;
+	-fx-font-size:17px;
+	-fx-border-width: 2;
+    -fx-border-color: black;
+    -fx-border-radius: 0 45 45 0;
+}
+
+.transparentTextBox{
+    -fx-base: transparent;
+    -fx-background-color: transparent;
+}
+
+.imageButton, .imageButton:hover{
+    -fx-font-size:18px;
+    -fx-text-fill: black;
+    -fx-font-family: mainFontFamily;
+    -fx-base: transparent;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+.selectTrainingButton{
+    -fx-background-color: secondaryAppColor;
+    -fx-opacity: 0.8;
+	-fx-background-radius: 30;
+	-fx-cursor:hand;
+	-fx-text-fill: black;
+	-fx-font-family: mainFontFamily;
+	-fx-font-size:23px;
+	-fx-font-weight: 500;
+	-fx-border-width: 1;
+    -fx-border-color: black;
+    -fx-border-radius: 30;
+}
+
+.selectTrainingButton:hover{
+    -fx-background-color: mainAppColor;
+    -fx-opacity: 0.8;
+	-fx-background-radius: 30;
+	-fx-cursor:hand;
+	-fx-text-fill: white;
+	-fx-font-family: mainFontFamily;
+	-fx-font-size:25;
+	-fx-font-weight: 500;
+	-fx-border-width: 2;
+    -fx-border-color: black;
+    -fx-border-radius: 30;
+}
+
+#confirmDeletePanel{
+    -fx-background-color: secondaryAppColor;
+    -fx-opacity: 1;
+    -fx-border-color: black;
+    -fx-border-image-width: 20;
+}
+
+.cancelButton {
+    -fx-background-color:thirdAppColor;
+	-fx-background-radius: 30;
+	-fx-cursor:hand;
+	-fx-text-fill: black;
+    -fx-font-family: mainFontFamily;
+	-fx-font-size:15px;
+	-fx-font-weight: 500;
+	-fx-padding:6px 24px;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+    -fx-border-radius: 30;
+}
+.cancelButton:hover {
+	-fx-background-color:mainPink;
+	-fx-text-fill: black;
+	-fx-border-width: 2;
+    -fx-border-color: black;
+    -fx-border-radius: 30;
+    -fx-text-fill: black;
+    -fx-font-family: mainFontFamily;
+    -fx-font-size:17px;
+    -fx-font-weight: 500;
+}
+
+.parameterSlider .thumb{
+    -fx-background-color: thirdAppColor;
+    -fx-background-radius: 50%;
+    -fx-border-width: 20;
+    -fx-border-radius: 50%;
+    -fx-border-width: 2;
+    -fx-border-color: black;
+    -fx-pref-height: 20;
+    -fx-pref-width: 20;
+
+}
+
+.parameterSlider .thumb:hover{
+    -fx-background-color: thirdAppColor;
+    -fx-background-radius: 50%;
+    -fx-border-width: 20;
+    -fx-border-radius: 50%;
+    -fx-border-width: 2;
+    -fx-border-color: black;
+    -fx-pref-height: 20;
+    -fx-pref-width: 20;
+}
+
+.parameterSlider .track {
+    -fx-pref-height:10;
+    -fx-background-color: secondaryAppColor;
+
+}
+
+.parameterSlider .axis .axis-tick-mark, .parameterSlider .axis .axis-minor-tick-mark {
+    -fx-stroke: black;
+    -fx-font-family: mainFontFamily;
+}
+
+#trainingChart .chart-title {
+  -fx-text-fill: black;
+  -fx-font-size: 25;
+  -fx-font-weight: 700;
+}
+
+#trainingChart .axis {
+    -fx-tick-label-fill: black;
+    -fx-tick-length: 20;
+    -fx-minor-tick-length: 10;
+}
+
+#trainingChart .axis-tick-mark {
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+}
+#trainingChart .axis-minor-tick-mark {
+    -fx-stroke: #859656;
+}
+
+#trainingChart .chart-series-line {
+    -fx-stroke-width: chartLineWidth;
+    -fx-effect: null;
+}
+
+.default-color0.chart-series-line {
+    -fx-stroke: chartBaseLineColor;
+}
+
+.default-color0.chart-line-symbol {
+    -fx-background-radius: 0.0px;
+    -fx-padding: 0.0px;
+}
+
+.default-color1.chart-series-line {
+    -fx-stroke: chartHandeCapLineColor;
+}
+
+.default-color1.chart-line-symbol {
+    -fx-background-radius: 0.0px;
+    -fx-padding: 0.0px;
+}
+
+.default-color2.chart-series-line {
+    -fx-stroke: chartHandeCapLineColor;
+}
+
+.default-color2.chart-line-symbol {
+    -fx-background-radius: 0.0px;
+    -fx-padding: 0.0px;
+}
+
+.redZone{
+    -fx-fill: Red;
+}
+
+.yellowZone{
+    -fx-fill: Yellow;
+}
+
+.greenZone{
+    -fx-fill: Green;
+}
+
+
+#trainingPanelScroll > .viewport {
+   -fx-background-color: transparent;
+}
+
+#trainingPanelScroll{
+    -fx-background-radius: 5;
+    -fx-background-color: mainBlue;
+
+}
+
+.previousTrainingsCell{
+    -fx-background-radius: 5;
+    -fx-background-color: secondaryAppColor;
+    -fx-border-width: 0 0 0.5 0;
+    -fx-border-color: black;
+}
+
+#trainingHistoryBox{
+    -fx-background-radius: 5;
+    -fx-background-color: secondaryAppColor;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-border-color: black;
+}
+
+.previousTrainingCheckBox{
+    -fx-min-height: 50;
+    -fx-padding:  0 0 0 10;
+    -fx-border-width: 0 0 0.5 0;
+    -fx-border-color: black;
+}
+
+

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:id="root" prefHeight="720.0" prefWidth="1080.0" styleClass="root"
+            stylesheets="@CSS/project-styling.css"
+            fx:controller="com.herculife.herculifeLunaEMG.Controllers.CreateNewPatient">
+    <children>
+        <ImageView fx:id="bgImage" fitHeight="1080.0" fitWidth="1920.0" pickOnBounds="true" preserveRatio="true"
+                   AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                   AnchorPane.topAnchor="0.0">
+            <image>
+                <Image url="@appbg.jpg"/>
+            </image>
+        </ImageView>
+        <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="100.0" AnchorPane.leftAnchor="0.0"
+                    AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0">
+            <children>
+                <ImageView fx:id="createNewPatientLogo" fitHeight="75.0" fitWidth="200.0" pickOnBounds="true"
+                           preserveRatio="true" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="10.0">
+                    <image>
+                        <Image url="@../../../herculife.png"/>
+                    </image>
+                </ImageView>
+            </children>
+        </AnchorPane>
+        <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+                    prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                    AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <top>
+                <MenuBar fx:id="topMenuBar" prefHeight="30.0" BorderPane.alignment="CENTER">
+                    <menus>
+                        <Menu mnemonicParsing="false" text="File">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#fileMenu_logOut" text="Log out"/>
+                                <MenuItem fx:id="fileMenu_Close" mnemonicParsing="false"
+                                          onAction="#fileMenu_CloseAction" text="Exit"/>
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Help">
+                            <items>
+                                <Menu mnemonicParsing="false" text="Quick Tutorials">
+                                    <items>
+                                        <MenuItem mnemonicParsing="false" onAction="#tutorialCreateNewPatient"
+                                                  text="Create New Patient"/>
+                                        <MenuItem mnemonicParsing="false" onAction="#tutorialSetUpParameters"
+                                                  text="Setting Up Training Parameters"/>
+                                    </items>
+                                </Menu>
+                                <MenuItem mnemonicParsing="false" onAction="#helpDesk" text="Help Desk"/>
+                                <MenuItem mnemonicParsing="false" onAction="#aboutPelvicTutorPopUp"
+                                          text="About Herculife Pelvic Tutor"/>
+                            </items>
+                        </Menu>
+                    </menus>
+                </MenuBar>
+            </top>
+            <center>
+                <AnchorPane BorderPane.alignment="CENTER">
+                    <children>
+                        <VBox alignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                              AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                            <children>
+                                <HBox alignment="CENTER" layoutX="310.0" layoutY="134.0" prefHeight="50.0">
+                                    <opaqueInsets>
+                                        <Insets/>
+                                    </opaqueInsets>
+                                    <children>
+                                        <TextField fx:id="createNewPatientMRN"
+                                                   onKeyPressed="#createNewPatientAddFunction" prefWidth="300.0"
+                                                   promptText="MRN" styleClass="inputText"/>
+                                    </children>
+                                </HBox>
+                                <HBox alignment="CENTER" layoutX="10.0" layoutY="292.0" prefHeight="50.0">
+                                    <opaqueInsets>
+                                        <Insets/>
+                                    </opaqueInsets>
+                                    <children>
+                                        <TextField fx:id="createNewPatientID"
+                                                   onKeyPressed="#createNewPatientAddFunction" prefWidth="300.0"
+                                                   promptText="Patient ID \ IC *" styleClass="inputText"/>
+                                    </children>
+                                </HBox>
+                                <HBox alignment="CENTER" prefHeight="50.0">
+                                    <children>
+                                        <TextField fx:id="createNewPatientFirstName"
+                                                   onKeyPressed="#createNewPatientAddFunction" prefWidth="300.0"
+                                                   promptText="First Name *" styleClass="inputText"/>
+                                    </children>
+                                    <opaqueInsets>
+                                        <Insets/>
+                                    </opaqueInsets>
+                                    <VBox.margin>
+                                        <Insets left="300.0" right="300.0"/>
+                                    </VBox.margin>
+                                </HBox>
+                                <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0">
+                                    <children>
+                                        <TextField fx:id="createNewPatientLastName"
+                                                   onKeyPressed="#createNewPatientAddFunction" prefWidth="300.0"
+                                                   promptText="Family Name *" styleClass="inputText"/>
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets left="300.0" right="300.0"/>
+                                    </VBox.margin>
+                                </HBox>
+                                <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0">
+                                    <children>
+                                        <DatePicker fx:id="createNewPatientDOB" prefWidth="300.0"
+                                                    promptText="dd/MM/yyyy" styleClass="inputText"/>
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets left="300.0" right="300.0"/>
+                                    </VBox.margin>
+                                </HBox>
+                                <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0">
+                                    <VBox.margin>
+                                        <Insets left="300.0" right="300.0"/>
+                                    </VBox.margin>
+                                    <children>
+                                        <ToggleButton fx:id="maleToggle" mnemonicParsing="false" prefWidth="125.0"
+                                                      text="Male">
+                                            <HBox.margin>
+                                                <Insets right="25.0"/>
+                                            </HBox.margin>
+                                            <effect>
+                                                <Bloom/>
+                                            </effect>
+                                        </ToggleButton>
+                                        <ToggleButton fx:id="femaleToggle" mnemonicParsing="false" prefWidth="125.0"
+                                                      styleClass="inputText" text="Female">
+                                            <HBox.margin>
+                                                <Insets left="25.0"/>
+                                            </HBox.margin>
+                                            <effect>
+                                                <Bloom/>
+                                            </effect>
+                                        </ToggleButton>
+                                    </children>
+                                </HBox>
+                                <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0">
+                                    <children>
+                                        <ComboBox fx:id="createNewPatientNationality"
+                                                  onAction="#CreateNewPatientNationalityChanged" prefWidth="300.0"
+                                                  promptText="Nationality" styleClass="inputText"/>
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets left="300.0" right="300.0"/>
+                                    </VBox.margin>
+                                </HBox>
+                                <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0">
+                                    <children>
+                                        <TextField fx:id="createNewPatientEmail"
+                                                   onKeyPressed="#createNewPatientAddFunction" prefWidth="300.0"
+                                                   promptText="E-mail" styleClass="inputText"/>
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets left="300.0" right="300.0"/>
+                                    </VBox.margin>
+                                </HBox>
+                                <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0">
+                                    <children>
+                                        <ComboBox fx:id="createNewPatientPhoneNumberPre" prefWidth="100.0"
+                                                  styleClass="inputText">
+                                            <HBox.margin>
+                                                <Insets right="10.0"/>
+                                            </HBox.margin>
+                                        </ComboBox>
+                                        <TextField fx:id="createNewPatientPhoneNumber"
+                                                   onKeyPressed="#createNewPatientAddFunction" prefWidth="190.0"
+                                                   promptText="Phone Number" styleClass="inputText"/>
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets left="300.0" right="300.0"/>
+                                    </VBox.margin>
+                                </HBox>
+                                <Button fx:id="createNewPatientAdd" mnemonicParsing="false"
+                                        onKeyPressed="#createNewPatientAddFunction"
+                                        onMouseClicked="#createNewPatientAddFunction" prefWidth="200.0"
+                                        styleClass="mainButtonBlue" stylesheets="@CSS/project-styling.css"
+                                        text="Add New Patient">
+                                    <VBox.margin>
+                                        <Insets top="20.0"/>
+                                    </VBox.margin>
+                                </Button>
+                                <Label fx:id="createNewPatientError" alignment="TOP_LEFT" textFill="RED">
+                                    <VBox.margin>
+                                        <Insets top="20.0"/>
+                                    </VBox.margin>
+                                </Label>
+                            </children>
+                        </VBox>
+                        <Button mnemonicParsing="false" onMouseClicked="#goBackButton" styleClass="imageButton"
+                                text=" Back " AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="30.0">
+                            <graphic>
+                                <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../../icons/back-arrow.png"/>
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                    </children>
+                </AnchorPane>
+            </center>
+        </BorderPane>
+        <Button fx:id="exitButton" mnemonicParsing="false" onMouseClicked="#exitButtonAction" styleClass="ex" text="X"
+                AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="2.0"/>
+        <Label fx:id="TradeMarkText" text="Create By Adib Ghannam @ 2023" textFill="WHITE" AnchorPane.bottomAnchor="0.0"
+               AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+            <font>
+                <Font name="System Bold" size="10.0"/>
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
