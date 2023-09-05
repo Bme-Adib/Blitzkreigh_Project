@@ -43,7 +43,7 @@
                                     </items>
                                 </Menu>
                                 <MenuItem mnemonicParsing="false" onAction="#helpDesk" text="Help Desk" />
-                                <MenuItem mnemonicParsing="false" onAction="#aboutPelvicTutorPopUp" text="About Herculife Pelvic Tutor" />
+                                <MenuItem mnemonicParsing="false" onAction="#aboutLunaEMGPopUp" text="About Herculife Luna EMG" />
                             </items>
                         </Menu>
                     </menus>
@@ -52,52 +52,77 @@
             <center>
                 <AnchorPane prefHeight="800.0">
                     <children>
-                        <TableView fx:id="patientsTable" prefHeight="200.0" prefWidth="200.0" stylesheets="@CSS/project-styling.css" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="100.0">
-                            <columns>
-                                <TableColumn fx:id="patientTable_no" prefWidth="43.0" text="No." />
-                                <TableColumn fx:id="patientTable_id" prefWidth="130.0" text="Patient ID" />
-                                <TableColumn fx:id="patientTable_mrn" prefWidth="200.0" text="Patient MRN" />
-                                <TableColumn fx:id="patientTable_fName" prefWidth="180.0" text="First Name" />
-                                <TableColumn fx:id="patientTable_lName" prefWidth="180.0" text="Last Name" />
-                                <TableColumn fx:id="patientTable_gender" minWidth="0.0" prefWidth="100.0" text="Gender" />
-                                <TableColumn fx:id="patientTable_dob" minWidth="0.0" prefWidth="150.0" text="Date of Birth" />
-                                <TableColumn fx:id="patientTable_nationality" prefWidth="150.0" text="Nationality" />
-                            </columns>
-                            <styleClass>
-                                <String fx:value="opacity90" />
-                                <String fx:value="patientTable" />
-                            </styleClass>
-                        </TableView>
-                        <AnchorPane fx:id="confirmDeletePanel" prefHeight="150.0" prefWidth="300.0" AnchorPane.leftAnchor="500.0" AnchorPane.rightAnchor="500.0" AnchorPane.topAnchor="300.0">
-                            <children>
-                                <VBox alignment="CENTER" layoutX="21.0" layoutY="21.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-                                    <children>
-                                        <Label fx:id="confirmLabel" alignment="CENTER" contentDisplay="CENTER" styleClass="bigLabel" text="Confirm Deleteing User?" textAlignment="CENTER">
-                                            <VBox.margin>
-                                                <Insets bottom="30.0" />
-                                            </VBox.margin>
-                                        </Label>
-                                        <HBox alignment="CENTER">
-                                            <children>
-                                                <Button fx:id="confirmNo" mnemonicParsing="false" onMouseClicked="#confirmNoFunction" prefWidth="90.0" styleClass="cancelButton" text="No">
-                                                    <HBox.margin>
-                                                        <Insets right="20.0" />
-                                                    </HBox.margin>
-                                                </Button>
-                                                <Button fx:id="confirmYes" mnemonicParsing="false" onMouseClicked="#confirmYesFunction" prefWidth="90.0" styleClass="mainButtonBlue" text="Yes">
-                                                    <HBox.margin>
-                                                        <Insets left="20.0" />
-                                                    </HBox.margin>
-                                                </Button>
-                                            </children>
-                                        </HBox>
-                                    </children>
-                                </VBox>
-                            </children>
-                        </AnchorPane>
-                        <HBox layoutX="1219.199951171875" layoutY="973.2000122070312" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="200.0">
-                            <children>
-                                <Button fx:id="deletePatient" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#deletePatientFunction" prefHeight="25.0" prefWidth="200.0" styleClass="mainButtonBlue" text="  Delete Patient">
+                  <AnchorPane layoutX="200.0" layoutY="100.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="100.0">
+                     <children>
+                              <TableView fx:id="patientsTable" prefHeight="200.0" prefWidth="200.0" stylesheets="@CSS/project-styling.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                  <columns>
+                                      <TableColumn fx:id="patientTable_no" maxWidth="43.0" prefWidth="43.0" text="No." />
+                                      <TableColumn fx:id="patientTable_id" maxWidth="150.0" prefWidth="150.0" text="Patient ID" />
+                                      <TableColumn fx:id="patientTable_mrn" maxWidth="150.0" prefWidth="150.0" text="Patient MRN" />
+                                      <TableColumn fx:id="patientTable_fName" maxWidth="200.0" prefWidth="200.0" text="First Name" />
+                                      <TableColumn fx:id="patientTable_lName" maxWidth="200.0" prefWidth="200.0" text="Last Name" />
+                                      <TableColumn fx:id="patientTable_gender" maxWidth="100.0" minWidth="0.0" prefWidth="70.0" text="Gender" />
+                                      <TableColumn fx:id="patientTable_dob" maxWidth="150.0" minWidth="0.0" prefWidth="110.0" text="Date of Birth" />
+                                      <TableColumn fx:id="patientTable_nationality" maxWidth="200.0" prefWidth="200.0" text="Nationality" />
+                                  </columns>
+                                  <styleClass>
+                                      <String fx:value="opacity90" />
+                                      <String fx:value="patientTable" />
+                                  </styleClass>
+                              </TableView>
+                              <AnchorPane fx:id="confirmDeletePanel" layoutX="300.0" layoutY="200.0" prefHeight="150.0" prefWidth="600.0" AnchorPane.leftAnchor="460.0" AnchorPane.topAnchor="352.0">
+                                  <children>
+                                      <VBox alignment="CENTER" layoutX="21.0" layoutY="21.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                          <children>
+                                              <Label fx:id="confirmLabel" alignment="CENTER" contentDisplay="CENTER" styleClass="bigLabel" text="Confirm Deleteing User?" textAlignment="CENTER">
+                                                  <VBox.margin>
+                                                      <Insets bottom="30.0" />
+                                                  </VBox.margin>
+                                              </Label>
+                                              <HBox alignment="CENTER">
+                                                  <children>
+                                                      <Button fx:id="confirmNo" mnemonicParsing="false" onMouseClicked="#confirmNoFunction" prefWidth="90.0" styleClass="cancelButton" text="No">
+                                                          <HBox.margin>
+                                                              <Insets right="20.0" />
+                                                          </HBox.margin>
+                                                      </Button>
+                                                      <Button fx:id="confirmYes" mnemonicParsing="false" onMouseClicked="#confirmYesFunction" prefWidth="90.0" styleClass="mainButtonBlue" text="Yes">
+                                                          <HBox.margin>
+                                                              <Insets left="20.0" />
+                                                          </HBox.margin>
+                                                      </Button>
+                                                  </children>
+                                              </HBox>
+                                          </children>
+                                      </VBox>
+                                  </children>
+                              </AnchorPane>
+                     </children>
+                  </AnchorPane>
+                  <VBox spacing="50.0" AnchorPane.bottomAnchor="100.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="100.0">
+                     <children>
+                                <Button fx:id="selectPatient" mnemonicParsing="false" onMouseClicked="#selectPatientButton" prefHeight="80.0" prefWidth="250.0" styleClass="mainButtonBlue" text="  Select Patient">
+                                    <graphic>
+                                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../icons/circle-check-solid.png" />
+                                            </image>
+                                        </ImageView>
+                                    </graphic>
+                           <VBox.margin>
+                              <Insets bottom="200.0" top="150.0" />
+                           </VBox.margin>
+                                </Button>
+                              <Button fx:id="createNewPatient" mnemonicParsing="false" onMouseClicked="#createNewPatientButton" prefHeight="80.0" prefWidth="250.0" styleClass="mainButtonBlue" text="  Create New Patient">
+                                  <graphic>
+                                      <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                          <image>
+                                              <Image url="@../../../icons/person-circle-plus-solid.png" />
+                                          </image>
+                                      </ImageView>
+                                  </graphic>
+                              </Button>
+                                <Button fx:id="deletePatient" mnemonicParsing="false" onMouseClicked="#deletePatientFunction" prefHeight="80.0" prefWidth="250.0" styleClass="mainButtonBlue" text="  Delete Patient">
                                     <graphic>
                                         <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
                                             <image>
@@ -106,29 +131,8 @@
                                         </ImageView>
                                     </graphic>
                                 </Button>
-                                <Button fx:id="selectPatient" mnemonicParsing="false" onMouseClicked="#selectPatientButton" prefHeight="25.0" prefWidth="200.0" styleClass="mainButtonBlue" text="  Select Patient">
-                                    <HBox.margin>
-                                        <Insets left="30.0" />
-                                    </HBox.margin>
-                                    <graphic>
-                                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                                            <image>
-                                                <Image url="@../../../icons/circle-check-solid.png" />
-                                            </image>
-                                        </ImageView>
-                                    </graphic>
-                                </Button>
-                            </children>
-                        </HBox>
-                        <Button fx:id="createNewPatient" layoutX="200.0" layoutY="611.0" mnemonicParsing="false" onMouseClicked="#createNewPatientButton" prefHeight="25.0" prefWidth="250.0" styleClass="mainButtonBlue" text="  Create New Patient" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="200.0">
-                            <graphic>
-                                <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                                    <image>
-                                        <Image url="@../../../icons/person-circle-plus-solid.png" />
-                                    </image>
-                                </ImageView>
-                            </graphic>
-                        </Button>
+                     </children>
+                  </VBox>
                     </children>
                 </AnchorPane>
             </center>

@@ -7,6 +7,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.chart.XYChart;
+import javafx.scene.image.Image;
 import javafx.scene.input.KeyCombination;
 import javafx.stage.Stage;
 
@@ -68,7 +69,7 @@ public class MyGoTo {
         String fileName = "";
         switch (type) {
             case 0:
-                fileName = "PelvicTutor.log";
+                fileName = "HerculifeLunaEMG.log";
                 typeName = "LOG";
                 break;
             case 1:
@@ -91,7 +92,7 @@ public class MyGoTo {
         String fileName = "";
         switch (type) {
             case 0:
-                fileName = "PelvicTutor.log";
+                fileName = "HerculifeLunaEMG.log";
                 typeName = "LOG";
                 break;
             case 1:
@@ -114,7 +115,7 @@ public class MyGoTo {
         String fileName = "";
         switch (type) {
             case 0:
-                fileName = "PelvicTutor.log";
+                fileName = "HerculifeLunaEMG.log";
                 break;
             case 1:
                 fileName = "Error.log";
@@ -228,6 +229,7 @@ public class MyGoTo {
         stage.setResizable(false);
         stage.setFullScreen(true);
         stage.setTitle(AppName);
+        stage.getIcons().add(new Image("appIcon.png"));
         stage.setFullScreenExitKeyCombination(KeyCombination.NO_MATCH);
     }
 

@@ -127,7 +127,7 @@ public class PostTrainingDashboard implements Initializable {
     private boolean q2Answered = false;
 
     @FXML
-    void aboutPelvicTutorPopUp() {
+    void aboutLunaEMGPopUp() {
 
     }
 

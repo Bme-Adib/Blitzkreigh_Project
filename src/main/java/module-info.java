@@ -1,4 +1,4 @@
-module com.herculife.herculifepelvictutor {
+module com.herculife.herculifeLunaEMG {
     requires javafx.controls;
     requires javafx.fxml;
 

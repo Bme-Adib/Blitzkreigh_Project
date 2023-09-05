@@ -42,8 +42,8 @@
                                     </items>
                                 </Menu>
                                 <MenuItem mnemonicParsing="false" onAction="#helpDesk" text="Help Desk"/>
-                                <MenuItem mnemonicParsing="false" onAction="#aboutPelvicTutorPopUp"
-                                          text="About Herculife Pelvic Tutor"/>
+                                <MenuItem mnemonicParsing="false" onAction="#aboutLunaEMGPopUp"
+                                          text="About Herculife Luna EMG"/>
                             </items>
                         </Menu>
                     </menus>

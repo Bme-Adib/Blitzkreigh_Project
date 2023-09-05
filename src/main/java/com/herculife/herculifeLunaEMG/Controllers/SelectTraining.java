@@ -99,7 +99,7 @@ public class SelectTraining implements Initializable {
 
 
     @FXML
-    void aboutPelvicTutorPopUp(ActionEvent event) {
+    void aboutLunaEMGPopUp(ActionEvent event) {
 
     }
 

@@ -27,7 +27,6 @@ Darker 2 =  #a7bfc1
     src: url('DroidSans.ttf');
 }
 
-*/
 
 
 @font-face {
@@ -35,7 +34,7 @@ Darker 2 =  #a7bfc1
     src: url('Poppins-Regular.ttf');
 }
 
-
+*/
 * {
 	white: #ffffff;
 	black: #000000;
@@ -55,6 +54,7 @@ Darker 2 =  #a7bfc1
 	mainAppColor: darkBlueColor;
 	secondaryAppColor: lightBlueColor;
 	thirdAppColor: nudeColor;
+	backgroundColorAlpha: rgba(143, 179, 194,0.5);
 
 	chartBaseLineColor: Black;
 	chartHandeCapLineColor: #3CB371;
@@ -124,12 +124,16 @@ Darker 2 =  #a7bfc1
         -fx-font-size:15px;
 }
 
+.patientTable .cell{
+	 -fx-cell-height: 100; //default is 24
+}
+
 .patientTable .table-cell{
         -fx-font-size:15px;
 }
 
 #exitButton {
-    -fx-background-color: lightBlueColor;
+    -fx-background-color: transparent;
     -fx-text-fill: black;
     -fx-font-weight: 900;
 }
@@ -220,18 +224,22 @@ Darker 2 =  #a7bfc1
 	-fx-font-size:15px;
 	-fx-font-weight: 500;
 	-fx-padding:6px 24px;
+	/*
     -fx-border-width: 1;
     -fx-border-color: black;
     -fx-border-radius: 30;
+    */
 }
 .mainButtonBlue:hover {
 	-fx-background-color:mainAppColor;
 	-fx-text-fill: white;
+	/*
 	-fx-border-width: 2;
     -fx-border-color: black;
     -fx-border-radius: 30;
+    */
     -fx-font-family: mainFontFamily;
-    -fx-font-size:17px;
+    -fx-font-size:15px;
     -fx-font-weight: 500;
 }
 
@@ -255,7 +263,7 @@ Darker 2 =  #a7bfc1
     -fx-border-color: black;
     -fx-border-radius: 30;
     -fx-font-family: mainFontFamily;
-    -fx-font-size:17px;
+    -fx-font-size:15px;
     -fx-font-weight: 700;
 }
 
@@ -305,6 +313,11 @@ Darker 2 =  #a7bfc1
     -fx-background-color: secondaryAppColor;
     -fx-opacity: 0.5;
     -fx-font-family: mainFontFamily;
+}
+
+.bg{
+        -fx-background-color: backgroundColorAlpha;
+        -fx-background-radius: 15;
 }
 
 #trainingHistoryBoxBackground{
@@ -398,7 +411,7 @@ Darker 2 =  #a7bfc1
 
 .cancelButton {
     -fx-background-color:thirdAppColor;
-	-fx-background-radius: 30;
+	-fx-background-radius: 15;
 	-fx-cursor:hand;
 	-fx-text-fill: black;
     -fx-font-family: mainFontFamily;
@@ -407,17 +420,17 @@ Darker 2 =  #a7bfc1
 	-fx-padding:6px 24px;
     -fx-border-width: 1;
     -fx-border-color: black;
-    -fx-border-radius: 30;
+    -fx-border-radius: 15;
 }
 .cancelButton:hover {
 	-fx-background-color:mainPink;
 	-fx-text-fill: black;
 	-fx-border-width: 2;
     -fx-border-color: black;
-    -fx-border-radius: 30;
+    -fx-border-radius: 15;
     -fx-text-fill: black;
     -fx-font-family: mainFontFamily;
-    -fx-font-size:17px;
+    -fx-font-size:15px;
     -fx-font-weight: 500;
 }
 
@@ -550,6 +563,45 @@ Darker 2 =  #a7bfc1
     -fx-padding:  0 0 0 10;
     -fx-border-width: 0 0 0.5 0;
     -fx-border-color: black;
+}
+
+
+.MyTabPane .tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0;
+}
+
+.MyTabPane .tab-pane {
+    -fx-tab-min-width: 150px;
+}
+
+.MyTabPane .tab {
+    -fx-background-insets: 0 1 0 1, 0, 0;
+}
+
+.MyTabPane .tab-pane .tab {
+    -fx-background-color: transparent;
+}
+
+.MyTabPane .tab-pane .tab:selected {
+    -fx-background-color: mainAppColor;
+}
+
+.MyTabPane .tab .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: secondaryAppColor;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.MyTabPane .tab:selected .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: mainAppColor;
+}
+
+.MyTabPane .tab-pane:top *.tab-header-area {
+    -fx-background-insets: 0, 0 0 1 0;
+    /* -fx-padding: 0.416667em 0.166667em 0.0em 0.833em; /* 5 2 0 10 */
+    -fx-padding: 0.416667em 0.166667em 0.0em 0.0em; /* overridden as 5 2 0 0 */
 }
 
 

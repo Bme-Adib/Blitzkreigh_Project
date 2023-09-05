@@ -175,8 +175,8 @@ public class MainPatientDashboard implements Initializable {
     }
 
     @FXML
-    void aboutPelvicTutorPopUp(ActionEvent event) {
-        new MyGoTo().popUpScene(AboutPelvicTutor.RESOURCE_NAME);
+    void aboutLunaEMGPopUp(ActionEvent event) {
+        new MyGoTo().popUpScene(AboutLunaEMG.RESOURCE_NAME);
     }
 
 

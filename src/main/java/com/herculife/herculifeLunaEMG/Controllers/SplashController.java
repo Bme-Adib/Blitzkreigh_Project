@@ -122,7 +122,7 @@ public class SplashController implements Initializable {
     }
 
     @FXML
-    void aboutPelvicTutorPopUp() {
-        new MyGoTo().popUpScene(AboutPelvicTutor.RESOURCE_NAME);
+    void aboutLunaEMGPopUp() {
+        new MyGoTo().popUpScene(AboutLunaEMG.RESOURCE_NAME);
     }
 }

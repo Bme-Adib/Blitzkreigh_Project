@@ -3,7 +3,7 @@ package com.herculife.herculifeLunaEMG.ProjectSettings;
 public class Strings {
     public static final String LUNA_EMG_DATABASE = "Herculife_Luna_EMG_AG";
     public static final String AppName = "Herculife Luna EMG";
-    public static final String AboutPelvicPopUp =
+    public static final String AboutLunaEMGPopUp =
             "Product Version\n" +
                     "Herculife Luna EMG 0.1.0\n\n" +
 

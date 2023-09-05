@@ -1,6 +1,6 @@
 package com.herculife.herculifeLunaEMG.Controllers.TrainingControllers;
 
-import com.herculife.herculifeLunaEMG.Controllers.AboutPelvicTutor;
+import com.herculife.herculifeLunaEMG.Controllers.AboutLunaEMG;
 import com.herculife.herculifeLunaEMG.Controllers.PostTrainingDashboard;
 import com.herculife.herculifeLunaEMG.Controllers.SelectTraining;
 import com.herculife.herculifeLunaEMG.ProjectClasses.TrainingClass;
@@ -158,8 +158,8 @@ public class BasicTrainingSetUp implements Initializable {
     private double oneTrainingInSec;
 
     @FXML
-    void aboutPelvicTutorPopUp(ActionEvent event) {
-        new MyGoTo().popUpScene(AboutPelvicTutor.RESOURCE_NAME);
+    void aboutLunaEMGPopUp(ActionEvent event) {
+        new MyGoTo().popUpScene(AboutLunaEMG.RESOURCE_NAME);
     }
 
     @FXML

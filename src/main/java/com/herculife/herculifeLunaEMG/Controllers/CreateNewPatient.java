@@ -225,6 +225,23 @@ public class CreateNewPatient implements Initializable {
                 }
             }
         });
+
+        addCharactersLimit(createNewPatientMRN);
+        addCharactersLimit(createNewPatientID);
+        addCharactersLimit(createNewPatientFirstName);
+        addCharactersLimit(createNewPatientLastName);
+    }
+
+    private void addCharactersLimit(TextField textField){
+        int maxCharacters = 30;
+        textField.textProperty().addListener(new ChangeListener<String>() {
+            @Override
+            public void changed(ObservableValue<? extends String> observableValue, String s, String t1) {
+                if (t1.length() > maxCharacters) {
+                    textField.setText(s);
+                }
+            }
+        });
     }
 
     @FXML
@@ -243,8 +260,8 @@ public class CreateNewPatient implements Initializable {
     }
 
     @FXML
-    void aboutPelvicTutorPopUp(ActionEvent event) {
-        new MyGoTo().popUpScene(AboutPelvicTutor.RESOURCE_NAME);
+    void aboutLunaEMGPopUp(ActionEvent event) {
+        new MyGoTo().popUpScene(AboutLunaEMG.RESOURCE_NAME);
     }
 
     @FXML

@@ -46,8 +46,7 @@ public class UserListController implements Initializable {
     private Button confirmYes;
     @FXML
     private Button exitButton;
-    @FXML
-    private MenuItem fileMenu_Close;
+
     @FXML
     private TableView<PatientClass> patientsTable;
     @FXML
@@ -70,31 +69,11 @@ public class UserListController implements Initializable {
     private Button selectPatient;
     private ArrayList<PatientClass> allPatients;
     private PatientClass deleteIndex;
+    private String Adib="";
 
     @FXML
-    void createNewPatientButton(MouseEvent event) throws Exception {
+    void createNewPatientButton(MouseEvent event) {
         new MyGoTo().changeSceneTo(CreateNewPatient.RESOURCE_NAME);
-//        selectedPatient = allPatients.get(patientsTable.getSelectionModel().getSelectedIndex());
-//        selectedPatientDataString = encrypt(convertObjectToJson(selectedPatient));
-//        PatientClass p = selectedPatient;
-//
-//        TrainingClass trainingClass = new TrainingClass();
-//        trainingClass.setTrainingParameters(TrainingClass.ADVANCED_TRAINING,60,8,2,2,2,
-//                10,3,30, 15,625);
-//        p.addTraining(trainingClass);
-//
-//        trainingClass = new TrainingClass();
-//        trainingClass.setTrainingParameters(TrainingClass.BASIC_TRAINING,80,6,4,4,4,
-//                10,3,30, 15,255);
-//        p.addTraining(trainingClass);
-//
-//        try {
-//            MYSQL mysql = new MYSQL();
-//            mysql.updatePatient(patientsEncryption.get(selectedPatient.getPatientUniqueID()),p);
-//            getPatientsList();
-//        } catch (Exception e) {
-//            throw new RuntimeException(e);
-//        }
     }
 
     @FXML
@@ -137,6 +116,10 @@ public class UserListController implements Initializable {
         ObservableList<PatientClass> patientObservableList = patientsTable.getItems();
 
         allPatients = new ArrayList<>();
+//        for (int i=0;i<60;i++){
+//            allPatients.add(new PatientClass());
+//        }
+//        patientObservableList.addAll(allPatients);
         try {
             MYSQL mysql = new MYSQL();
             allPatients = mysql.readAllPatientsFromDB(patientsEncryption);
@@ -196,8 +179,8 @@ public class UserListController implements Initializable {
     }
 
     @FXML
-    void aboutPelvicTutorPopUp(ActionEvent event) {
-        new MyGoTo().popUpScene(AboutPelvicTutor.RESOURCE_NAME);
+    void aboutLunaEMGPopUp(ActionEvent event) {
+        new MyGoTo().popUpScene(AboutLunaEMG.RESOURCE_NAME);
     }
 
     @FXML
