@@ -1,5 +1,6 @@
 package com.herculife.herculifeLunaEMG.Controllers;
 
+import com.herculife.herculifeLunaEMG.Controllers.TrainingControllers.AdvancedTrainingSetUp;
 import com.herculife.herculifeLunaEMG.ProjectSettings.MyGoTo;
 import com.herculife.herculifeLunaEMG.ProjectSettings.Strings;
 import com.herculife.herculifeLunaEMG.ProjectSettings.Time_Stamp;
@@ -187,7 +188,8 @@ public class MainPatientDashboard implements Initializable {
 
     @FXML
     void startNewTraining(MouseEvent event) {
-        new MyGoTo().changeSceneTo(SelectTraining.RESOURCE_NAME);
+//        new MyGoTo().changeSceneTo(SelectTraining.RESOURCE_NAME);
+        new MyGoTo().changeSceneTo(AdvancedTrainingSetUp.RESOURCE_NAME);
     }
 
     @FXML

@@ -1,5 +1,6 @@
 package com.herculife.herculifeLunaEMG.Controllers;
 
+import com.herculife.herculifeLunaEMG.Controllers.TrainingControllers.AdvancedTrainingSetUp;
 import com.herculife.herculifeLunaEMG.ProjectClasses.UserClass;
 import com.herculife.herculifeLunaEMG.ProjectSettings.MYSQL;
 import com.herculife.herculifeLunaEMG.ProjectSettings.MyGoTo;
@@ -18,8 +19,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
 
-import static com.herculife.herculifeLunaEMG.ProjectSettings.Strings.ErrorLogIn;
-import static com.herculife.herculifeLunaEMG.ProjectSettings.Strings.FxmlPre;
+import static com.herculife.herculifeLunaEMG.ProjectSettings.Strings.*;
 
 public class SplashController implements Initializable {
     public static final String RESOURCE_NAME = FxmlPre + "SplashView.fxml";
@@ -72,7 +72,7 @@ public class SplashController implements Initializable {
                 if (users.get(i).getPassword().equals(password)) {
                     ActiveUser = users.get(i);
                     new MyGoTo().changeSceneTo(UserListController.RESOURCE_NAME);
-//                    new MyGoTo().changeSceneTo(PostTrainingDashboard.RESOURCE_NAME);
+//                    new MyGoTo().changeSceneTo(AdvancedTrainingSetUp.RESOURCE_NAME);
                     break;
                 }
             }

@@ -3,6 +3,8 @@ package com.herculife.herculifeLunaEMG.ProjectSettings;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.mervick.aes_everywhere.Aes256;
 import com.herculife.herculifeLunaEMG.Controllers.SplashController;
+import com.herculife.herculifeLunaEMG.ProjectClasses.ChartPoint;
+import com.herculife.herculifeLunaEMG.ProjectClasses.SignalAnalytics;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -14,6 +16,8 @@ import javafx.stage.Stage;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
+import java.text.DecimalFormat;
+import java.util.ArrayList;
 
 import static com.herculife.herculifeLunaEMG.Controllers.SplashController.ActiveUser;
 import static com.herculife.herculifeLunaEMG.HerculifeLunaEMGApplication.MainStage;
@@ -40,12 +44,12 @@ public class MyGoTo {
     }
 
     public static String hashing(String ID) {
-        StringBuffer hexString = new StringBuffer();
+        StringBuilder hexString = new StringBuilder();
         try {
             MessageDigest digest = MessageDigest.getInstance("SHA-256");
             byte[] hash = digest.digest(ID.getBytes(StandardCharsets.UTF_8));
-            for (int i = 0; i < hash.length; i++) {
-                String hex = Integer.toHexString(0xff & hash[i]);
+            for (byte b : hash) {
+                String hex = Integer.toHexString(0xff & b);
                 if (hex.length() == 1) hexString.append('0');
                 hexString.append(hex);
             }
@@ -53,29 +57,28 @@ public class MyGoTo {
             throw new RuntimeException(ex);
         }
         String b = hexString.toString();
-        String b2 = "";
+        StringBuilder b2 = new StringBuilder();
         for (int i = 0; i < b.length(); i++) {
-            b2 = b2 + b.charAt(63 - i);
+            b2.append(b.charAt(63 - i));
         }
         String b3 = b2.substring(32) + b2.substring(0, 32);
-        String b4 = b3.substring(48) + b3.substring(32, 48) + b3.substring(16, 32) + b3.substring(0, 16);
         // H1+ H2        -->    // H2 + H1
         // Q1+Q2+Q3+Q4   -->    // Q4+Q3+Q2+Q1
-        return b4;
+        return b3.substring(48) + b3.substring(32, 48) + b3.substring(16, 32) + b3.substring(0, 16);
     }
 
     public static void logIt(int type, String data, Class c) {
         String typeName = "";
         String fileName = "";
         switch (type) {
-            case 0:
+            case 0 -> {
                 fileName = "HerculifeLunaEMG.log";
                 typeName = "LOG";
-                break;
-            case 1:
+            }
+            case 1 -> {
                 fileName = "Error.log";
                 typeName = "Error";
-                break;
+            }
         }
 
         String s = new Time_Stamp().getLogTime() + " , " + typeName + " , " + c.descriptorString().substring(1, c.descriptorString().length() - 1)
@@ -91,14 +94,14 @@ public class MyGoTo {
         String typeName = "";
         String fileName = "";
         switch (type) {
-            case 0:
+            case 0 -> {
                 fileName = "HerculifeLunaEMG.log";
                 typeName = "LOG";
-                break;
-            case 1:
+            }
+            case 1 -> {
                 fileName = "Error.log";
                 typeName = "Error";
-                break;
+            }
         }
 
         String s = new Time_Stamp().getLogTime() + " , " + typeName + " , " + c
@@ -112,15 +115,11 @@ public class MyGoTo {
 
     // Function to read data from a file
     public static String logRead(int type) {
-        String fileName = "";
-        switch (type) {
-            case 0:
-                fileName = "HerculifeLunaEMG.log";
-                break;
-            case 1:
-                fileName = "Error.log";
-                break;
-        }
+        String fileName = switch (type) {
+            case 0 -> "HerculifeLunaEMG.log";
+            case 1 -> "Error.log";
+            default -> "";
+        };
         StringBuilder content = new StringBuilder();
         try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
             String line;
@@ -198,6 +197,16 @@ public class MyGoTo {
 
     private static int roundUp(double d) {
         return (int) Math.ceil(d);
+    }
+
+    public static String twoDecimals(double number) {
+        DecimalFormat df = new DecimalFormat("0.00");
+        return df.format(number);
+    }
+
+    public static double roundDoubleToTwoDecimals(double number) {
+        DecimalFormat df = new DecimalFormat("#.##");
+        return Double.parseDouble(df.format(number));
     }
 
     public static boolean isDouble(double number) {
@@ -305,5 +314,48 @@ public class MyGoTo {
             }
         });
         timerThread.start(); // Start the timer thread
+    }
+
+    public static SignalAnalytics analyzeTheSignal(ArrayList<ChartPoint> signal, int samplingRate) {
+        SignalAnalytics signalAnalytics = new SignalAnalytics();
+        ArrayList<ChartPoint> allHighest = new ArrayList<>();
+        ArrayList<ChartPoint> allLowest = new ArrayList<>();
+        signalAnalytics.setN(signal.size());
+        signalAnalytics.setSampleRate(samplingRate);
+        double low = Double.MAX_VALUE;
+        double high = Double.MIN_VALUE;
+        double totalSum = 0;
+        for (ChartPoint chartPoint : signal) {
+            totalSum+=chartPoint.getY();
+            if (chartPoint.getY() > high) {
+                high = chartPoint.getY();
+            }
+            if (chartPoint.getY() < low) {
+                low = chartPoint.getY();
+            }
+        }
+
+        for (ChartPoint chartPoint:signal){
+            if (chartPoint.getY()==high){
+                allHighest.add(chartPoint);
+            }
+            if (chartPoint.getY()==low){
+                allLowest.add(chartPoint);
+            }
+        }
+        signalAnalytics.setHighestValue(high);
+        signalAnalytics.setLowestValue(low);
+        signalAnalytics.setAllHighestPoints(allHighest);
+        signalAnalytics.setAllLowestPoints(allLowest);
+        signalAnalytics.setAverage(roundDoubleToTwoDecimals(totalSum/signal.size()));
+        signalAnalytics.setDuration((double) signal.size() * samplingRate / 1000);
+
+        return signalAnalytics;
+    }
+
+    public static void printArrayList(ArrayList<?> arrayList) {
+        for (Object element : arrayList) {
+            System.out.println(element);
+        }
     }
 }
