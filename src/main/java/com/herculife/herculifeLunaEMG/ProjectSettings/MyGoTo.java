@@ -233,6 +233,62 @@ public class MyGoTo {
         }
     }
 
+    public static SignalAnalytics analyzeTheSignal(ArrayList<ChartPoint> signal, int samplingRate) {
+        SignalAnalytics signalAnalytics = new SignalAnalytics();
+        ArrayList<ChartPoint> allHighest = new ArrayList<>();
+        ArrayList<ChartPoint> allLowest = new ArrayList<>();
+        signalAnalytics.setN(signal.size());
+        signalAnalytics.setSampleRate(samplingRate);
+        double low = Double.MAX_VALUE;
+        double high = Double.MIN_VALUE;
+        double totalSum = 0;
+        for (ChartPoint chartPoint : signal) {
+            totalSum += chartPoint.getY();
+            if (chartPoint.getY() > high) {
+                high = chartPoint.getY();
+            }
+            if (chartPoint.getY() < low) {
+                low = chartPoint.getY();
+            }
+        }
+
+        for (ChartPoint chartPoint : signal) {
+            if (chartPoint.getY() == high) {
+                allHighest.add(chartPoint);
+            }
+            if (chartPoint.getY() == low) {
+                allLowest.add(chartPoint);
+            }
+        }
+        signalAnalytics.setHighestValue(high);
+        signalAnalytics.setLowestValue(low);
+        signalAnalytics.setAllHighestPoints(allHighest);
+        signalAnalytics.setAllLowestPoints(allLowest);
+        signalAnalytics.setAverage(roundDoubleToTwoDecimals(totalSum / signal.size()));
+        signalAnalytics.setDuration((double) signal.size() * samplingRate / 1000);
+
+        return signalAnalytics;
+    }
+
+    public static void printArrayList(ArrayList<?> arrayList) {
+        for (Object element : arrayList) {
+            System.out.println(element);
+        }
+    }
+
+    public static void exportToCSV(ArrayList<ChartPoint> data) {
+        try (FileWriter writer = new FileWriter("output.csv")) {
+            for (ChartPoint chartPoint : data) {
+                writer.append(String.valueOf(chartPoint.getX()));
+                writer.append(",");
+                writer.append(String.valueOf(chartPoint.getY()));
+                writer.append("\n");
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     public void setStageSettings(Stage stage) {
         stage.setMaximized(true);
         stage.setResizable(false);
@@ -314,48 +370,5 @@ public class MyGoTo {
             }
         });
         timerThread.start(); // Start the timer thread
-    }
-
-    public static SignalAnalytics analyzeTheSignal(ArrayList<ChartPoint> signal, int samplingRate) {
-        SignalAnalytics signalAnalytics = new SignalAnalytics();
-        ArrayList<ChartPoint> allHighest = new ArrayList<>();
-        ArrayList<ChartPoint> allLowest = new ArrayList<>();
-        signalAnalytics.setN(signal.size());
-        signalAnalytics.setSampleRate(samplingRate);
-        double low = Double.MAX_VALUE;
-        double high = Double.MIN_VALUE;
-        double totalSum = 0;
-        for (ChartPoint chartPoint : signal) {
-            totalSum+=chartPoint.getY();
-            if (chartPoint.getY() > high) {
-                high = chartPoint.getY();
-            }
-            if (chartPoint.getY() < low) {
-                low = chartPoint.getY();
-            }
-        }
-
-        for (ChartPoint chartPoint:signal){
-            if (chartPoint.getY()==high){
-                allHighest.add(chartPoint);
-            }
-            if (chartPoint.getY()==low){
-                allLowest.add(chartPoint);
-            }
-        }
-        signalAnalytics.setHighestValue(high);
-        signalAnalytics.setLowestValue(low);
-        signalAnalytics.setAllHighestPoints(allHighest);
-        signalAnalytics.setAllLowestPoints(allLowest);
-        signalAnalytics.setAverage(roundDoubleToTwoDecimals(totalSum/signal.size()));
-        signalAnalytics.setDuration((double) signal.size() * samplingRate / 1000);
-
-        return signalAnalytics;
-    }
-
-    public static void printArrayList(ArrayList<?> arrayList) {
-        for (Object element : arrayList) {
-            System.out.println(element);
-        }
     }
 }

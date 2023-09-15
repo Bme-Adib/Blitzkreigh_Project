@@ -24,6 +24,7 @@ import java.util.ResourceBundle;
 import java.util.concurrent.ThreadLocalRandom;
 
 import static com.herculife.herculifeLunaEMG.Controllers.UserListController.selectedPatient;
+import static com.herculife.herculifeLunaEMG.ProjectSettings.MyGoTo.exportToCSV;
 import static com.herculife.herculifeLunaEMG.ProjectSettings.Strings.FxmlPre;
 
 public class AdvancedTrainingSetUp implements Initializable {
@@ -107,7 +108,7 @@ public class AdvancedTrainingSetUp implements Initializable {
                 SignalAnalytics signalAnalytics = MyGoTo.analyzeTheSignal(EMGTraining,interval);
                 System.out.println(signalAnalytics);
 
-
+                exportToCSV(EMGTraining);
                 markPoints(signalAnalytics);
 
             } catch (InterruptedException e) {
