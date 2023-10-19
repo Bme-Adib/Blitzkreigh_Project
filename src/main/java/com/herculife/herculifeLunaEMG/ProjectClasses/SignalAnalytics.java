@@ -14,6 +14,8 @@ public class SignalAnalytics {
     private ArrayList<ChartPoint> allHighestPoints;
     private ArrayList<ChartPoint> allLowestPoints;
 
+    private double abovethresholdPercent;
+
     public int getN() {
         return n;
     }
@@ -78,6 +80,14 @@ public class SignalAnalytics {
         this.average = average;
     }
 
+    public double getAbovethresholdPercent() {
+        return abovethresholdPercent;
+    }
+
+    public void setAbovethresholdPercent(double abovethresholdPercent) {
+        this.abovethresholdPercent = abovethresholdPercent;
+    }
+
     @Override
     public String toString() {
         return "SignalAnalytics\n" +
@@ -87,6 +97,7 @@ public class SignalAnalytics {
                 "duration = " + duration + " Seconds\n" +
                 "highestValue = " + highestValue + " μv\n" +
                 "lowestValue = " + lowestValue + " μv\n" +
+                "AboveThreshold = " + abovethresholdPercent + " %\n" +
                 "average = " + average + " μv\n" +
                 "}";
     }

@@ -233,7 +233,7 @@ public class MyGoTo {
         }
     }
 
-    public static SignalAnalytics analyzeTheSignal(ArrayList<ChartPoint> signal, int samplingRate) {
+    public static SignalAnalytics analyzeTheSignal(ArrayList<ChartPoint> signal, int samplingRate, int threshold) {
         SignalAnalytics signalAnalytics = new SignalAnalytics();
         ArrayList<ChartPoint> allHighest = new ArrayList<>();
         ArrayList<ChartPoint> allLowest = new ArrayList<>();
@@ -242,6 +242,7 @@ public class MyGoTo {
         double low = Double.MAX_VALUE;
         double high = Double.MIN_VALUE;
         double totalSum = 0;
+        int aboveThresholdPointsCount = 0;
         for (ChartPoint chartPoint : signal) {
             totalSum += chartPoint.getY();
             if (chartPoint.getY() > high) {
@@ -249,6 +250,10 @@ public class MyGoTo {
             }
             if (chartPoint.getY() < low) {
                 low = chartPoint.getY();
+            }
+
+            if (chartPoint.getY() >= threshold){
+                aboveThresholdPointsCount++;
             }
         }
 
@@ -266,7 +271,7 @@ public class MyGoTo {
         signalAnalytics.setAllLowestPoints(allLowest);
         signalAnalytics.setAverage(roundDoubleToTwoDecimals(totalSum / signal.size()));
         signalAnalytics.setDuration((double) signal.size() * samplingRate / 1000);
-
+        signalAnalytics.setAbovethresholdPercent(roundDoubleToTwoDecimals((double) aboveThresholdPointsCount /signal.size()*100));
         return signalAnalytics;
     }
 

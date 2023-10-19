@@ -105,7 +105,7 @@ public class AdvancedTrainingSetUp implements Initializable {
                     });
                     Thread.sleep(interval); // Sleep for 0.05 second
                 }
-                SignalAnalytics signalAnalytics = MyGoTo.analyzeTheSignal(EMGTraining,interval);
+                SignalAnalytics signalAnalytics = MyGoTo.analyzeTheSignal(EMGTraining,interval,threshold);
                 System.out.println(signalAnalytics);
 
                 exportToCSV(EMGTraining);
