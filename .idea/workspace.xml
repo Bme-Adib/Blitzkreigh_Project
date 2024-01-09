@@ -9,12 +9,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0693ce2d-4679-4a53-89ad-5eab35ff0390" name="Changes" comment="29/08/2023 End of the day">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0693ce2d-4679-4a53-89ad-5eab35ff0390" name="Changes" comment="19/10/2023 Added Above threshold precentage Commit 2">
+      <change afterPath="$PROJECT_DIR$/lib/RXTXcomm.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxtx-2.1-7-bins-r2/RXTXcomm.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxtx-2.1-7-bins-r2/rxtx-2.1-7-bins-r2/INSTALL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxtx-2.1-7-bins-r2/rxtx-2.1-7-bins-r2/Linux/i686-unknown-linux-gnu/librxtxParallel.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxtx-2.1-7-bins-r2/rxtx-2.1-7-bins-r2/Linux/i686-unknown-linux-gnu/librxtxSerial.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxtx-2.1-7-bins-r2/rxtx-2.1-7-bins-r2/Linux/ia64-unkown-linux-gnu/librxtxSerial.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxtx-2.1-7-bins-r2/rxtx-2.1-7-bins-r2/Linux/x86_64-unknown-linux-gnu/librxtxSerial.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxtx-2.1-7-bins-r2/rxtx-2.1-7-bins-r2/Mac_OS_X/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxtx-2.1-7-bins-r2/rxtx-2.1-7-bins-r2/Mac_OS_X/librxtxSerial.jnilib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxtx-2.1-7-bins-r2/rxtx-2.1-7-bins-r2/RXTXcomm.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxtx-2.1-7-bins-r2/rxtx-2.1-7-bins-r2/Solaris/sparc-solaris/sparc32-sun-solaris2.8/librxtxSerial-2.1-7.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxtx-2.1-7-bins-r2/rxtx-2.1-7-bins-r2/Solaris/sparc-solaris/sparc32-sun-solaris2.8/librxtxSerial.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxtx-2.1-7-bins-r2/rxtx-2.1-7-bins-r2/Solaris/sparc-solaris/sparc64-sun-solaris2.8/librxtxSerial-2.1-7.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxtx-2.1-7-bins-r2/rxtx-2.1-7-bins-r2/Solaris/sparc-solaris/sparc64-sun-solaris2.8/librxtxSerial.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxtx-2.1-7-bins-r2/rxtx-2.1-7-bins-r2/Windows/i368-mingw32/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxtx-2.1-7-bins-r2/rxtx-2.1-7-bins-r2/Windows/i368-mingw32/rxtxParallel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxtx-2.1-7-bins-r2/rxtx-2.1-7-bins-r2/Windows/i368-mingw32/rxtxSerial.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/herculife/herculifeLunaEMG/Controllers/Arduino.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/herculife/herculifeLunaEMG/Controllers/TrainingControllers/AdvancedTrainingSetUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/herculife/herculifeLunaEMG/Controllers/TrainingControllers/AdvancedTrainingSetUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/herculife/herculifeLunaEMG/ProjectClasses/SignalAnalytics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/herculife/herculifeLunaEMG/ProjectClasses/SignalAnalytics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HerculifeLunaEMG.log" beforeDir="false" afterPath="$PROJECT_DIR$/HerculifeLunaEMG.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.csv" beforeDir="false" afterPath="$PROJECT_DIR$/output.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,38 +65,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/madib/IdeaProjects/Blitzkreigh_Project/lib/mysql-connector-j-8.1.0.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.37241378&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/madib/IdeaProjects/Blitzkreigh_Project/lib/mysql-connector-j-8.1.0.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.37241378",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Intellij\Project Pelvic Floor\Herculife Pelvic Tutor\src\main\resources\com\herculife\herculifepelvictutor" />
       <recent name="D:\Intellij\Project Pelvic Floor\Herculife Pelvic Tutor\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\madib\IdeaProjects\Blitzkreigh_Project\lib" />
       <recent name="D:\Intellij\Project Pelvic Floor\Herculife Pelvic Tutor\src\main\resources\com\herculife\herculifepelvictutor\TrainingViews" />
       <recent name="D:\Intellij\Project Pelvic Floor\Herculife Pelvic Tutor\src\main\java\com\herculife\herculifepelvictutor\Controllers" />
       <recent name="D:\Intellij\Project Pelvic Floor\Herculife Pelvic Tutor\src\main\resources\com\herculife\herculifepelvictutor" />
       <recent name="D:\Intellij\Project Pelvic Floor\Herculife Pelvic Tutor\src\main\resources\com\herculife\herculifepelvictutor\TrainingSetUp" />
-      <recent name="D:\Intellij\Project Pelvic Floor\Herculife Pelvic Tutor\src\main\resources\com\herculife\herculifepelvictutor\CSS" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.herculife.herculifepelvictutor.Controllers.TrainingControllers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.herculife.herculifeLunaEMG.Launcher">
+  <component name="RunManager" selected="Application.Arduino">
+    <configuration name="Arduino" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.herculife.herculifeLunaEMG.Controllers.Arduino" />
+      <module name="Herculife-Luna-EMG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.herculife.herculifeLunaEMG.Controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HerculifePelvicTutorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.herculife.herculifepelvictutor.HerculifePelvicTutorApplication" />
       <module name="Herculife Pelvic Tutor" />
@@ -132,6 +164,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Arduino" />
         <item itemvalue="Application.com.herculife.herculifeLunaEMG.Launcher" />
         <item itemvalue="Application.Launcher" />
         <item itemvalue="Application.HerculifePelvicTutorApplication" />
@@ -323,7 +356,23 @@
       <option name="project" value="LOCAL" />
       <updated>1693302318011</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="19/10/2023 Added Above threshold precentage">
+      <option name="closed" value="true" />
+      <created>1697689862175</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1697689862175</updated>
+    </task>
+    <task id="LOCAL-00027" summary="19/10/2023 Added Above threshold precentage Commit 2">
+      <option name="closed" value="true" />
+      <created>1697689887519</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1697689887519</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -342,7 +391,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="2 Activities App Working" />
     <MESSAGE value="Sign up done" />
     <MESSAGE value="Sign up done with CSS" />
     <MESSAGE value="new" />
@@ -366,6 +414,8 @@
     <MESSAGE value="25/08/2023 END" />
     <MESSAGE value="29/08/2023 Start of V2" />
     <MESSAGE value="29/08/2023 End of the day" />
-    <option name="LAST_COMMIT_MESSAGE" value="29/08/2023 End of the day" />
+    <MESSAGE value="19/10/2023 Added Above threshold precentage" />
+    <MESSAGE value="19/10/2023 Added Above threshold precentage Commit 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="19/10/2023 Added Above threshold precentage Commit 2" />
   </component>
 </project>

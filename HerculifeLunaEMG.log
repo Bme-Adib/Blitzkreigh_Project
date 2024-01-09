@@ -29,3 +29,52 @@
 2023-10-19 , 12:28:05 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Object converted to Json file
 2023-10-19 , 12:28:05 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Patient Encryption initiated
 2023-10-19 , 12:29:48 , LOG , com/herculife/herculifeLunaEMG/Controllers/TrainingControllers/BasicTrainingSetUp , User: herculife Closed the App Correctly
+2023-10-26 , 16:34:28 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-10-26 , 16:34:28 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Json file converted to Object
+2023-10-26 , 16:34:28 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-10-26 , 16:34:28 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Json file converted to Object
+2023-10-26 , 16:34:33 , LOG , com/herculife/herculifeLunaEMG/Controllers/UserListController , User: herculife Signed Out
+2023-10-26 , 16:34:39 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-10-26 , 16:34:39 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Json file converted to Object
+2023-10-26 , 16:34:39 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-10-26 , 16:34:39 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Json file converted to Object
+2023-10-26 , 16:34:45 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-10-26 , 16:34:45 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Json file converted to Object
+2023-10-26 , 16:34:45 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-10-26 , 16:34:45 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Json file converted to Object
+2023-10-26 , 16:34:54 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Object converted to Json file
+2023-10-26 , 16:34:54 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-12-05 , 12:04:14 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-12-05 , 12:04:14 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Json file converted to Object
+2023-12-05 , 12:04:14 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-12-05 , 12:04:14 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Json file converted to Object
+2023-12-05 , 12:05:48 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Object converted to Json file
+2023-12-05 , 12:05:48 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-12-05 , 12:06:07 , LOG , com/herculife/herculifeLunaEMG/Controllers/MainPatientDashboard , User: herculife Closed the App Correctly
+2023-12-05 , 12:19:25 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-12-05 , 12:19:25 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Json file converted to Object
+2023-12-05 , 12:19:25 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-12-05 , 12:19:25 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Json file converted to Object
+2023-12-05 , 12:19:32 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-12-05 , 12:19:32 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Json file converted to Object
+2023-12-05 , 12:19:32 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-12-05 , 12:19:32 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Json file converted to Object
+2023-12-05 , 12:19:36 , LOG , com/herculife/herculifeLunaEMG/Controllers/UserListController , User: herculife Signed Out
+2023-12-05 , 12:19:39 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-12-05 , 12:19:39 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Json file converted to Object
+2023-12-05 , 12:19:39 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-12-05 , 12:19:39 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Json file converted to Object
+2023-12-05 , 12:19:40 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Object converted to Json file
+2023-12-05 , 12:19:40 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-12-05 , 12:20:19 , LOG , com/herculife/herculifeLunaEMG/Controllers/MainPatientDashboard , User: herculife Closed the App Correctly
+2023-12-14 , 17:09:57 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-12-14 , 17:09:57 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Json file converted to Object
+2023-12-14 , 17:09:57 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-12-14 , 17:09:57 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Json file converted to Object
+2023-12-14 , 17:10:20 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-12-14 , 17:10:20 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Json file converted to Object
+2023-12-14 , 17:10:20 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Patient Decryption initiated
+2023-12-14 , 17:10:20 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Json file converted to Object
+2023-12-14 , 17:10:23 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Object converted to Json file
+2023-12-14 , 17:10:23 , LOG , com/herculife/herculifeLunaEMG/ProjectSettings/MyGoTo , Patient Encryption initiated
+2023-12-14 , 17:10:46 , LOG , com/herculife/herculifeLunaEMG/Controllers/TrainingControllers/BasicTrainingSetUp , User: herculife Closed the App Correctly

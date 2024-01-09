@@ -11,6 +11,7 @@ module com.herculife.herculifeLunaEMG {
     requires com.fasterxml.jackson.core;
     requires com.fasterxml.jackson.databind;
     requires aes.everywhere.java;
+    requires com.fazecast.jSerialComm;
 
     opens com.herculife.herculifeLunaEMG to javafx.fxml;
     exports com.herculife.herculifeLunaEMG;

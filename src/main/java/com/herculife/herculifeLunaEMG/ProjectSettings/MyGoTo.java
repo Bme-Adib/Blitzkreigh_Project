@@ -374,6 +374,6 @@ public class MyGoTo {
                 }
             }
         });
-        timerThread.start(); // Start the timer thread
+        timerThread.start(); // Start the timer thread 0135031707
     }
 }
